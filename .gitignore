@@ -1,0 +1,6 @@
+node_modules/
+dist/
+apps/web/dist/
+apps/extension/dist/
+.DS_Store
+

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OWLnow</title>
+    <link rel="stylesheet" href="sidepanel.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="top">
+        <span class="logo"><b>OWL</b>now</span>
+        <button id="read" class="read" title="Read OWL now"><i class="live"></i><span id="read-status">Read just now</span></button>
+        <button id="settings-button" class="outline small">Settings</button>
+      </header>
+
+      <section id="signed-out" class="banner" hidden>
+        You're signed out of OWL, so this is your last list.
+        <a href="https://westernu.brightspace.com/" target="_blank" rel="noreferrer">Sign in to OWL</a>
+      </section>
+
+      <section id="welcome" class="welcome" hidden>
+        <h2>Every OWL deadline in one place</h2>
+        <p>OWLnow reads your courses and deadlines from OWL as you, every 30 minutes. It only reads, and everything stays on this computer.</p>
+        <button id="get-started" class="primary">Get started</button>
+      </section>
+
+      <div id="main">
+        <section class="hero">
+          <p id="today" class="today"></p>
+          <h1 id="headline"></h1>
+          <div id="week" class="week"></div>
+        </section>
+        <main id="work"></main>
+        <details class="more"><summary id="events-title"></summary><ul id="events" class="items"></ul></details>
+        <details class="more"><summary id="other-title"></summary><ul id="other" class="items"></ul></details>
+        <details class="more"><summary id="done-title"></summary><ul id="done" class="items"></ul></details>
+      </div>
+
+      <section id="settings" class="settings" hidden>
+        <h2>Reminders</h2>
+        <div id="reminders" class="reminders"></div>
+      </section>
+    </div>
+
+    <footer class="bar">
+      <button id="ics" class="outline">Add to calendar</button>
+      <a id="planner" class="primary" href="#" target="_blank" rel="noreferrer">Open planner →</a>
+    </footer>
+    <script src="sidepanel.js"></script>
+  </body>
+</html>
