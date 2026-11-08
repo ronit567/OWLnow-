@@ -1,0 +1,35 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "PORTUGSE 1030",
+      "suffix": "",
+      "title": "PORTUGUESE FOR BEGINNERS",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Grade 12 U Portuguese.",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "PORTUGSE 2200",
+      "suffix": "",
+      "title": "INTERMEDIATE PORTUGUESE",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Portuguese 1030 or Grade 12 U Portuguese, or permission of the Department.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

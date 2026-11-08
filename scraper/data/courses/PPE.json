@@ -1,0 +1,35 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "PPE 2200",
+      "suffix": "F/G",
+      "title": "INTRODUCTION TO POLITICS, PHILOSOPHY AND ECONOMICS",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "PPE 4100",
+      "suffix": "E",
+      "title": "SENIOR SEMINAR IN POLITICS, PHILOSOPHY AND ECONOMICS",
+      "weight": 1,
+      "category": "A",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "PPE 2200F/G; Students must be in the fourth year of the Honours Specialization in Politics, Philosophy and Economics.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

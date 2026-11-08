@@ -1,0 +1,126 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "DATASCI 1000",
+      "suffix": "A/B",
+      "title": "DATA SCIENCE CONCEPTS",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "One or more of Ontario Secondary School MCV4U, MHF4U, MDM4U, Mathematics 0109A/B, Mathematics 0110A/B, Mathematics 1229A/B, or equivalent.",
+      "prereq": null,
+      "antireqText": "Statistical Sciences 1023A/B, Statistical Sciences 1024A/B, Statistical Sciences 2037A/B, Statistical Sciences 2857A/B.",
+      "antireqs": [
+        "STATS 1023",
+        "STATS 1024",
+        "STATS 2037",
+        "STATS 2857"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "DATASCI 1200",
+      "suffix": "A/B",
+      "title": "PROGRAMMING FOR DATA SCIENCE",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Computer Science 1025A/B, Computer Science 1026A/B, Computer Science 2120A/B, Engineering Science 1036A/B, Digital Humanities 2200A/B.",
+      "antireqs": [
+        "COMPSCI 1025",
+        "COMPSCI 1026",
+        "COMPSCI 2120",
+        "ENGSCI 1036",
+        "DIGIHUM 2200"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "DATASCI 2000",
+      "suffix": "A/B",
+      "title": "INTRODUCTION TO DATA SCIENCE",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "1.0 course from Mathematics, Calculus, Numerical and Mathematical Methods, or Applied Mathematics (numbered 1000 and higher) with a minimum mark of 60%. Data Science 1000A/B (with a minimum grade of 60%) can be used to meet 0.5 of the 1.0 mathematics course requirements",
+      "prereq": null,
+      "antireqText": "The former Integrated Science 2002B.",
+      "antireqs": [
+        "INTEGSCI 2002"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "DATASCI 2100",
+      "suffix": "A",
+      "title": "MATHEMATICS FOR DATA SCIENCE",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "1.0 courses from Mathematics, Calculus, or Applied Mathematics (1000 and higher) with a minimal grade of 60%. Data Science 2000A/B or Integrated Science 2002B can be used to fulfil 0.5 of the requirements.",
+      "prereq": null,
+      "antireqText": "Mathematics 1600A/B, Mathematics 1700A/B, Numerical and Mathematical Methods 1411A/B, the former Applied Mathematics 1411A/B.",
+      "antireqs": [
+        "MATH 1600",
+        "MATH 1700",
+        "NMM 1411",
+        "APPLMATH 1411"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "DATASCI 3000",
+      "suffix": "A/B",
+      "title": "INTRODUCTION TO MACHINE LEARNING",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "(Data Science 1200A/B or Computer Science 1026A/B or Computer Science 1027A/B or Computer Science 2120A/B or Digital Humanities 2220A/B or Engineering Science 1036A/B or Data Science 2000A/B or Integrated Science 2002B or Statistical Sciences 2864A/B); (Data Science 2000A/B or Integrated Science 2002B or Statistical Sciences 2857A/B or 0.5 course from the Introductory Statistics Course List); (Mathematics 1600A/B or Numerical and Mathematical Methods 1411A/B or the former Applied Mathematics 1411A/B or Data Science 2100A); (Calculus 1000A/B or Calculus 1500A/B or Numerical and Mathematical Methods 1412A/B or the former Applied Mathematics 1412A/B or Data Science 2100A). Note that Data Science 2000A/B, Integrated Science 2002B and Data Science 2100A can be used to fulfill multiple prerequisites.",
+      "prereq": null,
+      "antireqText": "the former Computer Science 4414A/B, the former Statistical Sciences 3850F/G, the former Software Engineering 4460A/B.",
+      "antireqs": [
+        "COMPSCI 4414",
+        "STATS 3850",
+        "SE 4460"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "DATASCI 4999",
+      "suffix": "Z",
+      "title": "DATA SCIENCE THESIS",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Registration in the Honours Specialization in Data Science. Data Science 3000A/B (or former Computer Science 4414A/B, the former Statistical Sciences 3850F/G, the former Software Engineering 4460A/B). 1.5 courses from Computer Science 3319A/B, Computer Science 3340A/B, Statistical Sciences 3843A/B, Statistical Sciences 3859A/B, Statistical Sciences 3860A/B, Statistical Sciences 4850F/G.",
+      "prereq": null,
+      "antireqText": "Computer Science 3380F/G/Z, Computer Science 4460Z, Computer Science 4480Y, Computer Science 4470Y, Computer Science 4490Z, Statistical Science 4999F/G/Z, Actuarial Sciences 4997F/G/Z, Financial Modelling 4998F/G/Z.",
+      "antireqs": [
+        "COMPSCI 3380",
+        "COMPSCI 4460",
+        "COMPSCI 4480",
+        "COMPSCI 4470",
+        "COMPSCI 4490",
+        "SCIENCE 4999",
+        "SCIENCE 4997",
+        "FINMOD 4998"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "BIOSTATS 3100",
+      "suffix": "A",
+      "title": "BIOSTATISTICAL METHODS FOR EPIDEMIOLOGY",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Biology 2244A/B or Statistical Sciences 2244A/B, and Epidemiology 2200A/B, with a minimum mark of 60% in each.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "BIOSTATS 3110",
+      "suffix": "B",
+      "title": "MULTIVARIABLE METHODS",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Biostatistics 3100A and Epidemiology 3200A, with a minimum mark of 60% in each.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "BIOSTATS 3400",
+      "suffix": "A",
+      "title": "INTRODUCTION TO BIOSTATISTICAL COMPUTING",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Biology 2244A/B or Statistical Sciences 2244A/B, and Epidemiology 2200A/B, with a minimum mark of 60% in each.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

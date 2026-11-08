@@ -1,0 +1,135 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "EASTASIA 1650",
+      "suffix": "F/G",
+      "title": "PERSPECTIVES ON KOREA",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "EASTASIA 1660",
+      "suffix": "F/G",
+      "title": "PERSPECTIVES OF CHINA",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Chinese 1650F/G.",
+      "antireqs": [
+        "CHINESE 1650"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "EASTASIA 1661",
+      "suffix": "F/G",
+      "title": "CHINESE SYMBOLS AND ICONS",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Chinese 1651F/G.",
+      "antireqs": [
+        "CHINESE 1651"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "EASTASIA 1670",
+      "suffix": "F/G",
+      "title": "PERSPECTIVES OF JAPAN",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Japanese 1650F/G.",
+      "antireqs": [
+        "JAPANESE 1650"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "EASTASIA 2601",
+      "suffix": "A/B",
+      "title": "CULTURAL FOUNDATIONS OF MODERN KOREA",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "EASTASIA 2611",
+      "suffix": "A/B",
+      "title": "THE POLITICAL & SOCIO-ECONOMIC FOUNDATIONS OF MODERN CHINA",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Chinese 2601A/B.",
+      "antireqs": [
+        "CHINESE 2601"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "EASTASIA 2612",
+      "suffix": "A/B",
+      "title": "CULTURAL FOUNDATIONS OF MODERN CHINA",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Chinese 2602A/B.",
+      "antireqs": [
+        "CHINESE 2602"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "EASTASIA 2621",
+      "suffix": "A/B",
+      "title": "CULTURAL FOUNDATIONS OF MODERN JAPAN",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

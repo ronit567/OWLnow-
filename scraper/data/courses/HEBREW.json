@@ -1,0 +1,160 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "HEBREW 1020",
+      "suffix": "",
+      "title": "INTRODUCTION TO THE MODERN HEBREW LANGUAGE",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Permission of the faculty.",
+      "prereq": null,
+      "antireqText": "Jewish Studies 1020, Grades 7-12 Hebrew or equivalent.",
+      "antireqs": [
+        "JEWISH 1020"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "HEBREW 1021",
+      "suffix": "A/B",
+      "title": "INTRODUCTION TO THE MODERN HEBREW LANGUAGE",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Jewish Studies 1021A/B, Grades 4-12 Hebrew or equivalent.",
+      "antireqs": [
+        "JEWISH 1021"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "HEBREW 1030",
+      "suffix": "",
+      "title": "HEBREW 1",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Grade 12 University-preparatory Hebrew, or equivalent level of secondary study, or by permission of the faculty.",
+      "prereq": null,
+      "antireqText": "Jewish Studies 1030, Grade 12 University-preparatory Hebrew, or equivalent level of secondary study.",
+      "antireqs": [
+        "JEWISH 1030"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "HEBREW 1040",
+      "suffix": "A/B",
+      "title": "INTRODUCTION TO BIBLICAL HEBREW",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Hebrew 1030, Jewish Studies 1030, Jewish Studies 1040A/B, or Grade 4 Hebrew (or Grade 2 in Israel).",
+      "antireqs": [
+        "HEBREW 1030",
+        "JEWISH 1030",
+        "JEWISH 1040"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "HEBREW 1041",
+      "suffix": "A/B",
+      "title": "INTRODUCTION TO BIBLICAL HEBREW II",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Hebrew 1040A/B or permission of the Instructor.",
+      "prereq": null,
+      "antireqText": "Hebrew 1030 or Grade 6 Hebrew (or Grade 3 in Israel).",
+      "antireqs": [
+        "HEBREW 1030"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "HEBREW 2200",
+      "suffix": "",
+      "title": "HEBREW 2",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Hebrew 1020, Hebrew 1030, Jewish Studies 1020, Jewish Studies 1030, or Grade 12 University-preparatory Hebrew or equivalent, or permission of the faculty.",
+      "prereq": null,
+      "antireqText": "Jewish Studies 2200.",
+      "antireqs": [
+        "JEWISH 2200"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "HEBREW 2240",
+      "suffix": "A/B",
+      "title": "INTERMEDIATE BIBLICAL HEBREW: PROSE",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Hebrew 1041A/B, Jewish Studies 1041A/B, or Grade 6 Hebrew (Grade 3 in Israel), or permission of the instructor.",
+      "prereq": null,
+      "antireqText": "Jewish Studies 2240A/B, Grade 7 Hebrew (or Grade 4 in Israel).",
+      "antireqs": [
+        "JEWISH 2240"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "HEBREW 2241",
+      "suffix": "A/B",
+      "title": "INTERMEDIATE BIBLICAL HEBREW: POETRY",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Hebrew 1041A/B, Jewish Studies 1041A/B, or Grade 6 Hebrew (Grade 3 in Israel), or permission of the instructor.",
+      "prereq": null,
+      "antireqText": "Jewish Studies 2241A/B, Grade 7 Hebrew (or Grade 4 in Israel).",
+      "antireqs": [
+        "JEWISH 2241"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "HEBREW 3300",
+      "suffix": "",
+      "title": "ADVANCED MODERN HEBREW LANGUAGE",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Hebrew 2200, Jewish Studies 2200, or equivalent or by permission of the faculty.",
+      "prereq": null,
+      "antireqText": "Jewish Studies 3300.",
+      "antireqs": [
+        "JEWISH 3300"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

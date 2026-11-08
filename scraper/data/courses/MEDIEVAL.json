@@ -1,0 +1,139 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "MEDIEVAL 1022",
+      "suffix": "",
+      "title": "INTRODUCTION TO MEDIEVAL STUDIES",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Medieval Studies 1025A/B, Medieval Studies 1026A/B, and the former Medieval Studies 1020E.",
+      "antireqs": [
+        "MEDIEVAL 1025",
+        "MEDIEVAL 1026",
+        "MEDIEVAL 1020"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "MEDIEVAL 1025",
+      "suffix": "A/B",
+      "title": "INTRODUCTION TO THE MEDIEVAL WORLD",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Medieval Studies 1022 or the former Medieval Studies 1020E.",
+      "antireqs": [
+        "MEDIEVAL 1022",
+        "MEDIEVAL 1020"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "MEDIEVAL 1026",
+      "suffix": "A/B",
+      "title": "INTRODUCTION TO MEDIEVAL CULTURES AND LITERATURES",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Medieval Studies 1022 or the former Medieval Studies 1020E.",
+      "antireqs": [
+        "MEDIEVAL 1022",
+        "MEDIEVAL 1020"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "MEDIEVAL 3022",
+      "suffix": "F/G",
+      "title": "INTRODUCTION TO MEDIEVAL MANUSCRIPTS",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "70% or higher in 1.0, Medieval Studies 1022, or both Medieval Studies 1025A/B and Medieval Studies 1026A/B, or the former Medieval Studies 1020E.",
+      "prereq": null,
+      "antireqText": "Classical Studies 3890F/G, Classical Studies 3906F/G if taken in 2023-24.",
+      "antireqs": [
+        "CLASSICS 3890",
+        "CLASSICS 3906",
+        "CLASSICS 2023"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "MEDIEVAL 3320",
+      "suffix": "F/G",
+      "title": "DIRECTED READINGS IN MEDIEVAL STUDIES",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Permission of the program.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "MEDIEVAL 3901",
+      "suffix": "F/G",
+      "title": "SPECIAL TOPICS IN MEDIEVAL STUDIES",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "1.0 course from Medieval Studies 1022, Medieval Studies 1025A/B, or Medieval Studies 1026A/B.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "MEDIEVAL 3902",
+      "suffix": "A/B",
+      "title": "SPECIAL TOPICS IN MEDIEVAL STUDIES",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "1.0 course from Medieval Studies 1022, Medieval Studies 1025A/B, or Medieval Studies 1026A/B.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "MEDIEVAL 4320",
+      "suffix": "F/G",
+      "title": "INDEPENDENT STUDY SEMINAR",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Permission of the program.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

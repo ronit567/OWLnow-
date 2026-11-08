@@ -1,0 +1,107 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "NEURO 2000",
+      "suffix": "",
+      "title": "INTRODUCTION TO NEUROSCIENCE",
+      "weight": 1,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Psychology 1002A/B and Psychology 1003A/B with a minimum mark of 60%, or Psychology 1000 with a minimum mark of 60%; Biology 1001A and Biology 1002B with a minimum mark of 60%.",
+      "prereq": null,
+      "antireqText": "Psychology 2220A/B and Psychology 2221A/B, if taken in 2013/14 or onward.",
+      "antireqs": [
+        "PSYCHOL 2220",
+        "PSYCHOL 2221",
+        "PSYCHOL 2013"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "NEURO 3000",
+      "suffix": "F/G",
+      "title": "CURRENT TOPICS IN NEUROSCIENCE",
+      "weight": 0.5,
+      "category": "C",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Neuroscience 2000 with a minimum mark of 75% and registration in Year 3 of an Honours Specialization in Neuroscience.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "NEURO 3996",
+      "suffix": "F/G",
+      "title": "INDEPENDENT STUDY I",
+      "weight": 0.5,
+      "category": "C",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Registration in third year of the Honours Specialization in Neuroscience, 80% average in the previous year, and permission of the Director of the Neuroscience Program.",
+      "prereq": null,
+      "antireqText": "Psychology 3996F, Psychology 3997G.",
+      "antireqs": [
+        "PSYCHOL 3996",
+        "PSYCHOL 3997"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "NEURO 3997",
+      "suffix": "G",
+      "title": "INDEPENDENT STUDY II",
+      "weight": 0.5,
+      "category": "C",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Neuroscience 3996F/G, registration in third year of the Honours Specialization in Neuroscience, and permission of the Director of the Neuroscience Program.",
+      "prereq": null,
+      "antireqText": "Psychology 3996F, Psychology 3997G.",
+      "antireqs": [
+        "PSYCHOL 3996",
+        "PSYCHOL 3997"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "NEURO 4985",
+      "suffix": "E",
+      "title": "HONOURS PROJECT",
+      "weight": 1,
+      "category": "C",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Neuroscience 3000F/G with a minimum mark of 75%; one of Biology 2244A/B or Statistical Sciences 2244A/B, or both Psychology 2811A/B and Psychology 2812A/B, or the former Psychology 2810; Pharmacology 3620; Physiology 3140A; one of Medical Sciences 3991F, Communication Sciences and Disorders 3317A/B, Neuroscience 3996F/G; and registration in Year 4 of the Honours Specialization in Neuroscience. Corequisite(s): Neuroscience 4986Y.",
+      "prereq": null,
+      "antireqText": "The former Neuroscience 4000E.",
+      "antireqs": [
+        "NEURO 4000"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "NEURO 4986",
+      "suffix": "Y",
+      "title": "SCIENTIFIC SKILLS",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Registration in Year 4 of the Honours Specialization in Neuroscience. Corequisite(s): Neuroscience 4985E.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

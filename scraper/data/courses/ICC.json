@@ -1,0 +1,217 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "ICC 1031",
+      "suffix": "",
+      "title": "SPECIAL TOPICS IN INTERCULTURAL COMMUNICATIONS",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ICC 1032",
+      "suffix": "",
+      "title": "SPECIAL TOPICS IN INTERCULTURAL COMMUNICATIONS",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ICC 1060",
+      "suffix": "F/G",
+      "title": "GLOBAL AWARENESS",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "World Literatures and Cultures 1060F/G, the former Intercultural Communications 1030.",
+      "antireqs": [
+        "WORLDLIT 1060",
+        "ICC 1030"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ICC 2100",
+      "suffix": "F/G",
+      "title": "ADAPTATION",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Digital Humanities 2135F/G, Spanish 3135F/G.",
+      "antireqs": [
+        "DIGIHUM 2135",
+        "SPANISH 3135"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ICC 2200",
+      "suffix": "F/G",
+      "title": "NOT \"LOST IN TRANSLATION\": THE PRACTICE AND THEORY OF INTERCULTURAL COMMUNICATION",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ICC 2233",
+      "suffix": "A/B/Y",
+      "title": "A TASTE OF ITALY: EXPLORING ITALIAN CUISINE THROUGH THE ARTS",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Italian 2233A/B/Y.",
+      "antireqs": [
+        "ITALIAN 2233"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ICC 2246",
+      "suffix": "F/G",
+      "title": "EMPOWERING MONTESSORI: EDUCATION AND INTERNATIONAL WOMEN'S NETWORKS",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Italian 2246F/G.",
+      "antireqs": [
+        "ITALIAN 2246"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ICC 2248",
+      "suffix": "A/B/Y",
+      "title": "FLORENCE THE MAGNIFICENT",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Comparative Literature and Culture 2248A/B/Y; Italian 2248A/B/Y.",
+      "antireqs": [
+        "COMPLIT 2248",
+        "ITALIAN 2248"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ICC 2500",
+      "suffix": "F/G",
+      "title": "BRIDGING CLASSROOM AND COMMUNITY: LANGUAGES AND CULTURES IN ACTION",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "German 2500F/G, Italian 2500F/G, Spanish 2500F/G, the former CLC 2500F/G.",
+      "antireqs": [
+        "GERMAN 2500",
+        "ITALIAN 2500",
+        "SPANISH 2500"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ICC 3200",
+      "suffix": "F/G",
+      "title": "FILM FESTIVALS: LOCAL AND GLOBAL",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ICC 3300",
+      "suffix": "F/G/Z",
+      "title": "MAKING A DIFFERENCE: PORTFOLIO IN INTERCULTURAL COMMUNICATION",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "ICC 2200F/G. Pre-or Corequisite(s): ICC 2500F/G.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ICC 3600",
+      "suffix": "F/G/Z",
+      "title": "IMMERSED IN THE EXPERIENCE: LANGUAGE AND CULTURE ABROAD",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "ICC 2200F/G.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ICC 3800",
+      "suffix": "F/G/Z",
+      "title": "WORKING WITH A MENTOR: INTERNSHIP IN INTERCULTURAL COMMUNICATION",
+      "weight": 0.5,
+      "category": "B",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Permission of the Department. Registration in the third or fourth year of a module in Intercultural Communication, with a minimum modular average of 75%. Approval of, and acceptance into, an internship placement. Pre-or Corequisite(s): Students must have completed or are completing the required courses and at least 50% of the module.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

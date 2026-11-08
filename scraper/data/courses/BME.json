@@ -1,0 +1,65 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "BME 3201",
+      "suffix": "A/B",
+      "title": "FUNDAMENTALS OF BIOMEDICAL ENGINEERING DESIGN",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Completion of the first-year curriculum in the Faculty of Engineering with a year-weighted average of at least 80%.",
+      "prereq": null,
+      "antireqText": "MME 4470A/B.",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "BME 3301",
+      "suffix": "A/B",
+      "title": "NEURAL SYSTEMS ENGINEERING",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "BME 3201A/B.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "BME 3303",
+      "suffix": "A/B",
+      "title": "CELLULAR SYSTEMS ENGINEERING",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "BME 3201A/B, Biology 1002B or the former 1202B, Biochemistry 2280A.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "BME 4400",
+      "suffix": "E",
+      "title": "BME RESEARCH PROJECT",
+      "weight": 1.5,
+      "category": "C",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Registration in the final year of a Biomedical Engineering program.",
+      "prereq": null,
+      "antireqText": "CBE 4415, CBE 4425, MME 4410.",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

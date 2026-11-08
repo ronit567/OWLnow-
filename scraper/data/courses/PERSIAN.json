@@ -1,0 +1,54 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "PERSIAN 1030",
+      "suffix": "",
+      "title": "PERSIAN (FARSI) FOR BEGINNERS",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Grade 12U Persian (Farsi), Persian 1035.",
+      "antireqs": [
+        "PERSIAN 1035"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "PERSIAN 1035",
+      "suffix": "",
+      "title": "BEGINNER PERSIAN FOR HERITAGE SPEAKERS",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Grade 12U Persian and Persian 1030.",
+      "antireqs": [
+        "PERSIAN 1030"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "PERSIAN 2200",
+      "suffix": "",
+      "title": "INTERMEDIATE PERSIAN",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}
