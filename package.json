@@ -4,13 +4,15 @@
   "type": "module",
   "workspaces": [
     "packages/*",
-    "apps/*"
+    "apps/*",
+    "scraper"
   ],
   "scripts": {
     "dev": "npm run dev -w @owlnow/web",
     "build": "npm run build -w @owlnow/web && npm run build -w @owlnow/extension",
     "test": "vitest run",
-    "typecheck": "tsc -p tsconfig.json"
+    "typecheck": "tsc -p tsconfig.json",
+    "scrape:courses": "npm run courses -w @owlnow/scraper --"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
