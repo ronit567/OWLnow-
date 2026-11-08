@@ -103,7 +103,7 @@
       "category": "C",
       "essay": true,
       "campus": "Main",
-      "prereqText": "Biology 2382A/B with a mark of at least 60%; and one of Biology 2290F/G or Biology 2581A/B with a mark of at least 60%. Pre-or Corequisite(s): One of Anatomy and Cell Biology 3309, Biology 3316A/B or Physiology 3140A.",
+      "prereqText": "Biology 2382A/B with a mark of at least 60%; and one of Biology 2290F/G or Biology 2581A/B with a mark of at least 60%.",
       "prereq": null,
       "antireqText": "Pathology 3700F/G.",
       "antireqs": [
@@ -246,7 +246,7 @@
       "category": "C",
       "essay": true,
       "campus": "Main",
-      "prereqText": "Anatomy and Cell Biology 3309 with a mark of at least 70%; Anatomy and Cell Biology 3329A/B; one of Biochemistry 3380G, Biology 3326F/G, with a mark of at least 70%; Biology 3316A/B or Physiology 3140A, with a mark of at least 70% in the course taken. Enrolment is limited and available only to students in Year 4 of the Honours Specialization in Medical Cell Biology. Corequisite(s): Anatomy and Cell Biology 4986Y.",
+      "prereqText": "Anatomy and Cell Biology 3309 with a mark of at least 70%; Anatomy and Cell Biology 3329A/B; one of Biochemistry 3380G, Biology 3326F/G, with a mark of at least 70%; Biology 3316A/B or Physiology 3140A, with a mark of at least 70% in the course taken. Enrolment is limited and available only to students in Year 4 of the Honours Specialization in Medical Cell Biology.",
       "prereq": null,
       "antireqText": "Biochemistry 4484E, Biochemistry 4985E, Epidemiology and Biostatistics 4900E, Epidemiology and Biostatistics 4985E, Medical Bioinformatics 4985E, Medical Biophysics 4985E, Medical Sciences 4990E, Microbiology and Immunology 4985E, One Health 4985E, Pathology 4985E, Physiology and Pharmacology 4985E, the former Anatomy and Cell Biology 4480E, the former Biochemistry 4483E, the former Chemical Biology 4500E, the former Medical Bioinformatics 4980E, the former Medical Biophysics 4970E, the former Medical Biophysics 4971E, the former Microbiology and Immunology 4970E, the former One Health 4980E, the former Pathology 4980E, the former Physiology and Pharmacology 4980E.",
       "antireqs": [
@@ -283,7 +283,7 @@
       "category": "C",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Registration in Year 4 of the Honours Specialization in Biochemistry and Cell Biology or Honours Specialization in Medical Cell Biology. Corequisite(s): Anatomy and Cell Biology 4985E.",
+      "prereqText": "Registration in Year 4 of the Honours Specialization in Biochemistry and Cell Biology or Honours Specialization in Medical Cell Biology.",
       "prereq": null,
       "antireqText": "Biochemistry 4986Y and Microbiology and Immunology 4986Y.",
       "antireqs": [

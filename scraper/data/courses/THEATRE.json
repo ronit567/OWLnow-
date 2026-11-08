@@ -205,7 +205,7 @@
       "category": "B",
       "essay": true,
       "campus": "Main",
-      "prereqText": "English 2041F/G or equivalent. Corequisite(s): Theatre Studies 3206F/G.",
+      "prereqText": "English 2041F/G or equivalent.",
       "prereq": null,
       "antireqText": "the former English 2043F/G.",
       "antireqs": [

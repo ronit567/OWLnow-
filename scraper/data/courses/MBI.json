@@ -41,7 +41,7 @@
       "category": "C",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Biology 2581A/B; and one of Biology 2244A/B, Statistical Sciences 2244A/B or Statistical Sciences 2858A/B. Pre-or Corequisite(s): One of Medical Bioinformatics 3100A/B, Medical Sciences 3391A/B or Microbiology and Immunology 2500A/B is recommended but not required.",
+      "prereqText": "Biology 2581A/B; and one of Biology 2244A/B, Statistical Sciences 2244A/B or Statistical Sciences 2858A/B.",
       "prereq": null,
       "antireqText": "Microbiology and Immunology 4750A/B.",
       "antireqs": [
@@ -73,7 +73,7 @@
       "category": "C",
       "essay": true,
       "campus": "Main",
-      "prereqText": "Medical Bioinformatics 3100A/B and one of Pathology 3500 or Physiology 3120; and registration in Year 4 of the Honours Specialization in Medical Bioinformatics. Corequisite(s): Medical Bioinformatics 4986Y.",
+      "prereqText": "Medical Bioinformatics 3100A/B and one of Pathology 3500 or Physiology 3120; and registration in Year 4 of the Honours Specialization in Medical Bioinformatics.",
       "prereq": null,
       "antireqText": "Anatomy and Cell Biology 4985E, Biochemistry 4484E, Biochemistry 4985E, Epidemiology and Biostatistics 4900E, Epidemiology and Biostatistics 4985E, Medical Biophysics 4985E, Medical Sciences 4000E, Medical Sciences 4990E, Microbiology and Immunology 4985E, One Health 4985E, Pathology 4985E, Physiology and Pharmacology 4985E, the former Anatomy and Cell Biology 4480E, the former Biochemistry 4483E, the former Chemical Biology 4500E, the former Medical Bioinformatics 4980E, the former Medical Biophysics 4970E, the former Medical Biophysics 4971E, the former Microbiology and Immunology 4970E, the former One Health 4980E, the former Pathology 4980E, the former Physiology and Pharmacology 4980E.",
       "antireqs": [
@@ -111,7 +111,7 @@
       "category": "C",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Registration in Year 4 of the Honours Specialization in Medical Bioinformatics. Corequisite(s): Medical Bioinformatics 4985E.",
+      "prereqText": "Registration in Year 4 of the Honours Specialization in Medical Bioinformatics.",
       "prereq": null,
       "antireqText": "",
       "antireqs": [],

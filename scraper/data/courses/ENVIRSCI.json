@@ -22,7 +22,7 @@
       "title": "ENVIRONMENT AND SUSTAINABILITY ON THE ISLAND OF IRELAND",
       "weight": 0.5,
       "category": "C",
-      "essay": false,
+      "essay": true,
       "campus": "Main",
       "prereqText": "Enrolment in the HON SPZ in One Health or a module offered by one of the following departments: Environmental Science, Biology, Chemistry, Earth Science, Integrated Science, Geography and Environment, Political Science, or permission of the instructor.",
       "prereq": null,

@@ -79,7 +79,7 @@
       "category": "C",
       "essay": true,
       "campus": "Main",
-      "prereqText": "Neuroscience 3000F/G with a minimum mark of 75%; one of Biology 2244A/B or Statistical Sciences 2244A/B, or both Psychology 2811A/B and Psychology 2812A/B, or the former Psychology 2810; Pharmacology 3620; Physiology 3140A; one of Medical Sciences 3991F, Communication Sciences and Disorders 3317A/B, Neuroscience 3996F/G; and registration in Year 4 of the Honours Specialization in Neuroscience. Corequisite(s): Neuroscience 4986Y.",
+      "prereqText": "Neuroscience 3000F/G with a minimum mark of 75%; one of Biology 2244A/B or Statistical Sciences 2244A/B, or both Psychology 2811A/B and Psychology 2812A/B, or the former Psychology 2810; Pharmacology 3620; Physiology 3140A; one of Medical Sciences 3991F, Communication Sciences and Disorders 3317A/B, Neuroscience 3996F/G; and registration in Year 4 of the Honours Specialization in Neuroscience.",
       "prereq": null,
       "antireqText": "The former Neuroscience 4000E.",
       "antireqs": [
@@ -96,7 +96,7 @@
       "category": "C",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Registration in Year 4 of the Honours Specialization in Neuroscience. Corequisite(s): Neuroscience 4985E.",
+      "prereqText": "Registration in Year 4 of the Honours Specialization in Neuroscience.",
       "prereq": null,
       "antireqText": "",
       "antireqs": [],

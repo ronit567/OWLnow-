@@ -1,8 +1,8 @@
 // Hand-made pages in the calendar's layout. Not copied from Western: if the real layout differs,
 // fix pages.ts and these samples together.
 import { describe, expect, it } from "vitest";
-import { antireqKeys, toCourses } from "./convert.ts";
-import { coursesFromSubjectPage, subjectsFromCoursesPage } from "./pages.ts";
+import { antireqKeys, isEssay, toCourses } from "./convert.ts";
+import { coursesFromSubjectPage, splitFacts, subjectsFromCoursesPage } from "./pages.ts";
 
 const coursesPage = `<table>
   <tr><td><a href="Courses.cfm?Subject=COMPSCI&amp;SelectedCalendar=Live&amp;ArchiveID=">Computer Science</a></td><td>CATEGORY C</td></tr>
@@ -60,5 +60,36 @@ describe("calendar pages", () => {
 
   it("gives a bare number the subject named before it", () => {
     expect(antireqKeys("Computer Science 1025A/B, 1026A/B", subjects)).toEqual(["COMPSCI 1025", "COMPSCI 1026"]);
+  });
+
+  it("keeps two labels in one block apart", () => {
+    const [course] = coursesFromSubjectPage(
+      panel(
+        "MAIN_044444_1",
+        "Computer Science 3305A/B OPERATING SYSTEMS",
+        "0.50",
+        `<div><strong>Antirequisite(s):</strong> Software Engineering 3313A/B. <strong>Prerequisite(s):</strong> Computer Science 2210A/B <strong>Corequisite(s):</strong> Computer<br>Science 3350A/B.</div>
+         <div><strong>Extra Information:</strong> 3 lecture hours.</div>`,
+      ),
+      subjects[0],
+    );
+    expect(course).toMatchObject({
+      antireqText: "Software Engineering 3313A/B.",
+      prereqText: "Computer Science 2210A/B",
+      coreqText: "Computer Science 3350A/B.",
+      extraInfo: "3 lecture hours.",
+    });
+  });
+
+  it("recognises every spelling of a label, and only labels", () => {
+    expect(splitFacts("Math 1600A/B Pre- or Co-requisite(s): Math 2120A/B", "prereq")).toEqual({ prereq: "Math 1600A/B", coreq: "Math 2120A/B" });
+    expect(splitFacts("Math 1600A/B Co-requisites: Math 2120A/B", "prereq")).toEqual({ prereq: "Math 1600A/B", coreq: "Math 2120A/B" });
+    const prose = "Film 2201F/G. Students who took Film 3300F/G also meet the prerequisite: see the department. Note: by permission.";
+    expect(splitFacts(prose, "prereq")).toEqual({ prereq: prose });
+  });
+
+  it("counts E, F, G and Z as essay suffixes", () => {
+    expect(["E", "F/G", "G", "Z", "F/G/Z"].every(isEssay)).toBe(true);
+    expect(["", "A/B", "Y", "A/B/Y", "Q/R/S/T"].some(isEssay)).toBe(false);
   });
 });

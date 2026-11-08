@@ -39,9 +39,9 @@
       "category": null,
       "essay": false,
       "campus": "Main",
-      "prereqText": "",
+      "prereqText": "Registration in Year 1 of the Doctor of Dental Surgery Program.",
       "prereq": null,
-      "antireqText": "The former Dentistry 5223. Prerequisite(s): Registration in Year 1 of the Doctor of Dental Surgery Program.",
+      "antireqText": "The former Dentistry 5223.",
       "antireqs": [
         "DENTIST 5223"
       ],

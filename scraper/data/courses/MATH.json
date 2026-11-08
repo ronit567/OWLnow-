@@ -759,7 +759,7 @@
       "category": "C",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Mathematics 2700A/B or the former Mathematics 2120A/B, Mathematics 3122A/B. Pre-or Corequisite(s): Mathematics 3124A/B.",
+      "prereqText": "Mathematics 2700A/B or the former Mathematics 2120A/B, Mathematics 3122A/B.",
       "prereq": null,
       "antireqText": "",
       "antireqs": [],

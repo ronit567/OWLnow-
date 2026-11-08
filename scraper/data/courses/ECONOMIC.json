@@ -1644,7 +1644,7 @@
       "category": "A",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Economics 2123A/B or Economics 2223A/B; Economics 2050A/B or Economics 2150A/B or Economics 2260A/B; and Economics 2152A/B or Economics 2220A/B. Pre-or Corequisite(s): Economics 2151A/B or Economics 2261A/B.",
+      "prereqText": "Economics 2123A/B or Economics 2223A/B; Economics 2050A/B or Economics 2150A/B or Economics 2260A/B; and Economics 2152A/B or Economics 2220A/B.",
       "prereq": null,
       "antireqText": "Economics 2121A/B, Economics 2300A/B, Economics 3346A/B, and MOS 3316A/B.",
       "antireqs": [
@@ -1664,7 +1664,7 @@
       "category": "A",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Economics 2181A/B, Economics 2220A/B, Economics 2223A/B, Economics 2260A/B, or Economics 3332A/B. Pre-or Corequisite(s): Economics 3332A/B.",
+      "prereqText": "Economics 2181A/B, Economics 2220A/B, Economics 2223A/B, Economics 2260A/B, or Economics 3332A/B.",
       "prereq": null,
       "antireqText": "Business Administration 4413A/B, Financial Modelling 2557A/B, MOS 3312A/B, MOS 4312A/B.",
       "antireqs": [
@@ -2361,7 +2361,7 @@
       "category": "A",
       "essay": true,
       "campus": "Main",
-      "prereqText": "Economics 2223A/B, Economics 2261A/B, and Economics 2221A/B. Student must be in their 4th year of an Honours Specialization module. Pre-or Corequisite(s): Economics 3388A/B.",
+      "prereqText": "Economics 2223A/B, Economics 2261A/B, and Economics 2221A/B. Student must be in their 4th year of an Honours Specialization module.",
       "prereq": null,
       "antireqText": "",
       "antireqs": [],

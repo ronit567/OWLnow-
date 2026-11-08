@@ -483,7 +483,7 @@
       "category": "B",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Studio Art 1601, or Studio Art 1602A/B and Studio Art 1603A/B, or Studio Art 1605, or MediaCom 1070A/B, or permission of the Department. Co-requisites: Art History 2680F/G.",
+      "prereqText": "Studio Art 1601, or Studio Art 1602A/B and Studio Art 1603A/B, or Studio Art 1605, or MediaCom 1070A/B, or permission of the Department.",
       "prereq": null,
       "antireqText": "",
       "antireqs": [],

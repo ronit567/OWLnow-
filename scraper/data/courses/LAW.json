@@ -1139,7 +1139,7 @@
       "category": "A",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Law 5210A/C/D. Pre-or Corequisite(s): Law 5559A/C/D.",
+      "prereqText": "Law 5210A/C/D.",
       "prereq": null,
       "antireqText": "Law 5849 if taken prior to the academic year 2022-2023.",
       "antireqs": [
@@ -1481,7 +1481,7 @@
       "category": "A",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Law 5215A/C/D and one clinical or advocacy course, which includes: Law 5370A, Law 5790A/C/D, Law 5808A/D, Law 5712A/C/D, Law 5715A/C, Law 5716A/C/D, Law 5717A/C/D, Law 5720C, Law 5725C. Pre-or Corequisite(s): Law 5205A/D.",
+      "prereqText": "Law 5215A/C/D and one clinical or advocacy course, which includes: Law 5370A, Law 5790A/C/D, Law 5808A/D, Law 5712A/C/D, Law 5715A/C, Law 5716A/C/D, Law 5717A/C/D, Law 5720C, Law 5725C.",
       "prereq": null,
       "antireqText": "Law 5888D, if taken prior to 2020.",
       "antireqs": [
@@ -1655,7 +1655,7 @@
       "category": "A",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Law 5625A/D. Corequisite(s): Law 5630A/C/D.",
+      "prereqText": "Law 5625A/D.",
       "prereq": null,
       "antireqText": "Law 5916D, if taken prior to 2020.",
       "antireqs": [

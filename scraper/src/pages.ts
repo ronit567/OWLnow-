@@ -1,5 +1,5 @@
-// Reads saved Academic Calendar pages. No network here: fetch.ts downloads, this only parses,
-// so a change in Western's HTML is fixed here and rerun on the saved pages.
+// Reads Academic Calendar pages. No network here: fetch.ts downloads, this only parses,
+// so a change in Western's HTML is fixed here.
 import { load } from "cheerio";
 
 export const CALENDAR = "https://westerncalendar.uwo.ca/";
@@ -56,15 +56,44 @@ export function subjectsFromCoursesPage(html: string): Subject[] {
 
 const CAMPUS: Record<string, CalendarCourse["campus"]> = { MAIN: "Main", HURON: "Huron", KINGS: "King's" };
 
-/** The text after a bold label such as "Antirequisite(s):" in a course's panel. */
-function labelled($: ReturnType<typeof load>, panel: ReturnType<ReturnType<typeof load>>, label: RegExp): string {
-  for (const el of panel.find("strong").toArray()) {
-    const strong = $(el);
-    if (!label.test(clean(strong.text()))) continue;
-    const block = strong.parent();
-    return clean(block.text().replace(strong.text(), "")).replace(/^:\s*/, "");
+export type FactKind = "prereq" | "antireq" | "coreq" | "extra";
+export type Facts = Partial<Record<FactKind, string>>;
+
+// Capitals on purpose: requisite text can say "also meet the prerequisite:" mid-sentence.
+const FACT_LABEL = /(Pre-?\s*or\s*Co-?requisite|Co-?requisite|Prerequisite|Antirequisite|Extra Information)(?:\(s\)|s)?\s*:/g;
+
+const kindOf = (label: string): FactKind =>
+  label.startsWith("Anti") ? "antireq" : label.startsWith("Extra") ? "extra" : /Co-?requisite/.test(label) ? "coreq" : "prereq";
+
+/**
+ * One block of text can hold several labelled facts, so each fact runs up to the next label.
+ * Text before the first label belongs to `lead`, if given.
+ */
+export function splitFacts(text: string, lead?: FactKind): Facts {
+  const facts: Facts = {};
+  const add = (kind: FactKind | undefined, part: string) => {
+    const value = clean(part);
+    if (kind && value) facts[kind] = facts[kind] ? `${facts[kind]} ${value}` : value;
+  };
+  let kind = lead;
+  let from = 0;
+  for (const m of text.matchAll(FACT_LABEL)) {
+    add(kind, text.slice(from, m.index));
+    kind = kindOf(m[1]);
+    from = m.index + m[0].length;
   }
-  return "";
+  add(kind, text.slice(from));
+  return facts;
+}
+
+/** Every labelled fact in a course's panel. The first block to state a fact wins. */
+function factsInPanel($: ReturnType<typeof load>, panel: ReturnType<ReturnType<typeof load>>): Facts {
+  // A line break can sit mid-sentence, so it has to become a space before reading the text.
+  panel.find("br").replaceWith(" ");
+  const facts: Facts = {};
+  for (const block of new Set(panel.find("strong").toArray().map((strong) => $(strong).parent().get(0))))
+    if (block) for (const [kind, value] of Object.entries(splitFacts($(block).text()))) facts[kind as FactKind] ??= value;
+  return facts;
 }
 
 /**
@@ -83,6 +112,7 @@ export function coursesFromSubjectPage(html: string, subject: Subject): Calendar
     const id = new URL(detailUrl).searchParams.get("CourseAcadCalendarID") ?? detailUrl;
     const weightText = clean(panel.find("h5").filter((_, h) => /Course Weight/i.test($(h).text())).first().text());
     const weight = weightText.match(/\d+(\.\d+)?/)?.[0];
+    const facts = factsInPanel($, panel);
     out.push({
       id,
       campus: CAMPUS[id.split("_")[0].toUpperCase()] ?? "Main",
@@ -91,10 +121,10 @@ export function coursesFromSubjectPage(html: string, subject: Subject): Calendar
       title: clean(m[2]),
       weight: weight ? Number(weight) : null,
       category: subject.categories.length === 1 ? subject.categories[0] : "",
-      prereqText: labelled($, panel, /^Prerequisite/i),
-      antireqText: labelled($, panel, /^Antirequisite/i),
-      coreqText: labelled($, panel, /^(Pre-?\s*or\s*)?Corequisite/i),
-      extraInfo: labelled($, panel, /^Extra Information/i),
+      prereqText: facts.prereq ?? "",
+      antireqText: facts.antireq ?? "",
+      coreqText: facts.coreq ?? "",
+      extraInfo: facts.extra ?? "",
       detailUrl,
     });
   });

@@ -291,7 +291,7 @@
       "category": "B",
       "essay": true,
       "campus": "Main",
-      "prereqText": "German 2215F/G. Corequisite(s): German 3305 or permission of the Department.",
+      "prereqText": "German 2215F/G.",
       "prereq": null,
       "antireqText": "The former German 3300F/G, German 4451F/G, CLC 3340F/G.",
       "antireqs": [
@@ -430,7 +430,7 @@
       "category": "B",
       "essay": true,
       "campus": "Main",
-      "prereqText": "Permission of the Department and Intercultural Communications 2200F/G. Registration in the third or fourth year of a module in German, with a minimum cumulative modular average of 75%. Approval of, and acceptance into, an internship placement. Pre- or Corequisite(s): Students must have completed or are completing the required courses and at least 50% of the module.",
+      "prereqText": "Permission of the Department and Intercultural Communications 2200F/G. Registration in the third or fourth year of a module in German, with a minimum cumulative modular average of 75%. Approval of, and acceptance into, an internship placement.",
       "prereq": null,
       "antireqText": "",
       "antireqs": [],
@@ -509,7 +509,7 @@
       "category": "B",
       "essay": true,
       "campus": "Main",
-      "prereqText": "German 2215F/G. Corequisite(s): German 3305 or permission of the Department.",
+      "prereqText": "German 2215F/G.",
       "prereq": null,
       "antireqText": "CLC 4500F/G, Italian 4500F/G, Spanish 4500F/G.\\",
       "antireqs": [

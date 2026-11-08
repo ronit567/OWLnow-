@@ -306,7 +306,7 @@
       "category": "C",
       "essay": true,
       "campus": "Main",
-      "prereqText": "Medical Biophysics 3980E or the former Medical Biophysics 3970Z, and registration in Year 4 of an Honours Specialization module offered by the Department of Medical Biophysics. Corequisite(s): Medical Biophysics 4986Y.",
+      "prereqText": "Medical Biophysics 3980E or the former Medical Biophysics 3970Z, and registration in Year 4 of an Honours Specialization module offered by the Department of Medical Biophysics.",
       "prereq": null,
       "antireqText": "Anatomy and Cell Biology 4985E, Biochemistry 4484E, Biochemistry 4985E, Epidemiology and Biostatistics 4900E, Epidemiology and Biostatistics 4985E, Medical Bioinformatics 4985E, Medical Sciences 4990E, Microbiology and Immunology 4985E, One Health 4985E, Pathology 4985E, Physiology and Pharmacology 4985E, the former Anatomy and Cell Biology 4480E, the former Biochemistry 4483E, the former Chemical Biology 4500E, the former Medical Bioinformatics 4980E, the former Medical Biophysics 4970E, the former Medical Biophysics 4971E, the former Microbiology and Immunology 4970E, the former One Health 4980E, the former Pathology 4980E, the former Physiology and Pharmacology 4980E.",
       "antireqs": [
@@ -343,7 +343,7 @@
       "category": "C",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Registration in Year 4 of an Honours Specialization offered by the Department of Medical Biophysics. Corequisite(s): Medical Biophysics 4985E.",
+      "prereqText": "Registration in Year 4 of an Honours Specialization offered by the Department of Medical Biophysics.",
       "prereq": null,
       "antireqText": "",
       "antireqs": [],

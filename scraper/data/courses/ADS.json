@@ -60,7 +60,7 @@
       "category": "A",
       "essay": false,
       "campus": "King's",
-      "prereqText": "0.5 course from Analytics and Decision Sciences 2288F/G, Data Science 1200A/B, or Statistical Sciences 2864A/B; and 1.0 courses from any 1000-level courses in Applied Mathematics, Calculus, Mathematics, Numerical and Mathematical Methods, and/or Statistical Sciences. Pre-or Corequisite(s): 0.5 course from: Economics 2122A/B, Economics 2222A/B, Statistical Sciences 2035, Statistical Sciences 2141A/B, Statistical Sciences 2857A/B, or by permission of the School of Management, Economics, and Mathematics.",
+      "prereqText": "0.5 course from Analytics and Decision Sciences 2288F/G, Data Science 1200A/B, or Statistical Sciences 2864A/B; and 1.0 courses from any 1000-level courses in Applied Mathematics, Calculus, Mathematics, Numerical and Mathematical Methods, and/or Statistical Sciences.",
       "prereq": null,
       "antireqText": "Financial Modelling 3817A/B, Statistical Sciences 4654A/B.",
       "antireqs": [
@@ -228,7 +228,7 @@
       "category": "A",
       "essay": true,
       "campus": "King's",
-      "prereqText": "Analytics and Decision Sciences 3293A/B, 1.0 from Economics 2122A/B, Economics 2123A/B, Economics 2222A/B, Economics 2223A/B or Analytics and Decision Sciences 2036A/B, Statistical Sciences 2035, Statistical Sciences 2857A/B, Statistical Sciences 2858A/B. Co-requisite(s): Analytics and Decision Sciences 3864A/B.",
+      "prereqText": "Analytics and Decision Sciences 3293A/B, 1.0 from Economics 2122A/B, Economics 2123A/B, Economics 2222A/B, Economics 2223A/B or Analytics and Decision Sciences 2036A/B, Statistical Sciences 2035, Statistical Sciences 2857A/B, Statistical Sciences 2858A/B.",
       "prereq": null,
       "antireqText": "",
       "antireqs": [],

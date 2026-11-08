@@ -699,7 +699,7 @@
       "category": "B",
       "essay": true,
       "campus": "Main",
-      "prereqText": "Italian 2215F/G. Pre-or Corequisite(s): Italian 3300.",
+      "prereqText": "Italian 2215F/G.",
       "prereq": null,
       "antireqText": "",
       "antireqs": [],
@@ -853,7 +853,7 @@
       "category": "B",
       "essay": true,
       "campus": "Main",
-      "prereqText": "Italian 2215F/G. Pre-or Corequisite(s): Italian 3300.",
+      "prereqText": "Italian 2215F/G.",
       "prereq": null,
       "antireqText": "CLC 4500F/G, German 4500F/G, Spanish 4500F/G.",
       "antireqs": [

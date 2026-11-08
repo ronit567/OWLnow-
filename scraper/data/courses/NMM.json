@@ -152,7 +152,7 @@
       "category": "C",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Applied Mathematics 2814F/G. Corequisite(s): Applied Mathematics 3815A/B or equivalent.",
+      "prereqText": "Applied Mathematics 2814F/G.",
       "prereq": null,
       "antireqText": "",
       "antireqs": [],
@@ -167,7 +167,7 @@
       "category": "C",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Applied Mathematics 2814F/G. Pre-or Corequisite(s): Numerical and Mathematical Methods 3415A/B, Applied Mathematics 3815A/B, or the former Applied Mathematics 3413A/B, the former Applied Mathematics 3415A/B.",
+      "prereqText": "Applied Mathematics 2814F/G.",
       "prereq": null,
       "antireqText": "The former Applied Mathematics 4617A/B.",
       "antireqs": [
@@ -184,7 +184,7 @@
       "category": "C",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Applied Mathematics 3815A/B. Pre-or Corequisite(s): Applied Mathematics 3811A/B.",
+      "prereqText": "Applied Mathematics 3815A/B.",
       "prereq": null,
       "antireqText": "The former Applied Mathematics 4817A/B.",
       "antireqs": [

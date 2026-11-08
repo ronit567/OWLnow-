@@ -24,7 +24,7 @@
       "category": "C",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Biochemistry 2280A, Biology 2581A/B and Microbiology and Immunology 2500A/B. Pre-or Corequisite(s): It is recommended, but not required, that Biochemistry 3381A be taken previously.",
+      "prereqText": "Biochemistry 2280A, Biology 2581A/B and Microbiology and Immunology 2500A/B.",
       "prereq": null,
       "antireqText": "the former Microbiology and Immunology 3100A.",
       "antireqs": [
@@ -56,7 +56,7 @@
       "category": "C",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Biochemistry 2280A, Biology 2581A/B and Microbiology and Immunology 2500A/B. Pre-or Corequisite(s): It is recommended, but not required, that Biochemistry 3381A be taken previously.",
+      "prereqText": "Biochemistry 2280A, Biology 2581A/B and Microbiology and Immunology 2500A/B.",
       "prereq": null,
       "antireqText": "the former Microbiology and Immunology 3100A.",
       "antireqs": [
@@ -88,7 +88,7 @@
       "category": "C",
       "essay": true,
       "campus": "Main",
-      "prereqText": "Biochemistry 2280A, Biology 2581A/B, Chemistry 2213A/B and Microbiology and Immunology 2500A/B with marks of at least 60% in each; Pre-or Corequisite(s): Microbiology and Immunology 3400A or the former Microbiology and Immunology 3100A. It is recommended, but not required, that Biochemistry 3381A be taken previously or concurrently.",
+      "prereqText": "Biochemistry 2280A, Biology 2581A/B, Chemistry 2213A/B and Microbiology and Immunology 2500A/B with marks of at least 60% in each;",
       "prereq": null,
       "antireqText": "",
       "antireqs": [],
@@ -103,7 +103,7 @@
       "category": "C",
       "essay": true,
       "campus": "Main",
-      "prereqText": "Microbiology and Immunology 3610F with a mark of at least 60%. Pre-or Corequisite(s): Microbiology and Immunology 3300B.",
+      "prereqText": "Microbiology and Immunology 3610F with a mark of at least 60%.",
       "prereq": null,
       "antireqText": "",
       "antireqs": [],
@@ -180,7 +180,7 @@
       "category": "C",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Biology 2581A/B; and either Biology 2244A/B or Statistical Sciences 2244A/B. Pre-or Corequisite(s): One of Medical Bioinformatics 3100A/B, Medical Sciences 3391A/B or Microbiology and Immunology 2500A/B is recommended but not required.",
+      "prereqText": "Biology 2581A/B; and either Biology 2244A/B or Statistical Sciences 2244A/B.",
       "prereq": null,
       "antireqText": "Medical Bioinformatics 4750A/B.",
       "antireqs": [
@@ -197,7 +197,7 @@
       "category": "C",
       "essay": true,
       "campus": "Main",
-      "prereqText": "Biochemistry 3381A, Microbiology and Immunology 3200B, Microbiology and Immunology 3300B, Microbiology and Immunology 3400A, Microbiology and Immunology 3610F and Microbiology and Immunology 3620G, with a mark in each of at least 70%. Enrolment is limited and is available only to students in Year 4 of the Honours Specialization in Microbiology and Immunology. Corequisite(s): Microbiology and Immunology 4986Y.",
+      "prereqText": "Biochemistry 3381A, Microbiology and Immunology 3200B, Microbiology and Immunology 3300B, Microbiology and Immunology 3400A, Microbiology and Immunology 3610F and Microbiology and Immunology 3620G, with a mark in each of at least 70%. Enrolment is limited and is available only to students in Year 4 of the Honours Specialization in Microbiology and Immunology.",
       "prereq": null,
       "antireqText": "Anatomy and Cell Biology 4985E, Biochemistry 4484E, Biochemistry 4985E, Epidemiology and Biostatistics 4900E, Epidemiology and Biostatistics 4985E, Medical Bioinformatics 4985E, Medical Biophysics 4985E, Medical Sciences 4000E, Medical Sciences 4990E, One Health 4985E, Pathology 4985E, Physiology and Pharmacology 4985E, the former Anatomy and Cell Biology 4480E, the former Biochemistry 4483E, the former Chemical Biology 4500E, the former Medical Bioinformatics 4980E, the former Medical Biophysics 4970E, the former Medical Biophysics 4971E, the former Microbiology and Immunology 4970E, the former One Health 4980E, the former Pathology 4980E, the former Physiology and Pharmacology 4980E.",
       "antireqs": [
@@ -235,7 +235,7 @@
       "category": "C",
       "essay": false,
       "campus": "Main",
-      "prereqText": "Registration in Year 4 of an Honours Specialization in Biochemistry of Infection and Immunity, Microbiology and Immunology, or Microbiology and Immunology with Pathology. Corequisite(s): Microbiology and Immunology 4985E.",
+      "prereqText": "Registration in Year 4 of an Honours Specialization in Biochemistry of Infection and Immunity, Microbiology and Immunology, or Microbiology and Immunology with Pathology.",
       "prereq": null,
       "antireqText": "Anatomy and Cell Biology 4986Y, Biochemistry 4986Y.",
       "antireqs": [

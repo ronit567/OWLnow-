@@ -8,8 +8,8 @@ export function splitNumber(number: string): { digits: string; suffix: string } 
   return { digits: m?.[1] ?? number, suffix: m?.[2] ?? "" };
 }
 
-// Essay courses carry E (full), F or G (half). Check against the calendar's suffix table.
-const isEssay = (suffix: string) => /[EFG]/.test(suffix);
+// Essay courses carry E (full), F, G or Z (half), as in the calendar's suffix table.
+export const isEssay = (suffix: string) => /[EFGZ]/.test(suffix);
 // No suffix, E or Y is a full course; every other suffix is a half course.
 const weightFromSuffix = (suffix: string) => (suffix === "" || suffix === "E" || suffix === "Y" ? 1 : 0.5);
 

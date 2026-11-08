@@ -104,7 +104,7 @@
       "title": "DATA SCIENCE THESIS",
       "weight": 0.5,
       "category": "C",
-      "essay": false,
+      "essay": true,
       "campus": "Main",
       "prereqText": "Registration in the Honours Specialization in Data Science. Data Science 3000A/B (or former Computer Science 4414A/B, the former Statistical Sciences 3850F/G, the former Software Engineering 4460A/B). 1.5 courses from Computer Science 3319A/B, Computer Science 3340A/B, Statistical Sciences 3843A/B, Statistical Sciences 3859A/B, Statistical Sciences 3860A/B, Statistical Sciences 4850F/G.",
       "prereq": null,
