@@ -14,7 +14,8 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "noEmit": true,
+    "allowImportingTsExtensions": true,
     "types": ["node", "chrome", "vite/client"]
   },
-  "include": ["packages/*/src", "apps/*/src", "apps/web/vite.config.ts", "vitest.config.ts"]
+  "include": ["packages/*/src", "apps/*/src", "scraper/src", "apps/web/vite.config.ts", "vitest.config.ts"]
 }

@@ -1,0 +1,229 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "GREEK 1000",
+      "suffix": "",
+      "title": "INTRODUCTORY ANCIENT GREEK",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Those students with Grade 12U level Ancient Greek must consult the Department before registering for this course.",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "GREEK 1001",
+      "suffix": "A/B",
+      "title": "INTRODUCTORY ANCIENT GREEK (I)",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Greek 1000.",
+      "antireqs": [
+        "GREEK 1000"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "GREEK 1002",
+      "suffix": "A/B",
+      "title": "INTRODUCTORY ANCIENT GREEK (II)",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Greek 1001A/B.",
+      "prereq": null,
+      "antireqText": "Greek 1000.",
+      "antireqs": [
+        "GREEK 1000"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "GREEK 1103",
+      "suffix": "A/B",
+      "title": "INTRODUCTION TO BIBLICAL GREEK I",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "The former Religious Studies 1029; Greek 5103A/B.",
+      "antireqs": [
+        "RELSTUD 1029",
+        "GREEK 5103"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "GREEK 1104",
+      "suffix": "A/B",
+      "title": "INTRO TO BIBLICAL GREEK II",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Greek 1103A/B, Greek 5103A/B or its equivalent, or permission of the instructor.",
+      "prereq": null,
+      "antireqText": "the former Religious Studies 1029; Greek 5104A/B.",
+      "antireqs": [
+        "RELSTUD 1029",
+        "GREEK 5104"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "GREEK 2000",
+      "suffix": "",
+      "title": "ADVANCED ANCIENT GREEK",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Greek 1000 or the former Greek 002.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "GREEK 2001",
+      "suffix": "A/B",
+      "title": "ADVANCED ANCIENT GREEK (I)",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Greek 1000 or Greek 1002A/B.",
+      "prereq": null,
+      "antireqText": "Greek 2000.",
+      "antireqs": [
+        "GREEK 2000"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "GREEK 2002",
+      "suffix": "A/B",
+      "title": "ADVANCED ANCIENT GREEK (II)",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Greek 2001A/B.",
+      "prereq": null,
+      "antireqText": "Greek 2000.",
+      "antireqs": [
+        "GREEK 2000"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "GREEK 3100",
+      "suffix": "A/B",
+      "title": "ANCIENT GREEK PROSE SELECTIONS",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Greek 2000 or permission of the Department.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "GREEK 3200",
+      "suffix": "A/B",
+      "title": "ANCIENT GREEK POETRY SELECTIONS",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Greek 2000 or permission of the Department.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "GREEK 4903",
+      "suffix": "A/B",
+      "title": "SPECIAL TOPICS IN ANCIENT GREEK",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Any 3000-level course in Ancient Greek or permission of the Department.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "GREEK 4904",
+      "suffix": "A/B",
+      "title": "SPECIAL TOPICS IN ANCIENT GREEK",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Any 3000-level course in Ancient Greek or permission of the Department.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "GREEK 4905",
+      "suffix": "A/B",
+      "title": "SPECIAL TOPICS IN ANCIENT GREEK",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Any 3000-level course in Ancient Greek or permission of the Department.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "GREEK 4906",
+      "suffix": "A/B",
+      "title": "SPECIAL TOPICS IN ANCIENT GREEK",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Any 3000-level course in Ancient Greek or permission of the Department.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

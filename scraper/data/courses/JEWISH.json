@@ -1,0 +1,821 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "JEWISH 1000",
+      "suffix": "F/G",
+      "title": "INTRODUCTION TO JEWISH STUDIES",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 1020",
+      "suffix": "",
+      "title": "INTRODUCTION TO THE MODERN HEBREW LANGUAGE",
+      "weight": 1,
+      "category": "A",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Permission of the faculty.",
+      "prereq": null,
+      "antireqText": "Hebrew 1020, Grades 7-12 Hebrew or equivalent.",
+      "antireqs": [
+        "HEBREW 1020"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 1021",
+      "suffix": "A/B",
+      "title": "INTRODUCTION TO THE MODERN HEBREW LANGUAGE",
+      "weight": 0.5,
+      "category": "A",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Hebrew 1021A/B, Grades 4-12 Hebrew or equivalent.",
+      "antireqs": [
+        "HEBREW 1021"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 1030",
+      "suffix": "",
+      "title": "HEBREW 1",
+      "weight": 1,
+      "category": "A",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Hebrew 1030, Grade 12 University-preparatory Hebrew, or equivalent level of secondary study.",
+      "antireqs": [
+        "HEBREW 1030"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 1040",
+      "suffix": "A/B",
+      "title": "INTRODUCTION TO BIBLICAL HEBREW",
+      "weight": 0.5,
+      "category": "A",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Hebrew 1030, Jewish Studies 1030, Hebrew 1040A/B, or Grade 4 Hebrew (or Grade 2 in Israel).",
+      "antireqs": [
+        "HEBREW 1030",
+        "JEWISH 1030",
+        "HEBREW 1040"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 1041",
+      "suffix": "A/B",
+      "title": "INTRODUCTION TO BIBLICAL HEBREW II",
+      "weight": 0.5,
+      "category": "A",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Hebrew 1040A/B, Jewish Studies 1040A/B or permission of the Instructor.",
+      "prereq": null,
+      "antireqText": "Hebrew 1030, Jewish Studies 1030, Hebrew 1041A/B, or Grade 6 Hebrew (or Grade 3 in Israel).",
+      "antireqs": [
+        "HEBREW 1030",
+        "JEWISH 1030",
+        "HEBREW 1041"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 1250",
+      "suffix": "F/G",
+      "title": "INTRODUCTION TO MODERN JEWISH THOUGHT",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2114",
+      "suffix": "A/B",
+      "title": "INTRODUCTION TO THE DEAD SEA SCROLLS",
+      "weight": 0.5,
+      "category": "A",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2114A/B.",
+      "antireqs": [
+        "RELSTUD 2114"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2145",
+      "suffix": "F/G",
+      "title": "JEWISH HUMOUR: FROM BIBLE TO BORAT",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2163",
+      "suffix": "A/B",
+      "title": "“AN EYE FOR AN EYE”: BIBLICAL FOUNDATIONS OF CRIME AND PUNISHMENT",
+      "weight": 0.5,
+      "category": "A",
+      "essay": false,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2163A/B.",
+      "antireqs": [
+        "RELSTUD 2163"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2168",
+      "suffix": "A/B",
+      "title": "ANGELS, DEMONS AND MAGIC: JEWISH FOLKLORE",
+      "weight": 0.5,
+      "category": "A",
+      "essay": false,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2168A/B.",
+      "antireqs": [
+        "RELSTUD 2168"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2169",
+      "suffix": "A/B",
+      "title": "TAMING THE PASSIONS: SEX AND SEXUALITY IN JUDAISM",
+      "weight": 0.5,
+      "category": "A",
+      "essay": false,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2169A/B.",
+      "antireqs": [
+        "RELSTUD 2169"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2171",
+      "suffix": "A/B",
+      "title": "DECOLONIZING THE BIBLE",
+      "weight": 0.5,
+      "category": "A",
+      "essay": false,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2171A/B.",
+      "antireqs": [
+        "RELSTUD 2171"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2200",
+      "suffix": "",
+      "title": "HEBREW 2",
+      "weight": 1,
+      "category": "A",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Hebrew 1020, Hebrew 1030, Jewish Studies 1020, Jewish Studies 1030, or Grade 12 University-preparatory Hebrew or equivalent, or permission of the faculty.",
+      "prereq": null,
+      "antireqText": "Hebrew 2200.",
+      "antireqs": [
+        "HEBREW 2200"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2204",
+      "suffix": "F/G",
+      "title": "WORLD RELIGIONS: JUDAISM AND ISLAM",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Islamic Studies 2204F/G; Religious Studies 2130, Religious Studies 2204F/G.",
+      "antireqs": [
+        "ISLAMSTU 2204",
+        "RELSTUD 2130",
+        "RELSTUD 2204"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2213",
+      "suffix": "F/G",
+      "title": "PROPHECY",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2213F/G.",
+      "antireqs": [
+        "RELSTUD 2213"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2240",
+      "suffix": "A/B",
+      "title": "INTERMEDIATE BIBLICAL HEBREW: PROSE",
+      "weight": 0.5,
+      "category": "A",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Hebrew 1041A/B, Jewish Studies 1041A/B, or Grade 6 Hebrew (Grade 3 in Israel), or permission of the instructor.",
+      "prereq": null,
+      "antireqText": "Hebrew 2240A/B, Grade 7 Hebrew (or Grade 4 in Israel).",
+      "antireqs": [
+        "HEBREW 2240"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2241",
+      "suffix": "A/B",
+      "title": "INTERMEDIATE BIBLICAL HEBREW: POETRY",
+      "weight": 0.5,
+      "category": "A",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Hebrew 1041A/B, Jewish Studies 1041A/B, or Grade 6 Hebrew (Grade 3 in Israel), or permission of the instructor.",
+      "prereq": null,
+      "antireqText": "Hebrew 2241A/B, Grade 7 Hebrew (or Grade 4 in Israel).",
+      "antireqs": [
+        "HEBREW 2241"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2255",
+      "suffix": "F/G",
+      "title": "THE BIBLICAL WISDOM LITERATURE",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2255F/G.",
+      "antireqs": [
+        "RELSTUD 2255"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2259",
+      "suffix": "F/G",
+      "title": "RELIGION AND SOCIETY IN THE MIDDLE EAST",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2259F/G.",
+      "antireqs": [
+        "RELSTUD 2259"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2260",
+      "suffix": "F/G",
+      "title": "TOPICS IN JUDAISM",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2260F/G.",
+      "antireqs": [
+        "RELSTUD 2260"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2286",
+      "suffix": "F/G",
+      "title": "INTRODUCTION TO JUDAISM",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2286F/G.",
+      "antireqs": [
+        "RELSTUD 2286"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2345",
+      "suffix": "F/G",
+      "title": "BIBLICAL STORYTELLING AND ADAPTATION",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2345F/G.",
+      "antireqs": [
+        "RELSTUD 2345"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2346",
+      "suffix": "F/G",
+      "title": "ANCIENT WISDOM",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2255F/G, Religious Studies 2346F/G.",
+      "antireqs": [
+        "RELSTUD 2255",
+        "RELSTUD 2346"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2347",
+      "suffix": "F/G",
+      "title": "LIVING THE BIBLE: LAW AND ETHICS",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2347F/G.",
+      "antireqs": [
+        "RELSTUD 2347"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2370",
+      "suffix": "F/G",
+      "title": "ANTISEMITISM",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "The former Jewish Studies 1370F/G.",
+      "antireqs": [
+        "JEWISH 1370"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2420",
+      "suffix": "A/B",
+      "title": "INTRODUCTION TO THE HEBREW BIBLE",
+      "weight": 0.5,
+      "category": "A",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2420A/B.",
+      "antireqs": [
+        "RELSTUD 2420"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2665",
+      "suffix": "F/G",
+      "title": "INTRODUCTION TO JEWISH PHILOSOPHY I: FROM THE BEGINNINGS TO THE ITALIAN RENAISSANCE",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Philosophy 2665F/G.",
+      "antireqs": [
+        "PHILOSOP 2665"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2667",
+      "suffix": "F/G",
+      "title": "INTRODUCTION TO JEWISH PHILOSOPHY II: EARLY MODERN TO CONTEMPORARY",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Philosophy 2667F/G.",
+      "antireqs": [
+        "PHILOSOP 2667"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2720",
+      "suffix": "F/G",
+      "title": "HEBREW BIBLE AS LITERATURE",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2720F/G.",
+      "antireqs": [
+        "RELSTUD 2720"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2790",
+      "suffix": "F/G",
+      "title": "SPECIAL TOPICS IN JEWISH STUDIES",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2791",
+      "suffix": "F/G",
+      "title": "SPECIAL TOPICS IN JEWISH STUDIES",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2792",
+      "suffix": "F/G",
+      "title": "SPECIAL TOPICS IN JEWISH STUDIES",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2821",
+      "suffix": "F/G",
+      "title": "JEWISH HISTORY FROM THE ORIGINS OF THE ISRAELITES TO 1492CE",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "History 2821F/G.",
+      "antireqs": [
+        "HISTORY 2821"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 2822",
+      "suffix": "F/G",
+      "title": "JEWISH HISTORY FROM THE SPANISH EXPULSION TO THE MODERN ERA",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 3175",
+      "suffix": "F/G",
+      "title": "KABBALAH: JEWISH MYSTICISM FROM MERKAVAH TO MADONNA",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 3175F/G.",
+      "antireqs": [
+        "RELSTUD 3175"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 3231",
+      "suffix": "F/G",
+      "title": "MONARCHS AND MESSIAHS IN THE BIBLICAL WORLD",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "Jewish Studies 2420A/B or equivalent, or permission of the instructor.",
+      "prereq": null,
+      "antireqText": "Religious Studies 3231F/G.",
+      "antireqs": [
+        "RELSTUD 3231"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 3300",
+      "suffix": "",
+      "title": "ADVANCED MODERN HEBREW LANGUAGE",
+      "weight": 1,
+      "category": "A",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Hebrew 2200, Jewish Studies 2200, or equivalent or by permission of the faculty.",
+      "prereq": null,
+      "antireqText": "Hebrew 3300.",
+      "antireqs": [
+        "HEBREW 3300"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 3403",
+      "suffix": "F/G",
+      "title": "READING THE THIRD REICH",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Global Great Books 3403F/G, History 3403F/G.",
+      "antireqs": [
+        "GGB 3403",
+        "HISTORY 3403"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 3416",
+      "suffix": "F/G",
+      "title": "THE HOLOCAUST",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "History 3416F/G, the former History 3427E.",
+      "antireqs": [
+        "HISTORY 3416",
+        "HISTORY 3427"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 3450",
+      "suffix": "F/G",
+      "title": "JUDAISM AND THE HOLOCAUST",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "Completion of first-year requirements including 1.0 course from Category A or 1.0 course in History.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 3453",
+      "suffix": "F/G",
+      "title": "SUFFERING, GRIEF & INJUSTICE",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 3453F/G; Thanatology 3453F/G.",
+      "antireqs": [
+        "RELSTUD 3453",
+        "THANAT 3453"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 3790",
+      "suffix": "F/G",
+      "title": "SPECIAL TOPICS IN JEWISH STUDIES",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 3791",
+      "suffix": "F/G",
+      "title": "SPECIAL TOPICS IN JEWISH STUDIES",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 3792",
+      "suffix": "F/G",
+      "title": "SPECIAL TOPICS IN JEWISH STUDIES",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 4040",
+      "suffix": "F/G",
+      "title": "PROPHETIC LITERATURE",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "Permission of the instructor.",
+      "prereq": null,
+      "antireqText": "Religious Studies 2213F/G, Religious Studies 4040F/G.",
+      "antireqs": [
+        "RELSTUD 2213",
+        "RELSTUD 4040"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 4790",
+      "suffix": "F/G",
+      "title": "SPECIAL TOPICS IN JEWISH STUDIES",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 4791",
+      "suffix": "F/G",
+      "title": "SPECIAL TOPICS IN JEWISH STUDIES",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "JEWISH 4792",
+      "suffix": "F/G",
+      "title": "SPECIAL TOPICS IN JEWISH STUDIES",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

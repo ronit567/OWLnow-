@@ -1,0 +1,28 @@
+{
+  "id": "21114",
+  "name": "MINOR IN SOFTWARE ENGINEERING",
+  "type": "Minor",
+  "area": "SOFTWARE ENGINEERING",
+  "faculty": "Faculty of Science",
+  "department": "Computer Science (Computer Science Program)",
+  "url": "https://westerncalendar.uwo.ca/Modules.cfm?ModuleID=21114&SelectedCalendar=Live&ArchiveID=",
+  "title": "MINOR IN SOFTWARE ENGINEERING Faculty of Science - Computer Science (Computer Science Program)",
+  "sections": [
+    {
+      "heading": "MINOR IN SOFTWARE ENGINEERING",
+      "lines": [
+        "Faculty of Science - Computer Science (Computer Science Program)",
+        "Registration in either the Honours Specialization in Computer Science or the Specialization in Computer Science.",
+        "Module",
+        "4.0 courses:",
+        "These courses must not have already been included in the Honours Specialization in Computer Science or the Specialization in Computer Science.",
+        "0.5 course: Computer Science 4470Y.",
+        "1.5 courses from: Computer Science 3377A/B, Computer Science 4471A/B, Computer Science 4472A/B, Computer Science 4473A/B, Computer Science 4474A/B, Computer Science 4475A/B, Computer Science 4476A/B/Y, Computer Science 4478A/B/Y, Science 3377A/B.",
+        "1.0 course from: Computer Science courses at the 3000 level or above, Data Science 3000A/B.",
+        "1.0 course from: Computer Science courses at the 3000-level or above; courses at the 2100 level or above in Applied Mathematics, Calculus, Mathematics, Statistical Sciences; courses numbered 2200 or above in Writing; Applied Mathematics 2402A, Philosophy 2720F/G."
+      ]
+    }
+  ],
+  "requirements": null,
+  "scraped": "2026-11-09"
+}

@@ -1,0 +1,439 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "ISLAMSTU 1070",
+      "suffix": "A/B",
+      "title": "QURANIC ARABIC FOR BEGINNERS",
+      "weight": 0.5,
+      "category": null,
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Arabic 1070A/B.",
+      "antireqs": [
+        "ARABIC 1070"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 2080",
+      "suffix": "A/B",
+      "title": "INTERMEDIATE QURANIC ARABIC",
+      "weight": 0.5,
+      "category": null,
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Arabic 1070A/B or Islamic Studies 1070A/B or permission of instructor.",
+      "prereq": null,
+      "antireqText": "Arabic 2080A/B.",
+      "antireqs": [
+        "ARABIC 2080"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 2162",
+      "suffix": "A/B",
+      "title": "LOVE, WINE, AND ECSTASY: THE POETRY OF RUMI",
+      "weight": 0.5,
+      "category": null,
+      "essay": false,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2162A/B.",
+      "antireqs": [
+        "RELSTUD 2162"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 2204",
+      "suffix": "F/G",
+      "title": "WORLD RELIGIONS: JUDAISM AND ISLAM",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Jewish Studies 2204F/G; Religious Studies 2130, Religious Studies 2204F/G.",
+      "antireqs": [
+        "JEWISH 2204",
+        "RELSTUD 2130",
+        "RELSTUD 2204"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 2262",
+      "suffix": "F/G",
+      "title": "TOPICS IN ISLAM",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2262F/G.",
+      "antireqs": [
+        "RELSTUD 2262"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 2264",
+      "suffix": "F/G",
+      "title": "ISLAMIC THOUGHT AND SPIRITUALITY",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2264F/G.",
+      "antireqs": [
+        "RELSTUD 2264"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 2285",
+      "suffix": "F/G",
+      "title": "INTRODUCTION TO ISLAM",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Islamic Studies 2620F/G, Religious Studies 2285F/G, Religious Studies 2620F/G.",
+      "antireqs": [
+        "ISLAMSTU 2620",
+        "RELSTUD 2285",
+        "RELSTUD 2620"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 2310",
+      "suffix": "F/G",
+      "title": "INTERPRETING THE QUR'AN (IN TRANSLATION)",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2310F/G.",
+      "antireqs": [
+        "RELSTUD 2310"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 2500",
+      "suffix": "F/G",
+      "title": "INTRODUCTION TO THE QUR'AN",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Islamic Studies 2310F/G, Religious Studies 2310F/G, Religious Studies 2500F/G.",
+      "antireqs": [
+        "ISLAMSTU 2310",
+        "RELSTUD 2310",
+        "RELSTUD 2500"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 2501",
+      "suffix": "F/G",
+      "title": "ISLAM TODAY",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2501F/G.",
+      "antireqs": [
+        "RELSTUD 2501"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 2502",
+      "suffix": "F/G",
+      "title": "GENDER IN ISLAM",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2502F/G.",
+      "antireqs": [
+        "RELSTUD 2502"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 2503",
+      "suffix": "F/G",
+      "title": "INTRODUCTION TO ISLAMIC MYSTICISM",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2503F/G.",
+      "antireqs": [
+        "RELSTUD 2503"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 2504",
+      "suffix": "F/G",
+      "title": "ISLAM AT THE CINEMA",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2504F/G.",
+      "antireqs": [
+        "RELSTUD 2504"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 2505",
+      "suffix": "F/G",
+      "title": "STORIES AND FIGURES IN THE BIBLE AND QUR'AN",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2505F/G.",
+      "antireqs": [
+        "RELSTUD 2505"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 2620",
+      "suffix": "F/G",
+      "title": "ISLAMIC THOUGHT, CULTURE AND PRACTICES",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Religious Studies 2285F/G; Religious Studies 2503F/G; Religious Studies 2620F/G.",
+      "antireqs": [
+        "RELSTUD 2285",
+        "RELSTUD 2503",
+        "RELSTUD 2620"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 3100",
+      "suffix": "F/G",
+      "title": "STUDIES IN THE SUNNAH AND HADITH",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "Religious Studies 2310F/G or Islamic Studies 2310F/G or Religious Studies 2500F/G or permission of the instructor.",
+      "prereq": null,
+      "antireqText": "Religious Studies 3100F/G.",
+      "antireqs": [
+        "RELSTUD 3100"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 3121",
+      "suffix": "F/G",
+      "title": "INTRODUCTION TO ISLAMIC ETHICS",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "Any 0.5 course in Religious Studies or Islamic Studies.",
+      "prereq": null,
+      "antireqText": "Religious Studies 3121F/G.",
+      "antireqs": [
+        "RELSTUD 3121"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 3130",
+      "suffix": "F/G",
+      "title": "ISLAM AND POLITICS",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "Any 0.5 course in Religious Studies or Islamic Studies.",
+      "prereq": null,
+      "antireqText": "Religious Studies 3130F/G.",
+      "antireqs": [
+        "RELSTUD 3130"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 3131",
+      "suffix": "A/B",
+      "title": "SPIRITUALITY OF MUSLIM WOMEN",
+      "weight": 0.5,
+      "category": null,
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Any 0.5 course in Religious Studies or Islamic Studies.",
+      "prereq": null,
+      "antireqText": "Religious Studies 3131A/B.",
+      "antireqs": [
+        "RELSTUD 3131"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 3210",
+      "suffix": "F/G",
+      "title": "ISLAM AND WELLNESS",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "Any 0.5 course in Religious Studies or Islamic Studies.",
+      "prereq": null,
+      "antireqText": "Religious Studies 3210F/G.",
+      "antireqs": [
+        "RELSTUD 3210"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 3211",
+      "suffix": "F/G",
+      "title": "KEY ISSUES IN ISLAMIC THEOLOGY",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "Any 0.5 course in Religious Studies or Islamic Studies.",
+      "prereq": null,
+      "antireqText": "Religious Studies 3211F/G.",
+      "antireqs": [
+        "RELSTUD 3211"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 3212",
+      "suffix": "F/G",
+      "title": "INTRODUCTION TO SUFI SPIRITUALITY",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "Any 0.5 course in Religious Studies or Islamic Studies.",
+      "prereq": null,
+      "antireqText": "Religious Studies 3212F/G.",
+      "antireqs": [
+        "RELSTUD 3212"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 3214",
+      "suffix": "F/G",
+      "title": "ISLAMIC PHILANTHROPY IN THE MODERN WORLD",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "Huron",
+      "prereqText": "Any university course in Religious Studies or Islamic Studies, or permission of the instructor.",
+      "prereq": null,
+      "antireqText": "Religious Studies 3214F/G.",
+      "antireqs": [
+        "RELSTUD 3214"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 3260",
+      "suffix": "A/B",
+      "title": "ADVANCED QURANIC ARABIC",
+      "weight": 0.5,
+      "category": null,
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Arabic 2080A/B or Islamic Studies 2080A/B or permission of instructor.",
+      "prereq": null,
+      "antireqText": "Arabic 3260A/B.",
+      "antireqs": [
+        "ARABIC 3260"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ISLAMSTU 3360",
+      "suffix": "F/G",
+      "title": "ISLAM, JUSTICE AND PEACE",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "1.0 essay course at the 2200 level or above.",
+      "prereq": null,
+      "antireqText": "Religious Studies 3360F/G; Social Justice and Peace Studies 3360F/G.",
+      "antireqs": [
+        "RELSTUD 3360",
+        "SOCLJUST 3360"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

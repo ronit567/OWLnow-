@@ -22,6 +22,8 @@ export interface Course {
   campus: "Main" | "Huron" | "King's";
   prereqText: string;
   prereq: Rule | null;
+  /** The calendar's antirequisite wording, as written. */
+  antireqText: string;
   antireqs: string[];
   offeredNextYear: boolean;
   /** Terms a half course runs in next year. */

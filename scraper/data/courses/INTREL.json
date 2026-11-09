@@ -1,0 +1,75 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "INTREL 2703",
+      "suffix": "F/G",
+      "title": "HISTORY OF THE GLOBAL ORDER SINCE 1945",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Registration in the Honours Specialization in International Relations module.",
+      "prereq": null,
+      "antireqText": "The former International Relations 2701E, the former International Relations 2702E.",
+      "antireqs": [
+        "INTREL 2701",
+        "INTREL 2702"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "INTREL 2704",
+      "suffix": "F/G",
+      "title": "CURRENT AFFAIRS IN WORLD POLITICS",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Registration in the Honours Specialization in International Relations module.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "INTREL 4703",
+      "suffix": "F/G",
+      "title": "CONTEMPORARY CHALLENGES IN THE GLOBAL COMMUNITY I",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Enrollment in year 4 of the Honours Specialization in International Relations Module, or permission of the departments.",
+      "prereq": null,
+      "antireqText": "The former International Relations 4701E, the former International Relations 4702E.",
+      "antireqs": [
+        "INTREL 4701",
+        "INTREL 4702"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "INTREL 4704",
+      "suffix": "F/G",
+      "title": "CONTEMPORARY CHALLENGES IN THE GLOBAL COMMUNITY II",
+      "weight": 0.5,
+      "category": "A",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Enrollment in year 4 of the Honours Specialization in International Relations Module, or permission of the departments.",
+      "prereq": null,
+      "antireqText": "Political Science 4704F/G, the former International Relations 4701E, the former International Relations 4702E.",
+      "antireqs": [
+        "POLISCI 4704",
+        "INTREL 4701",
+        "INTREL 4702"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

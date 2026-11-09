@@ -1,0 +1,34 @@
+{
+  "id": "21100",
+  "name": "MINOR IN ADVANCED PHYSICS",
+  "type": "Minor",
+  "area": "ADVANCED PHYSICS",
+  "faculty": "Faculty of Science",
+  "department": "Physics and Astronomy",
+  "url": "https://westerncalendar.uwo.ca/Modules.cfm?ModuleID=21100&SelectedCalendar=Live&ArchiveID=",
+  "title": "MINOR IN ADVANCED PHYSICS Faculty of Science - Physics and Astronomy",
+  "sections": [
+    {
+      "heading": "MINOR IN ADVANCED PHYSICS",
+      "lines": [
+        "Faculty of Science - Physics and Astronomy",
+        "Available only to those students who will complete an Honours Specialization or Specialization in Physics, Astrophysics, or Medical Physics.",
+        "Module",
+        "4.0 courses:",
+        "1.0 course: Physics 4999E.",
+        "1.0 course from:",
+        "Group A: Courses Involving Applied and Theoretical Physics",
+        "Physics 2300A/B or any Physics or Astronomy course numbered 3000 or higher.",
+        "1.0 course from:",
+        "Group B: Courses in the Mathematical Sciences",
+        "Applied Mathematics 2814A/B, Applied Mathematics 3811A/B, Mathematics 2700A/B, Statistical Sciences 2857A/B or any course numbered 3000 or higher in Applied Mathematics, Mathematics, Numerical and Mathematical Methods or Statistical Sciences.",
+        "1.0 course from: Group A or Group B, or Computer Science 2120A/B, Computer Science 2121A/B.",
+        "If any of the above 4.0 courses are taken as part of an Honours Specialization or Specialization in Physics, Astrophysics, or Medical Physics, alternative courses must be selected from Group A.",
+        "Note: This module, together with an Honours Specialization in Physics, Astrophysics, or Medical Physics is recommended for students considering graduate studies in one of these fields.",
+        "Note: The above courses may have prerequisites that are not included in the module."
+      ]
+    }
+  ],
+  "requirements": null,
+  "scraped": "2026-11-09"
+}

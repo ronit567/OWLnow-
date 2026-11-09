@@ -1,0 +1,32 @@
+{
+  "id": "20918",
+  "name": "CERTIFICATE IN WRITING",
+  "type": "Certificate",
+  "area": "WRITING",
+  "faculty": "Faculty of Arts and Humanities",
+  "department": "English and Writing Studies",
+  "url": "https://westerncalendar.uwo.ca/Modules.cfm?ModuleID=20918&SelectedCalendar=Live&ArchiveID=",
+  "title": "CERTIFICATE IN WRITING Faculty of Arts and Humanities - English and Writing Studies",
+  "sections": [
+    {
+      "heading": "CERTIFICATE IN WRITING",
+      "lines": [
+        "Faculty of Arts and Humanities - English and Writing Studies",
+        "Open to all students in the University, the Certificate Program in Writing aims to develop the general writing ability of students. All program courses may be credited toward other undergraduate programs. Any undergraduate student may apply for admission, subject to prerequisites and general University entrance requirements.",
+        "A grade of at least 65% in one of Writing 2101F/G, Writing 2111F/G, Writing 2130F/G, or Writing 2131F/G, or a grade of at least 70% in one of Writing 1000F/G, Writing 1031F/G or Writing 1035A/B is required for entrance to the program."
+      ]
+    },
+    {
+      "heading": "Program Requirements",
+      "lines": [
+        "To qualify for the Certificate in Writing, students must achieve an overall average of 70% in 3.0 courses:",
+        "0.5 course: Writing 2550A/B.",
+        "0.5 course: Writing 4998F/G.",
+        "2.0 Writing courses numbered 2200 and above.",
+        "Note: Other courses may be substituted with permission of the Undergraduate Program Director (Writing)."
+      ]
+    }
+  ],
+  "requirements": null,
+  "scraped": "2026-11-09"
+}

@@ -1,0 +1,53 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "HUMANIT 2110",
+      "suffix": "F/G",
+      "title": "INTRODUCTION TO THE WORLD OF ISLAM",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "HUMANIT 2111",
+      "suffix": "F/G",
+      "title": "INTRODUCTION TO THE WORLD OF ISLAM: CONTEMPORARY ISSUES",
+      "weight": 0.5,
+      "category": null,
+      "essay": true,
+      "campus": "King's",
+      "prereqText": "Humanities 2110F/G.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "HUMANIT 3001",
+      "suffix": "A/B",
+      "title": "EXPERIENTIAL LEARNING FOR THE HUMANITIES",
+      "weight": 0.5,
+      "category": null,
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "At least 3.0 credits in humanities courses (English, French, History, Philosophy, Political Science or Religious Studies) at the 2000-level and above. Enrolment in at least second year in a humanities module (English, French, History, Philosophy, Political Science or Religious Studies) at the time of application.",
+      "prereq": null,
+      "antireqText": "History 4808A/B; Political Science 4428A/B.",
+      "antireqs": [
+        "HISTORY 4808",
+        "POLISCI 4428"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "ARABIC 1020",
+      "suffix": "A/B",
+      "title": "INTRODUCTORY ARABIC",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Grade 12U Arabic. Arabic 1030, Arabic 1035, and Arabic 2050A/B",
+      "antireqs": [
+        "ARABIC 1030",
+        "ARABIC 1035",
+        "ARABIC 2050"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ARABIC 1030",
+      "suffix": "",
+      "title": "ARABIC FOR BEGINNERS",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Grade 12U Arabic and Arabic 1035.",
+      "antireqs": [
+        "ARABIC 1035"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ARABIC 1035",
+      "suffix": "",
+      "title": "BEGINNER ARABIC FOR HERITAGE SPEAKERS",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Grade 12U Arabic and Arabic 1030.",
+      "antireqs": [
+        "ARABIC 1030"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ARABIC 1050",
+      "suffix": "A/B",
+      "title": "SPOKEN ARABIC FOR NOVICES",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Grade 12U Arabic and Arabic 2050A/B.",
+      "antireqs": [
+        "ARABIC 2050"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ARABIC 1070",
+      "suffix": "A/B",
+      "title": "QURANIC ARABIC FOR BEGINNERS",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Islamic Studies 1070A/B.",
+      "antireqs": [
+        "ISLAMSTU 1070"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ARABIC 2050",
+      "suffix": "A/B",
+      "title": "ARABIC SPEAKING SKILLS",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ARABIC 2080",
+      "suffix": "A/B",
+      "title": "INTERMEDIATE QURANIC ARABIC",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Arabic 1070A/B or Islamic Studies 1070A/B or permission of instructor.",
+      "prereq": null,
+      "antireqText": "Islamic Studies 2080A/B.",
+      "antireqs": [
+        "ISLAMSTU 2080"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ARABIC 2250",
+      "suffix": "",
+      "title": "INTERMEDIATE ARABIC",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Arabic 1030, Arabic 1035 or Grade 12U Arabic, or permission of the Department.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ARABIC 3260",
+      "suffix": "A/B",
+      "title": "ADVANCED QURANIC ARABIC",
+      "weight": 0.5,
+      "category": "B",
+      "essay": false,
+      "campus": "Huron",
+      "prereqText": "Arabic 2080A/B or Islamic Studies 2080A/B or permission of instructor.",
+      "prereq": null,
+      "antireqText": "Islamic Studies 3260A/B.",
+      "antireqs": [
+        "ISLAMSTU 3260"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ARABIC 3300",
+      "suffix": "",
+      "title": "ADVANCED ARABIC",
+      "weight": 1,
+      "category": "B",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Arabic 2250 or permission of the Department.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

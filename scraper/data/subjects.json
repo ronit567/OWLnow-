@@ -1,0 +1,1089 @@
+{
+  "scraped": "2026-11-08",
+  "subjects": [
+    {
+      "code": "ACTURSCI",
+      "name": "Actuarial Science",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ACTURSCI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "ASL",
+      "name": "American Sign Language",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ASL&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "AMERICAN",
+      "name": "American Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=AMERICAN&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "ADS",
+      "name": "Analytics and Decision Sciences",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ADS&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "ANATCELL",
+      "name": "Anatomy and Cell Biology",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ANATCELL&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "AESL",
+      "name": "Animal Ethics and Sustainability Leadership",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=AESL&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "ANTHRO",
+      "name": "Anthropology",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ANTHRO&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "APPLMATH",
+      "name": "Applied Mathematics",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=APPLMATH&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "ARABIC",
+      "name": "Arabic",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ARABIC&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "AH",
+      "name": "Art History",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=AH&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "AISE",
+      "name": "Artificial Intelligence Systems Engineering",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=AISE&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "ARTHUM",
+      "name": "Arts and Humanities",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ARTHUM&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "ASTRONOM",
+      "name": "Astronomy",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ASTRONOM&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "BIOCHEM",
+      "name": "Biochemistry",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=BIOCHEM&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "BIOLOGY",
+      "name": "Biology",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=BIOLOGY&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "BME",
+      "name": "Biomedical Engineering",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=BME&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "BIOSTATS",
+      "name": "Biostatistics",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=BIOSTATS&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "BLST",
+      "name": "Black Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=BLST&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "code": "BUSINESS",
+      "name": "Business Administration",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=BUSINESS&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "CALCULUS",
+      "name": "Calculus",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=CALCULUS&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "CANADIAN",
+      "name": "Canadian Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=CANADIAN&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "CBE",
+      "name": "Chemical and Biochemical Engineering",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=CBE&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "CHEM",
+      "name": "Chemistry",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=CHEM&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "CYS",
+      "name": "Childhood and Youth Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=CYS&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "CHINESE",
+      "name": "Chinese",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=CHINESE&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "CEE",
+      "name": "Civil and Environmental Engineering",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=CEE&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "CLASSICS",
+      "name": "Classical Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=CLASSICS&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "COMMSCI",
+      "name": "Communication Sciences and Disorders",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=COMMSCI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "COMPLIT",
+      "name": "Comparative Literature and Culture",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=COMPLIT&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "COMPSCI",
+      "name": "Computer Science",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=COMPSCI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "CA",
+      "name": "Creative Arts",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=CA&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "code": "DANCE",
+      "name": "Dance",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=DANCE&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "DATASCI",
+      "name": "Data Science",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=DATASCI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "DENTIST",
+      "name": "Dentistry",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=DENTIST&SelectedCalendar=Live&ArchiveID=",
+      "categories": []
+    },
+    {
+      "code": "DIGICOMM",
+      "name": "Digital Communication",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=DIGICOMM&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "DIGIHUM",
+      "name": "Digital Humanities",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=DIGIHUM&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "DISABST",
+      "name": "Disability Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=DISABST&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "EARTHSCI",
+      "name": "Earth Sciences",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=EARTHSCI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "EASTASIA",
+      "name": "East Asia Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=EASTASIA&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "ECONOMIC",
+      "name": "Economics",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ECONOMIC&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "EDUC",
+      "name": "Education",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=EDUC&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "ECE",
+      "name": "Electrical and Computer Engineering",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ECE&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "ELI",
+      "name": "Engineering Leadership and Innovation",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ELI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "ENGSCI",
+      "name": "Engineering Science",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ENGSCI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "ENGLISH",
+      "name": "English",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ENGLISH&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "ENVIRSCI",
+      "name": "Environmental Science",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ENVIRSCI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "EPID",
+      "name": "Epidemiology",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=EPID&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "EPIDEMIO",
+      "name": "Epidemiology and Biostatistics",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=EPIDEMIO&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "FIMS",
+      "name": "Faculty of Information and Media Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=FIMS&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "FAMLYSTU",
+      "name": "Family Studies and Human Development",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=FAMLYSTU&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "FILM",
+      "name": "Film Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=FILM&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "FINMOD",
+      "name": "Financial Modelling",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=FINMOD&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "FOODNUTR",
+      "name": "Foods and Nutrition",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=FOODNUTR&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "FRENCH",
+      "name": "French",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=FRENCH&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "GSWS",
+      "name": "Gender, Sexuality, and Women’s Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=GSWS&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "code": "GEOGENV",
+      "name": "Geography and Environment",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=GEOGENV&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "GERMAN",
+      "name": "German",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=GERMAN&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "GGB",
+      "name": "Global Great Books",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=GGB&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "GSI",
+      "name": "Global Social Innovation",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=GSI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "GLE",
+      "name": "Governance, Leadership and Ethics",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=GLE&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "GREEK",
+      "name": "Greek",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=GREEK&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "HEALTSCI",
+      "name": "Health Sciences",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=HEALTSCI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "HEBREW",
+      "name": "Hebrew",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=HEBREW&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "HINDI",
+      "name": "Hindi",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=HINDI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "HISTORY",
+      "name": "History",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=HISTORY&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "HISTSCI",
+      "name": "History of Science",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=HISTSCI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "HUMANECO",
+      "name": "Human Ecology",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=HUMANECO&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "HUMANRS",
+      "name": "Human Rights Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=HUMANRS&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "HUMANIT",
+      "name": "Humanities",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=HUMANIT&SelectedCalendar=Live&ArchiveID=",
+      "categories": []
+    },
+    {
+      "code": "INDIGSTU",
+      "name": "Indigenous Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=INDIGSTU&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "IE",
+      "name": "Integrated Engineering",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=IE&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "INTEGSCI",
+      "name": "Integrated Science",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=INTEGSCI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "ICC",
+      "name": "Intercultural Communications",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ICC&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "INTERDIS",
+      "name": "Interdisciplinary Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=INTERDIS&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "INTREL",
+      "name": "International Relations",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=INTREL&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "ISLAMSTU",
+      "name": "Islamic Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ISLAMSTU&SelectedCalendar=Live&ArchiveID=",
+      "categories": []
+    },
+    {
+      "code": "ITALIAN",
+      "name": "Italian",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ITALIAN&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "ITALST",
+      "name": "Italian Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ITALST&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "JAPANESE",
+      "name": "Japanese",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=JAPANESE&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "JEWISH",
+      "name": "Jewish Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=JEWISH&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "KINESIOL",
+      "name": "Kinesiology",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=KINESIOL&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "KOREAN",
+      "name": "Korean",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=KOREAN&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "LATIN",
+      "name": "Latin",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=LATIN&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "LAW",
+      "name": "Law",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=LAW&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "LS",
+      "name": "Leadership Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=LS&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "LINGUIST",
+      "name": "Linguistics",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=LINGUIST&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "code": "MOS",
+      "name": "Management and Organizational Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=MOS&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "MATH",
+      "name": "Mathematics",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=MATH&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "MME",
+      "name": "Mechanical and Materials Engineering",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=MME&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "MSE",
+      "name": "Mechatronic Systems Engineering",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=MSE&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "MEDIACOM",
+      "name": "Media and Communication Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=MEDIACOM&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "MBI",
+      "name": "Medical Bioinformatics",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=MBI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "MEDBIO",
+      "name": "Medical Biophysics",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=MEDBIO&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "MEDSCIEN",
+      "name": "Medical Sciences",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=MEDSCIEN&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "MEDIEVAL",
+      "name": "Medieval Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=MEDIEVAL&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "MICROIMM",
+      "name": "Microbiology and Immunology",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=MICROIMM&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "MCS",
+      "name": "Museum and Curatorial Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=MCS&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "MUSIC",
+      "name": "Music",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=MUSIC&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "NEURO",
+      "name": "Neuroscience",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=NEURO&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "NMM",
+      "name": "Numerical and Mathematical Methods",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=NMM&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "NURSING",
+      "name": "Nursing",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=NURSING&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "ONEHEALT",
+      "name": "One Health",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=ONEHEALT&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "PATHOL",
+      "name": "Pathology",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=PATHOL&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "PERSIAN",
+      "name": "Persian",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=PERSIAN&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "PHARM",
+      "name": "Pharmacology",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=PHARM&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "PHILOSOP",
+      "name": "Philosophy",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=PHILOSOP&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "PHYSICS",
+      "name": "Physics",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=PHYSICS&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "PHYSIOL",
+      "name": "Physiology",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=PHYSIOL&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "PHYSPHRM",
+      "name": "Physiology and Pharmacology",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=PHYSPHRM&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "POLISCI",
+      "name": "Political Science",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=POLISCI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "PPE",
+      "name": "Politics, Philosophy, and Economics",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=PPE&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "PORTUGSE",
+      "name": "Portuguese",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=PORTUGSE&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "PSYCHOL",
+      "name": "Psychology",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=PSYCHOL&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "PUBHEALT",
+      "name": "Public Health",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=PUBHEALT&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "REHABSCI",
+      "name": "Rehabilitation Sciences",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=REHABSCI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "RELSTUD",
+      "name": "Religious Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=RELSTUD&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "RUSSIAN",
+      "name": "Russian",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=RUSSIAN&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "SCHOLARS",
+      "name": "Scholars Electives",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=SCHOLARS&SelectedCalendar=Live&ArchiveID=",
+      "categories": []
+    },
+    {
+      "code": "SASAH",
+      "name": "School for Advanced Studies in Arts and Humanities",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=SASAH&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "SCIENCE",
+      "name": "Science",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=SCIENCE&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "SOCLJUST",
+      "name": "Social Justice and Peace Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=SOCLJUST&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "SOCSCI",
+      "name": "Social Science",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=SOCSCI&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "SOCWORK",
+      "name": "Social Work",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=SOCWORK&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "SOCIOLOG",
+      "name": "Sociology",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=SOCIOLOG&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "SE",
+      "name": "Software Engineering",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=SE&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "SPANISH",
+      "name": "Spanish",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=SPANISH&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "SPEECH",
+      "name": "Speech",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=SPEECH&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "STATS",
+      "name": "Statistical Sciences",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=STATS&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "C"
+      ]
+    },
+    {
+      "code": "SA",
+      "name": "Studio Art",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=SA&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "THANAT",
+      "name": "Thanatology",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=THANAT&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "TNLA",
+      "name": "The New Liberal Arts",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=TNLA&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "THEATRE",
+      "name": "Theatre Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=THEATRE&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "THEOLST",
+      "name": "Theological Studies",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=THEOLST&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "TJ",
+      "name": "Transitional Justice",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=TJ&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "A"
+      ]
+    },
+    {
+      "code": "WORLDLIT",
+      "name": "World Literatures and Cultures",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=WORLDLIT&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    },
+    {
+      "code": "WRITING",
+      "name": "Writing",
+      "url": "https://westerncalendar.uwo.ca/Courses.cfm?Subject=WRITING&SelectedCalendar=Live&ArchiveID=",
+      "categories": [
+        "B"
+      ]
+    }
+  ]
+}

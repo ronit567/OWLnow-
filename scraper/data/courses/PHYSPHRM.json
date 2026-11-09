@@ -1,0 +1,193 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "PHYSPHRM 2000",
+      "suffix": "",
+      "title": "INTRODUCTION TO THE INTEGRATION OF HUMAN PHYSIOLOGY AND PHARMACOLOGY",
+      "weight": 1,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "Physiology 1020, Physiology 1021, Physiology 2130, Physiology 3120, Pharmacology 2060A/B, Pharmacology 3620.",
+      "antireqs": [
+        "PHYSIOL 1020",
+        "PHYSIOL 1021",
+        "PHYSIOL 2130",
+        "PHYSIOL 3120",
+        "PHARM 2060",
+        "PHARM 3620"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "PHYSPHRM 3000",
+      "suffix": "E",
+      "title": "PHYSIOLOGY AND PHARMACOLOGY LABORATORY",
+      "weight": 1,
+      "category": "C",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Biochemistry 2280A; a minimum average of 75% in the Fall/Winter of the most recent academic year; and registration in either a Major or Honours Specialization module offered by the Department of Physiology and Pharmacology or in the Honours Specialization in Biochemistry and Cancer Biology.",
+      "prereq": null,
+      "antireqText": "Medical Sciences 3990E.",
+      "antireqs": [
+        "MEDSCIEN 3990"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "PHYSPHRM 4100",
+      "suffix": "A/B",
+      "title": "DIGESTION AND RELATED METABOLISM",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Physiology 3120.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "PHYSPHRM 4440",
+      "suffix": "A/B",
+      "title": "ANIMAL AND CELL MODELLING OF DEVELOPMENT AND DISEASE",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Physiology 3140A.",
+      "prereq": null,
+      "antireqText": "The former Physiology 4640A/B.",
+      "antireqs": [
+        "PHYSIOL 4640"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "PHYSPHRM 4530",
+      "suffix": "A/B",
+      "title": "BIOLOGICAL BASES OF SKELETAL HEALTH AND DISEASE",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Physiology 3120, Physiology 3140A and Physiology and Pharmacology 3000E; or Physiology 3120 (with a mark of at least 75%) and Physiology 3140A.",
+      "prereq": null,
+      "antireqText": "The former Physiology 4530A/B.",
+      "antireqs": [
+        "PHYSIOL 4530"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "PHYSPHRM 4750",
+      "suffix": "A/B",
+      "title": "NEUROBIOLOGY OF AGING/AGING BRAIN",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "(Either Physiology 3120 or Pharmacology 3620, and one of Physiology 3140A or Biology 3316A/B) or (Neuroscience 2000 and Physiology 3140A and registration in Year 4 of an Honours Specialization in Neuroscience).",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "PHYSPHRM 4760",
+      "suffix": "A/B",
+      "title": "PRINCIPLES OF MODERN DRUG DISCOVERY",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "One of Pharmacology 3620, Physiology 3140A, Biochemistry 3381A.",
+      "prereq": null,
+      "antireqText": "The former Pharmacology 4620A/B.",
+      "antireqs": [
+        "PHARM 4620"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "PHYSPHRM 4800",
+      "suffix": "A/B",
+      "title": "SELECTED TOPICS IN PHYSIOLOGY AND PHARMACOLOGY",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Physiology 3120 or Pharmacology 3620.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "PHYSPHRM 4985",
+      "suffix": "E",
+      "title": "RESEARCH PROJECT",
+      "weight": 1,
+      "category": "C",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Physiology and Pharmacology 3000E, Physiology 3120, and Physiology 3140A; and registration in Year 4 of an Honours Specialization offered by the Department of Physiology and Pharmacology.",
+      "prereq": null,
+      "antireqText": "Anatomy and Cell Biology 4985E, Biochemistry 4484E, Biochemistry 4985E, Epidemiology and Biostatistics 4900E, Epidemiology and Biostatistics 4985E, Medical Bioinformatics 4985E, Medical Biophysics 4985E, Medical Sciences 4000E, Medical Sciences 4990E, Microbiology and Immunology 4985E, One Health 4985E, Pathology 4985E, the former Anatomy and Cell Biology 4480E, the former Biochemistry 4483E, the former Chemical Biology 4500E, the former Medical Bioinformatics 4980E, the former Medical Biophysics 4970E, the former Medical Biophysics 4971E, the former Microbiology and Immunology 4970E, the former One Health 4980E, the former Pathology 4980E, the former Physiology and Pharmacology 4980E.",
+      "antireqs": [
+        "ANATCELL 4985",
+        "BIOCHEM 4484",
+        "BIOCHEM 4985",
+        "EPIDEMIO 4900",
+        "EPIDEMIO 4985",
+        "MBI 4985",
+        "MEDBIO 4985",
+        "MEDSCIEN 4000",
+        "MEDSCIEN 4990",
+        "MICROIMM 4985",
+        "ONEHEALT 4985",
+        "PATHOL 4985",
+        "ANATCELL 4480",
+        "BIOCHEM 4483",
+        "BIOLOGY 4500",
+        "MBI 4980",
+        "MEDBIO 4970",
+        "MEDBIO 4971",
+        "MICROIMM 4970",
+        "ONEHEALT 4980",
+        "PATHOL 4980",
+        "PHYSPHRM 4980"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "PHYSPHRM 4986",
+      "suffix": "Y",
+      "title": "SKILLS FOR RESEARCH SUCCESS: COMMUNICATION AND CRITICAL APPRAISAL",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Registration in Year 4 of an Honours Specialization offered by the Department of Physiology and Pharmacology.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

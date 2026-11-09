@@ -1,0 +1,150 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "SCIENCE 1150",
+      "suffix": "",
+      "title": "SCIENCE CO-OP WORK TERM",
+      "weight": 3,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Enrolment in Science 3391. Approval of, and acceptance into, a co-op work term.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "SCIENCE 2250",
+      "suffix": "",
+      "title": "SCIENCE CO-OP WORK TERM",
+      "weight": 3,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Enrolment in Science 3391. Approval of, and acceptance into, a co-op work term.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "SCIENCE 3351",
+      "suffix": "",
+      "title": "SCIENCE CO-OP WORK TERM",
+      "weight": 3,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Enrolment in Science 3391. Approval of, and acceptance into, a co-op work term.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "SCIENCE 3352",
+      "suffix": "",
+      "title": "SCIENCE CO-OP WORK TERM",
+      "weight": 3,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Enrolment in Science 3391. Approval of, and acceptance into, a co-op work term.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "SCIENCE 3353",
+      "suffix": "",
+      "title": "SCIENCE CO-OP WORK TERM",
+      "weight": 3,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Enrolment in Science 3391. Approval of, and acceptance into, a co-op work term.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "SCIENCE 3354",
+      "suffix": "",
+      "title": "SCIENCE CO-OP WORK TERM",
+      "weight": 3,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Enrolment in Science 3391. Approval of, and acceptance into, a co-op work term.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "SCIENCE 3377",
+      "suffix": "A/B",
+      "title": "PROJECT MANAGEMENT FOR THE SCIENCES",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Registration in third or fourth year of any module in the Faculty of Science or Schulich School of Medicine & Dentistry.",
+      "prereq": null,
+      "antireqText": "Computer Science 3377A/B, Software Engineering 3351A/B.",
+      "antireqs": [
+        "COMPSCI 3377",
+        "SE 3351"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "SCIENCE 3391",
+      "suffix": "",
+      "title": "CO-OP PREPARATION, EXPERIENCE AND REFLECTION",
+      "weight": 1,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "",
+      "prereq": null,
+      "antireqText": "The former Science 3390Y.",
+      "antireqs": [
+        "SCIENCE 3390"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "SCIENCE 3450",
+      "suffix": "F/G",
+      "title": "UNIVERSITY SCIENCE EDUCATION",
+      "weight": 0.5,
+      "category": "C",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Enrollment in third year (or higher) of a module offered by the Faculty of Science.",
+      "prereq": null,
+      "antireqText": "Biology 3224F/G if taken in Winter 2016, 2017 or 2018.",
+      "antireqs": [
+        "BIOLOGY 3224",
+        "BIOLOGY 2016",
+        "BIOLOGY 2017",
+        "BIOLOGY 2018"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

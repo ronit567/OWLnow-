@@ -1,0 +1,132 @@
+{
+  "scraped": "2026-11-08",
+  "courses": [
+    {
+      "key": "ENVIRSCI 1021",
+      "suffix": "F/G",
+      "title": "ENVIRONMENTAL SCIENCE AND SUSTAINABILITY",
+      "weight": 0.5,
+      "category": "C",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Priority will be given to students in their first year at Western.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ENVIRSCI 2200",
+      "suffix": "Z",
+      "title": "ENVIRONMENT AND SUSTAINABILITY ON THE ISLAND OF IRELAND",
+      "weight": 0.5,
+      "category": "C",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Enrolment in the HON SPZ in One Health or a module offered by one of the following departments: Environmental Science, Biology, Chemistry, Earth Science, Integrated Science, Geography and Environment, Political Science, or permission of the instructor.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ENVIRSCI 2300",
+      "suffix": "F/G",
+      "title": "FOUNDATIONS IN ENVIRONMENTAL SCIENCE",
+      "weight": 0.5,
+      "category": "C",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Environmental Science 1021F/G, or any 0.5 Earth Sciences course at the 1000 level, or registration in any module within the Faculty of Science or Schulich School of Medicine and Dentistry, or permission of the Department.",
+      "prereq": null,
+      "antireqText": "the former Environmental Science 3300F/G.",
+      "antireqs": [
+        "ENVIRSCI 3300"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ENVIRSCI 2400",
+      "suffix": "A/B",
+      "title": "ENVIRONMENTAL SCIENCE IN THE FIELD",
+      "weight": 0.5,
+      "category": "C",
+      "essay": false,
+      "campus": "Main",
+      "prereqText": "Enrollment in any Environmental Science module, Honours Specialization in Integrated Science, or permission of the Department.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ENVIRSCI 3350",
+      "suffix": "F/G",
+      "title": "RESEARCH TECHNIQUES IN ENVIRONMENTAL SCIENCE",
+      "weight": 0.5,
+      "category": "C",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Environmental Science 2300F/G or the former Environmental Science 3300F/G, or permission of the Department.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ENVIRSCI 4949",
+      "suffix": "F/G",
+      "title": "SELECTED TOPICS IN ENVIRONMENTAL SCIENCE",
+      "weight": 0.5,
+      "category": "C",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Enrolment in the final year of the Honours Specialization or Specialization in Environmental Science.",
+      "prereq": null,
+      "antireqText": "",
+      "antireqs": [],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ENVIRSCI 4970",
+      "suffix": "F/G",
+      "title": "INDEPENDENT STUDY IN ENVIRONMENTAL SCIENCE",
+      "weight": 0.5,
+      "category": "C",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Enrolment in Year 4 of the Specialization or Major module in Environmental Science. Students must have arranged a project with a supervisor before completing registration.",
+      "prereq": null,
+      "antireqText": "Environmental Science 4999E.",
+      "antireqs": [
+        "ENVIRSCI 4999"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    },
+    {
+      "key": "ENVIRSCI 4999",
+      "suffix": "E",
+      "title": "SENIOR THESIS",
+      "weight": 1,
+      "category": "C",
+      "essay": true,
+      "campus": "Main",
+      "prereqText": "Registration in year 4 of an Honours Specialization offered by the Department of Earth Sciences, or permission of the Department.",
+      "prereq": null,
+      "antireqText": "Earth Sciences 4490E, Environmental Science 4970F/G.",
+      "antireqs": [
+        "EARTHSCI 4490",
+        "ENVIRSCI 4970"
+      ],
+      "offeredNextYear": true,
+      "terms": []
+    }
+  ]
+}

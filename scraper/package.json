@@ -1,0 +1,13 @@
+{
+  "name": "@owlnow/scraper",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "courses": "node src/courses.ts",
+    "modules": "node src/modules.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}

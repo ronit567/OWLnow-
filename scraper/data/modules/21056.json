@@ -1,0 +1,31 @@
+{
+  "id": "21056",
+  "name": "HONOURS SPECIALIZATION IN DATA SCIENCE",
+  "type": "Honours Specialization",
+  "area": "DATA SCIENCE",
+  "faculty": "Faculty of Science",
+  "department": "Statistical and Actuarial Sciences",
+  "url": "https://westerncalendar.uwo.ca/Modules.cfm?ModuleID=21056&SelectedCalendar=Live&ArchiveID=",
+  "title": "HONOURS SPECIALIZATION IN DATA SCIENCE Faculty of Science - Statistical and Actuarial Sciences",
+  "sections": [
+    {
+      "heading": "HONOURS SPECIALIZATION IN DATA SCIENCE",
+      "lines": [
+        "Faculty of Science - Statistical and Actuarial Sciences",
+        "This module is jointly offered by the Department of Computer Science and the Department of Statistical and Actuarial Sciences.",
+        "Completion of first-year requirements with no failures. Students must have an average of at least 70% in 3.0 principal courses, including (Calculus 1000A/B or Calculus 1500A/B) and (Calculus 1501A/B or (Calculus 1301A/B with a mark of at least 85%)), Mathematics 1600A/B or Mathematics 1700A/B, Computer Science 1026A/B or Data Science 1200A/B (either with a mark of at least 65%), Computer Science 1027A/B (with a mark of at least 65%) plus 0.5 additional principal courses, with no mark less than 60% in any of the 3.0 principal courses.",
+        "Recommended course: Data Science 1000A/B or Statistical Sciences 1024A/B or Statistical Sciences 1023A/B.",
+        "Note: Numerical and Mathematical Methods 1412A/B or the former Applied Mathematics 1412A/B and Numerical and Mathematical Methods 1414A/B or the former Applied Mathematics 1414A/B (or the former Applied Mathematics 1413) may be substituted for the 1.0 Calculus requirement. Numerical and Mathematical Methods 1411A/B or the former Applied Mathematics 1411A/B may be substituted for Mathematics 1600A/B or Mathematics 1700A/B. If not taken in the first year, Mathematics 1600A/B or Mathematics 1700A/B (or Numerical and Mathematical Methods 1411A/B) must be completed prior to the second term of second year.",
+        "Module",
+        "10 courses:",
+        "3.5 courses: Data Science 2000A/B, Computer Science 2210A/B, Computer Science 2211A/B, Computer Science 2212A/B/Y, Statistical Sciences 2857A/B, Statistical Sciences 2858A/B, Statistical Sciences 2864A/B.",
+        "0.5 course from: Computer Science 2214A/B, Mathematics 2151A/B, Mathematics 2155F/G.",
+        "4.0 courses: Data Science 3000A/B (or the former Computer Science 4414A/B, the former Statistical Sciences 3850F/G, the former Software Engineering 4460A/B), Computer Science 3319A/B, Computer Science 3340A/B, Statistical Sciences 3843A/B, Statistical Sciences 3859A/B, Statistical Sciences 3860A/B, Statistical Sciences 4850F/G, Data Science 4999Z.",
+        "1.5 courses from: Computer Science 3346A/B, Computer Science 3377A/B (or Science 3377A/B), Computer Science 4411A/B, Computer Science 4416A/B, Computer Science 4417A/B, Computer Science 4418A/B, Computer Science 4451A/B, Computer Science 4452A/B (or the former Computer Science 4442A/B), Computer Science 4453A/B, Statistical Sciences 4844F/G, Statistical Sciences 4860A/B, Statistical Sciences 4864A/B, Statistical Sciences 4960F/G.",
+        "0.5 course from: Any 4000-level course in Computer Science, Statistical Sciences, or Data Science."
+      ]
+    }
+  ],
+  "requirements": null,
+  "scraped": "2026-11-09"
+}

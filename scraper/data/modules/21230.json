@@ -1,0 +1,25 @@
+{
+  "id": "21230",
+  "name": "MINOR IN PHILOSOPHY",
+  "type": "Minor",
+  "area": "PHILOSOPHY",
+  "faculty": "King's University College",
+  "department": "Philosophy",
+  "url": "https://westerncalendar.uwo.ca/Modules.cfm?ModuleID=21230&SelectedCalendar=Live&ArchiveID=",
+  "title": "MINOR IN PHILOSOPHY Philosophy",
+  "sections": [
+    {
+      "heading": "MINOR IN PHILOSOPHY",
+      "lines": [
+        "Philosophy",
+        "Completion of first-year requirements.",
+        "Module",
+        "4.0 courses:",
+        "2.0 courses in Philosophy at the 2000 level or above.",
+        "2.0 courses in Philosophy at the 2200 level or above."
+      ]
+    }
+  ],
+  "requirements": null,
+  "scraped": "2026-11-09"
+}
