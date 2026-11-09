@@ -2,7 +2,7 @@
 // fix pages.ts and these samples together.
 import { describe, expect, it } from "vitest";
 import { antireqKeys, isEssay, toCourses } from "./convert.ts";
-import { coursesFromSubjectPage, splitFacts, subjectsFromCoursesPage } from "./pages.ts";
+import { coursesFromSubjectPage, moduleLinks, pageText, splitFacts, subjectsFromCoursesPage } from "./pages.ts";
 
 const coursesPage = `<table>
   <tr><td><a href="Courses.cfm?Subject=COMPSCI&amp;SelectedCalendar=Live&amp;ArchiveID=">Computer Science</a></td><td>CATEGORY C</td></tr>
@@ -91,5 +91,53 @@ describe("calendar pages", () => {
   it("counts E, F, G and Z as essay suffixes", () => {
     expect(["E", "F/G", "G", "Z", "F/G/Z"].every(isEssay)).toBe(true);
     expect(["", "A/B", "Y", "A/B/Y", "Q/R/S/T"].some(isEssay)).toBe(false);
+  });
+});
+
+describe("module and degree pages", () => {
+  it("reads each module bubble with its row's area, faculty and department", () => {
+    const bubble = (id: string, type: string) =>
+      `<a href="./Modules.cfm?ModuleID=${id}&SelectedCalendar=Live&ArchiveID="><img src="x.png" title="${type}" alt="${type}"></a>`;
+    const links = moduleLinks(`<table><thead><tr><th>Area of Study</th><th>Faculty</th><th>Department</th><th>Modules</th></tr></thead><tbody>
+      <tr><td><div>COMPUTER SCIENCE</div></td><td><div><a href="./Faculties.cfm?FacultyID=1">Faculty of Science</a></div></td>
+        <td><div><a href="./Departments.cfm?DepartmentID=2">Computer Science</a></div></td>
+        <td><div>${bubble("21580", "Honours Specialization")}${bubble("21600", "Minor")}${bubble("21580", "Honours Specialization")}</div></td></tr>
+      </tbody></table>`);
+    expect(links.map((m) => m.id)).toEqual(["21580", "21600"]);
+    expect(links[0]).toEqual({
+      id: "21580",
+      name: "Honours Specialization in COMPUTER SCIENCE",
+      type: "Honours Specialization",
+      area: "COMPUTER SCIENCE",
+      faculty: "Faculty of Science",
+      department: "Computer Science",
+      url: "https://westerncalendar.uwo.ca/Modules.cfm?ModuleID=21580&SelectedCalendar=Live&ArchiveID=",
+    });
+    expect(links[1].type).toBe("Minor");
+  });
+
+  it("keeps the wording under its headings and drops the navigation", () => {
+    const page = pageText(`<html><head><title>Calendar</title></head><body>
+      <div class="container"><nav>Home</nav><p>Skip to content</p></div>
+      <div class="container">
+        <h2>Honours Specialization in Computer Science</h2>
+        <h3>Admission
+          Requirements</h3>
+        <p>Completion of first-year
+           requirements with no failures.</p>
+        <p>First line<br>Second line</p>
+        <h4>Return to top</h4>
+        <h3></h3>
+        <h3>Module</h3>
+        <table><tr><td>1.0 course from:</td><td>Computer Science 1027A/B, 1037A/B</td></tr></table>
+        <ul><li>0.5 course: Mathematics 1600A/B</li></ul>
+        <form>Search</form><script>var x = 1;</script>
+      </div></body></html>`);
+    expect(page.title).toBe("Honours Specialization in Computer Science");
+    expect(page.sections).toEqual([
+      { heading: "Honours Specialization in Computer Science", lines: [] },
+      { heading: "Admission Requirements", lines: ["Completion of first-year requirements with no failures.", "First line", "Second line"] },
+      { heading: "Module", lines: ["1.0 course from: Computer Science 1027A/B, 1037A/B", "0.5 course: Mathematics 1600A/B"] },
+    ]);
   });
 });

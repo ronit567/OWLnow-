@@ -1,0 +1,28 @@
+{
+  "id": "21604",
+  "name": "MINOR IN DATA SCIENCE",
+  "type": "Minor",
+  "area": "DATA SCIENCE",
+  "faculty": "Faculty of Science",
+  "department": "Statistical and Actuarial Sciences",
+  "url": "https://westerncalendar.uwo.ca/Modules.cfm?ModuleID=21604&SelectedCalendar=Live&ArchiveID=",
+  "title": "MINOR IN DATA SCIENCE Faculty of Science - Statistical and Actuarial Sciences",
+  "sections": [
+    {
+      "heading": "MINOR IN DATA SCIENCE",
+      "lines": [
+        "Faculty of Science - Statistical and Actuarial Sciences",
+        "Completion of first-year requirements, including the following with no mark less than 60% in any of these courses: Calculus 1000A/B or Calculus 1500A/B, Calculus 1501A/B (or Calculus 1301A/B with a mark of at least 85%); Mathematics 1600A/B or Mathematics 1700A/B or the former Applied Mathematics 1411A/B, Computer Science 1026A/B (with a mark of at least 65%), Computer Science 1027A/B (with a mark of at least 65%).",
+        "Recommended (but not required) first-year courses: Data Science 1000A/B and/or Statistical Sciences 1023A/B; or the former Statistical Sciences 1024A/B.",
+        "Note: Numerical and Mathematical Methods 1412A/B and Numerical and Mathematical Methods 1414A/B; or the former Applied Mathematics 1412A/B and the former Applied Mathematics 1414A/B or the former Applied Mathematics 1413 may be substituted for the 1.0 Calculus course requirement. Numerical and Mathematical Methods 1411A/B or the former Applied Mathematics 1411A/B may be substituted for Mathematics 1600A/B or Mathematics 1700A/B. If not taken in the first year, Mathematics 1600A/B or Mathematics 1700A/B (or Numerical and Mathematical Methods 1411A/B) must be completed prior to the second term of Year 2.",
+        "Module",
+        "4.5 courses:",
+        "0.5 course from: Statistical Sciences 2858A/B, Statistical Sciences 2035, Statistical Sciences 2141A/B, Statistical Sciences 2143A/B, Statistical Sciences 2244A/B, Biology 2244A/B, Economics 2222A/B, Management and Organizational Studies 2242A/B, Psychology 2810A/B.",
+        "3.5 courses: Computer Science 2210A/B, Computer Science 2211A/B, Data Science 2000A/B, Computer Science 3319A/B, Data Science 3000A/B (or the former Computer Science 4414A/B, Statistical Sciences 3850F/G, Software Engineering 4460A/B), Statistical Sciences 2857A/B, Statistical Sciences 2864A/B.",
+        "0.5 course from: Statistical Sciences 3859A/B, Statistical Sciences 3869A/B."
+      ]
+    }
+  ],
+  "requirements": null,
+  "scraped": "2026-11-09"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "21123",
+  "name": "HONOURS SPECIALIZATION IN COMPUTER SCIENCE (COMPUTER SCIENCE PROGRAM)",
+  "type": "Honours Specialization",
+  "area": "COMPUTER SCIENCE",
+  "faculty": "Faculty of Science",
+  "department": "Computer Science (Computer Science Program)",
+  "url": "https://westerncalendar.uwo.ca/Modules.cfm?ModuleID=21123&SelectedCalendar=Live&ArchiveID=",
+  "title": "HONOURS SPECIALIZATION IN COMPUTER SCIENCE (COMPUTER SCIENCE PROGRAM) Faculty of Science - Computer Science (Computer Science Program)",
+  "sections": [
+    {
+      "heading": "HONOURS SPECIALIZATION IN COMPUTER SCIENCE (COMPUTER SCIENCE PROGRAM)",
+      "lines": [
+        "Faculty of Science - Computer Science (Computer Science Program)",
+        "Registration in the Computer Science program and completion of first-year requirements with no failures. Students must have an average of at least 70% in 3.0 principal courses, with no mark in these principal courses below 60%, including:",
+        "0.5 course: Computer Science 1020A/B.",
+        "0.5 course from: Computer Science 1025A/B, Computer Science 1026A/B or Data Science 1200A/B or Engineering Science 1036A/B (in each case with a mark of at least 65%);",
+        "0.5 course from: Computer Science 1027A/B or Computer Science 1037A/B (in either case with a mark of at least 65%);",
+        "1.0 course from: Applied Mathematics 1201A/B, Calculus 1000A/B, Calculus 1301A/B, Calculus 1500A/B, Calculus 1501A/B, Mathematics 1600A/B, Numerical and Mathematical Methods 1411A/B, Numerical and Mathematical Methods 1412A/B, Numerical and Mathematical Methods 1414A/B; or the former Applied Mathematics 1411A/B, the former Applied Mathematics 1412A/B, the former Applied Mathematics 1414A/B, the former Applied Mathematics 1413.",
+        "Note: Some Computer Science electives (e.g., Computer Science 3388A/B and Computer Science 4482A/B) require Mathematics 1600A/B as a prerequisite.",
+        "Students not registered in the Computer Science program may only enrol in up to 1.5 courses from Computer Science per academic year.",
+        "Module",
+        "9.0 courses:",
+        "5.5 courses: Computer Science 2208A/B, Computer Science 2209A/B, Computer Science 2210A/B, Computer Science 2211A/B, Computer Science 2212A/B/Y, Computer Science 3305A/B, Computer Science 3307A/B/Y, Computer Science 3331A/B, Computer Science 3340A/B, Computer Science 3342A/B, Computer Science 3350A/B.",
+        "0.5 course from: Computer Science 2214A/B, Mathematics 2155F/G.",
+        "0.5 course from: Writing 2101F/G, Writing 2111F/G, Writing 2131F/G, the former Writing 2125F/G.",
+        "0.5 course: Computer Science 4490Z.",
+        "1.0 course from: Computer Science courses at the 4000 level, Data Science 3000A/B.",
+        "0.5 course from: Computer Science courses at the 3000 level or above, Science 3377A/B, Mathematics 2156A/B, Mathematics 3159A/B.",
+        "0.5 course from: Statistical Sciences 2141A/B, Statistical Sciences 2244A/B or Biology 2244A/B, Statistical Sciences 2857A/B.",
+        "Note: Students who are also pursuing the Software Engineering Minor or the Game Development Minor must take Computer Science 4470Y or 4480Y respectively. If either minor is taken, Computer Science 4490Z must be replaced in the Honours Specialization with a 0.5 course in Computer Science at the 4000 level."
+      ]
+    }
+  ],
+  "requirements": null,
+  "scraped": "2026-11-09"
+}

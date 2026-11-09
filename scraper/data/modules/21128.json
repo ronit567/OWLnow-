@@ -1,0 +1,41 @@
+{
+  "id": "21128",
+  "name": "MAJOR IN BIOLOGY",
+  "type": "Major",
+  "area": "BIOLOGY",
+  "faculty": "Faculty of Science",
+  "department": "Biology",
+  "url": "https://westerncalendar.uwo.ca/Modules.cfm?ModuleID=21128&SelectedCalendar=Live&ArchiveID=",
+  "title": "MAJOR IN BIOLOGY Faculty of Science - Biology",
+  "sections": [
+    {
+      "heading": "MAJOR IN BIOLOGY",
+      "lines": [
+        "Faculty of Science - Biology",
+        "Completion of first year requirements with no failures including a minimum mark of 60% in each of Biology 1001A and Biology 1002B.",
+        "1.0 course: Chemistry 1301A/B and Chemistry 1302A/B.",
+        "0.5 course from: Physics 1201A/B, Physics 1401A/B, Physics 1501A/B; the former Physics 1028A/B, the former Physics 1301A/B.",
+        "1.0 course from: Calculus 1000A/B or Calculus 1500A/B, Calculus 1301A/B or Calculus 1501A/B, Mathematics 1225A/B, Mathematics 1228A/B, Mathematics 1229A/B or Mathematics 1600A/B, Data Science 1000A/B, Applied Mathematics 1201A/B, Numerical and Mathematical Methods 1411A/B, Numerical and Mathematical Methods 1412A/B, Numerical and Mathematical Methods 1414A/B, Statistical Sciences 1024A/B; the former Applied Mathematics 1411A/B, the former Applied Mathematics 1412A/B, the former Applied Mathematics 1414A/B, the former Applied Mathematics 1413.",
+        "Note: If not completed in Year 1, the Mathematics requirement must be completed by the end of Year 2.",
+        "If not completed in Year 1, the Physics requirement must be completed by the end of Year 2.",
+        "Note: Physics 1101A/B with a minimum mark of 65% can be used to replace Physics 1201A/B.",
+        "Module",
+        "6.0 courses:",
+        "0.5 course: Biochemistry 2280A.",
+        "2.0 courses: Biology 2290F/G, Biology 2382A/B, Biology 2483A/B, Biology 2581A/B.",
+        "0.5 course: Chemistry 2213A/B.",
+        "0.5 course: Biology 2601A/B (see note 2).",
+        "0.5 course from: Biology 2244A/B, Statistical Sciences 2244A/B.",
+        "1.5 additional courses at the 2200 level or above in Biology.",
+        "0.5 additional course at the 2200 level or above* chosen from either the Department of Biology or one of the Basic Medical Sciences disciplines (see below). Basic Medical Sciences Disciplines: Anatomy and Cell Biology, Biochemistry, Epidemiology and Biostatistics, Medical Biophysics, Microbiology and Immunology, Pathology, Physiology, and Pharmacology.",
+        "Courses in the History of Science are not included.",
+        "Notes:",
+        "1. Students registered in an honours double major degree must complete a minimum of 1.0 at the 3000 level for each module.",
+        "2. Physiology 2130 or Physiology and Pharmacology 2000 can be taken instead of Biology 2601A/B to satisfy the physiology requirement for the module. However, students must make up the 0.5 course represented by Biology 2601A/B with an alternate Biology course from the 2200 level or above.",
+        "3. Physiology 2130 or Physiology and Pharmacology 2000 can replace Biology 2601A/B in the Major in Biology but are not sufficient prerequisites for any courses that require Biology 2601A/B as a prerequisite."
+      ]
+    }
+  ],
+  "requirements": null,
+  "scraped": "2026-11-09"
+}

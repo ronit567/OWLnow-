@@ -1,0 +1,26 @@
+{
+  "id": "21219",
+  "name": "MINOR IN HISTORY",
+  "type": "Minor",
+  "area": "HISTORY",
+  "faculty": "King's University College",
+  "department": "History",
+  "url": "https://westerncalendar.uwo.ca/Modules.cfm?ModuleID=21219&SelectedCalendar=Live&ArchiveID=",
+  "title": "MINOR IN HISTORY History",
+  "sections": [
+    {
+      "heading": "MINOR IN HISTORY",
+      "lines": [
+        "History",
+        "Completion of first-year requirements, including at least 0.5 course with a mark of at least 60% from History 1401E, History 1404E, History 1601E, History 1801E, History 1812F/G, History 1813F/G, History 1814F/G, History 1820F/G, History 1901E, or the former History 1403E.",
+        "Module",
+        "4.0 courses:",
+        "1.0 course in History at the 2100 level or above.",
+        "2.0 courses from: History 2201E, History 2203E, History 2205E, History 2301E (U.S. History), History 2403E (European), History 2431F/G (European), History 2432F/G (European), History 2501E (Latin America), History 2650E (East Asia), History 2800F/G (Methods), History 2808F/G (Philosophy of History).",
+        "1.0 course in History at the 2200 level or above."
+      ]
+    }
+  ],
+  "requirements": null,
+  "scraped": "2026-11-09"
+}

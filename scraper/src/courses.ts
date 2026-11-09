@@ -8,25 +8,23 @@
 //
 // Each subject's file is written as soon as that subject is done, and a rerun skips subjects that
 // already have one, so it's safe to stop (Ctrl+C) and run again later.
-import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
-import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { existsSync, mkdirSync, readFileSync, rmSync } from "node:fs";
+import { join } from "node:path";
 import type { Course } from "../../apps/web/src/data/library.ts";
 import { toCourses } from "./convert.ts";
 import { Stop, get } from "./fetch.ts";
 import { COURSES_PAGE, categoryFromCoursePage, coursesFromSubjectPage, subjectsFromCoursesPage } from "./pages.ts";
+import { outDir, today, write } from "./save.ts";
 
-const outDir = join(dirname(fileURLToPath(import.meta.url)), "..", "data");
 const coursesDir = join(outDir, "courses");
 const args = process.argv.slice(2);
 const test = args.includes("--test");
 const only = args.includes("--subjects") ? args[args.indexOf("--subjects") + 1].toUpperCase().split(",") : test ? ["COMPSCI"] : null;
 
-const today = () => new Date().toISOString().slice(0, 10);
-const write = (path: string, value: unknown) => writeFileSync(path, JSON.stringify(value, null, 2) + "\n");
-
 async function main() {
-  if (args.includes("--fresh")) rmSync(outDir, { recursive: true, force: true });
+  // Only the course files: the module data lives in the same folder.
+  if (args.includes("--fresh"))
+    for (const path of [coursesDir, ...["subjects", "courses", "courses-index"].map((f) => join(outDir, `${f}.json`))]) rmSync(path, { recursive: true, force: true });
 
   const subjects = subjectsFromCoursesPage(await get(COURSES_PAGE));
   if (!subjects.length) throw new Error("Found no subjects on the Courses page. The page layout may have changed: check pages.ts.");

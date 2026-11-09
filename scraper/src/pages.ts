@@ -4,6 +4,9 @@ import { load } from "cheerio";
 
 export const CALENDAR = "https://westerncalendar.uwo.ca/";
 export const COURSES_PAGE = `${CALENDAR}Courses.cfm?SelectedCalendar=Live&ArchiveID=`;
+export const MODULES_PAGE = `${CALENDAR}Modules.cfm?SelectedCalendar=Live&ArchiveID=`;
+/** The policy section holding the Bachelor's degree requirements and breadth rules. */
+export const DEGREE_PAGE = `${CALENDAR}PolicyPages.cfm?Command=showCategory&PolicyCategoryID=4&SelectedCalendar=Live&ArchiveID=`;
 
 /** One row of the Courses page: a subject, its link and the breadth categories it lists. */
 export interface Subject {
@@ -135,4 +138,74 @@ export function coursesFromSubjectPage(html: string, subject: Subject): Calendar
 export function categoryFromCoursePage(html: string): "A" | "B" | "C" | "" {
   const $ = load(html);
   return categoriesIn($("h5").filter((_, h) => /Breadth/i.test($(h).text())).first().text())[0] ?? "";
+}
+
+export interface ModuleLink {
+  /** The calendar's ModuleID, e.g. "21580". */
+  id: string;
+  /** "Honours Specialization in ACCOUNTING". Two modules can share this, so use the id to tell them apart. */
+  name: string;
+  /** "Honours Specialization", "Major", "Minor" and so on. */
+  type: string;
+  area: string;
+  faculty: string;
+  department: string;
+  url: string;
+}
+
+/**
+ * The Modules page: a table with one row per area of study and department. Each module is a bubble in
+ * the last column: a link holding only an image, whose title gives the module's type.
+ */
+export function moduleLinks(html: string): ModuleLink[] {
+  const $ = load(html);
+  const out = new Map<string, ModuleLink>();
+  $("tr").each((_, tr) => {
+    const cells = $(tr).children("td");
+    cells.find('a[href*="ModuleID="]').each((_, a) => {
+      const url = absolute($(a).attr("href")!);
+      const id = new URL(url).searchParams.get("ModuleID");
+      if (!id || out.has(id)) return;
+      const type = clean($(a).find("img").attr("title") ?? "");
+      const area = clean(cells.eq(0).text());
+      out.set(id, { id, name: `${type} in ${area}`, type, area, faculty: clean(cells.eq(1).text()), department: clean(cells.eq(2).text()), url });
+    });
+  });
+  return [...out.values()];
+}
+
+/** A page as text: its title, and its lines grouped under each heading. */
+export interface PageText {
+  title: string;
+  sections: { heading: string; lines: string[] }[];
+}
+
+const LINE_BREAKS = "p, div, li, tr, table, ul, ol, h1, h2, h3, h4, h5, h6";
+
+/** Keeps a page's wording in reading order, without its navigation. For module and degree requirements. */
+export function pageText(html: string): PageText {
+  const $ = load(html);
+  $("script, style, nav, footer, form, .navbar, .pageTitleHeader, .returntop, .printIconLayout, img").remove();
+  // The biggest container holds the content: the first can be just the page header.
+  const containers = $(".container").toArray().map((el) => $(el));
+  const root = containers.sort((a, b) => b.text().length - a.text().length)[0] ?? $("body");
+  const title = clean(root.find("h2").first().text()) || clean($("title").text());
+
+  // Line breaks in the HTML source mean nothing, so only the page's own structure starts a new line.
+  root.find("*").addBack().contents().each((_, node) => {
+    if (node.type === "text") node.data = node.data.replace(/\s+/g, " ");
+  });
+  root.find("br").replaceWith("\n");
+  root.find("td, th").append(" ");
+  root.find("h1, h2, h3, h4, h5, h6").prepend("\n## ");
+  root.find(LINE_BREAKS).append("\n");
+
+  const sections: PageText["sections"] = [{ heading: "", lines: [] }];
+  for (const raw of root.text().split("\n")) {
+    const line = clean(raw);
+    if (!line || line === "##" || /^(## )?Return to top$/i.test(line)) continue;
+    if (line.startsWith("## ")) sections.push({ heading: line.slice(3), lines: [] });
+    else if (sections.at(-1)!.lines.at(-1) !== line) sections.at(-1)!.lines.push(line);
+  }
+  return { title, sections: sections.filter((s) => s.heading || s.lines.length) };
 }
