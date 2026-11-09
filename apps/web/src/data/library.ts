@@ -42,16 +42,33 @@ export interface Requirement {
 }
 
 export interface Module {
+  /** The calendar's ModuleID, e.g. "21580". */
   id: string;
+  /** "HONOURS SPECIALIZATION IN ACCOUNTING". Names can repeat, so use the id to tell modules apart. */
   name: string;
+  /** "Honours Specialization", "Major", "Minor", "Certificate" and so on. */
+  type: string;
+  area: string;
+  faculty: string;
+  department: string;
+  /** The module's page on the calendar. */
+  url: string;
+  /** The calendar's wording, one line each, split by part. Empty when the page has no such part. */
+  admission: string[];
+  /** The courses the module needs, e.g. "1.0 course from: Computer Science 1027A/B, 1037A/B". */
+  courses: string[];
+  progression: string[];
+  graduation: string[];
+  /** Wording that fits no part, under its heading. Combined degrees and certificates keep their main text here. */
+  other: { heading: string; lines: string[] }[];
   /** Null until the module has been converted to checks and signed off. */
   requirements: Requirement[] | null;
 }
 
-/** Every course in the calendar. Filled from courses-index.json and the subject files. */
+/** Every course in the calendar. Filled from scraper/data/courses.json. */
 export const COURSES: Course[] = [];
 
-/** Every module. Filled from modules-index.json and the module files. */
+/** Every module. Filled from scraper/data/modules.json. */
 export const MODULES: Module[] = [];
 
 export type CourseStatus = "past" | "current";

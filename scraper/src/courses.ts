@@ -1,42 +1,37 @@
-// Downloads the Academic Calendar's course pages and saves the courses as JSON.
+// Downloads the Academic Calendar's course pages and saves every course in scraper/data/courses.json.
 // For a team member to run on their own laptop: Western's robots.txt blocks AI tools.
 //
 //   npm run scrape:courses -- --test                 Computer Science only, printed, nothing written
 //   npm run scrape:courses -- --subjects COMPSCI,MATH
 //   npm run scrape:courses                           everything (about 10 minutes)
-//   npm run scrape:courses -- --fresh                start over, e.g. when the new calendar comes out
+//   npm run scrape:courses -- --fresh                throw away a stopped run and start over
 //
-// Each subject's file is written as soon as that subject is done, and a rerun skips subjects that
-// already have one, so it's safe to stop (Ctrl+C) and run again later.
+// Each subject is kept in scraper/.progress/ as soon as it's done, so it's safe to stop (Ctrl+C) and
+// run the same command again later. Once every subject is read, that folder is deleted.
 import { existsSync, mkdirSync, readFileSync, rmSync } from "node:fs";
 import { join } from "node:path";
 import type { Course } from "../../apps/web/src/data/library.ts";
 import { toCourses } from "./convert.ts";
 import { Stop, get } from "./fetch.ts";
 import { COURSES_PAGE, categoryFromCoursePage, coursesFromSubjectPage, subjectsFromCoursesPage } from "./pages.ts";
-import { outDir, today, write } from "./save.ts";
+import { clearProgress, outDir, progressDir, today, write } from "./save.ts";
 
-const coursesDir = join(outDir, "courses");
+const progress = join(progressDir, "courses");
 const args = process.argv.slice(2);
 const test = args.includes("--test");
 const only = args.includes("--subjects") ? args[args.indexOf("--subjects") + 1].toUpperCase().split(",") : test ? ["COMPSCI"] : null;
 
 async function main() {
-  // Only the course files: the module data lives in the same folder.
-  if (args.includes("--fresh"))
-    for (const path of [coursesDir, ...["subjects", "courses", "courses-index"].map((f) => join(outDir, `${f}.json`))]) rmSync(path, { recursive: true, force: true });
+  if (args.includes("--fresh")) rmSync(progress, { recursive: true, force: true });
 
   const subjects = subjectsFromCoursesPage(await get(COURSES_PAGE));
   if (!subjects.length) throw new Error("Found no subjects on the Courses page. The page layout may have changed: check pages.ts.");
   console.log(`${subjects.length} subjects on the Courses page`);
-  if (!test) {
-    mkdirSync(coursesDir, { recursive: true });
-    write(join(outDir, "subjects.json"), { scraped: today(), subjects });
-  }
+  if (!test) mkdirSync(progress, { recursive: true });
 
+  const saved = (code: string) => join(progress, `${code}.json`);
   for (const subject of subjects.filter((s) => !only || only.includes(s.code))) {
-    const file = join(coursesDir, `${subject.code}.json`);
-    if (!test && existsSync(file)) continue;
+    if (!test && existsSync(saved(subject.code))) continue;
     const raw = coursesFromSubjectPage(await get(subject.url), subject);
     // Subjects listed under two categories: each course's own page says which one.
     if (subject.categories.length > 1)
@@ -44,25 +39,23 @@ async function main() {
     const courses = toCourses(raw, subjects);
     console.log(`${subject.code}: ${courses.length} courses`);
     if (test) for (const c of courses) console.log(JSON.stringify(c, null, 2));
-    else write(file, { scraped: today(), courses });
+    else write(saved(subject.code), courses);
   }
   if (test) return console.log("\nCompare a few with the calendar by eye. No data files were written.");
 
-  // The combined file and the index cover every subject file saved so far.
-  const all: Course[] = subjects
-    .map((s) => join(coursesDir, `${s.code}.json`))
-    .filter((f) => existsSync(f))
-    .flatMap((f) => JSON.parse(readFileSync(f, "utf8")).courses);
+  const missing = subjects.filter((s) => !existsSync(saved(s.code)));
+  if (missing.length) return console.log(`\n${missing.length} subjects not read yet: run the same command again to fetch them.`);
+
+  const all: Course[] = subjects.flatMap((s) => JSON.parse(readFileSync(saved(s.code), "utf8")));
+  write(join(outDir, "subjects.json"), { scraped: today(), subjects });
   write(join(outDir, "courses.json"), { scraped: today(), courses: all });
-  write(join(outDir, "courses-index.json"), { scraped: today(), courses: all.map((c) => ({ key: c.key, suffix: c.suffix, title: c.title })) });
-  const missing = subjects.filter((s) => !existsSync(join(coursesDir, `${s.code}.json`))).length;
-  console.log(`\nSaved ${all.length} courses to scraper/data/. ${all.filter((c) => !c.category).length} without a category.`);
-  if (missing) console.log(`${missing} subjects not read yet: run the same command again to fetch them.`);
+  clearProgress(progress);
+  console.log(`\nSaved ${all.length} courses to scraper/data/courses.json. ${all.filter((c) => !c.category).length} without a category.`);
 }
 
 main().catch((e) => {
   if (e instanceof Stop) {
-    console.error(`\nStopped: ${e.message} Subjects already saved are kept; run the same command later to carry on.`);
+    console.error(`\nStopped: ${e.message} Subjects already read are kept; run the same command later to carry on.`);
     process.exitCode = 2;
   } else throw e;
 });

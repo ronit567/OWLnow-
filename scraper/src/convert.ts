@@ -1,6 +1,6 @@
-// Turns calendar courses into the website's Course shape (apps/web/src/data/library.ts).
-import type { Course } from "../../apps/web/src/data/library.ts";
-import type { CalendarCourse, Subject } from "./pages.ts";
+// Turns calendar courses and modules into the website's Course and Module shapes (apps/web/src/data/library.ts).
+import type { Course, Module } from "../../apps/web/src/data/library.ts";
+import type { CalendarCourse, ModuleLink, PageText, Subject } from "./pages.ts";
 
 /** "1027A/B" → number "1027", suffix "A/B". */
 export function splitNumber(number: string): { digits: string; suffix: string } {
@@ -62,4 +62,69 @@ export function toCourses(all: CalendarCourse[], subjects: Subject[]): Course[] 
     if (!out.has(course.key)) out.set(course.key, course);
   }
   return [...out.values()].sort((a, b) => a.key.localeCompare(b.key));
+}
+
+type Part = "admission" | "courses" | "progression" | "graduation";
+
+/** Which part of a module a heading starts, or null if it fits none. */
+function partOf(heading: string): Part | null {
+  if (/progression|failure to meet/i.test(heading)) return "progression";
+  if (/graduation/i.test(heading)) return "graduation";
+  if (/admission/i.test(heading)) return "admission";
+  if (/^module( requirements)?[:.]?$/i.test(heading)) return "courses";
+  return null;
+}
+
+/** A line that only names the part after it, like "Module" before the course list. */
+const MARKER = /^(module|(admission|progression|graduation) requirements)[:.]?$/i;
+/** A course list's opening line, like "6.0 courses:". */
+const COURSE_TOTAL = /^\d+(\.\d+)?\s+courses?:$/i;
+const MODULE_TYPES = ["Honours Specialization", "Specialization", "Major", "Minor"];
+/** Headings that add nothing once the text is in its part's field. */
+const PLAIN = /^(module|(admission|progression|graduation) requirements)$/i;
+
+/**
+ * Splits a module page into its parts. On most pages the admission rules and the course list share the
+ * title's section, with a line reading "Module" between them. Text that fits no part goes in `other`
+ * under its heading, so no wording is lost. A few majors and minors have no "Module" line, so their
+ * course list starts at its total instead, like "6.0 courses:". Combined degrees, certificates and
+ * non-modular programs have neither, so their main text stays in `other`.
+ */
+export function toModule(link: ModuleLink, page: PageText): Module {
+  const name = page.sections[0]?.heading || link.name;
+  let { faculty, department } = link;
+  const mod: Module = { ...link, name, admission: [], courses: [], progression: [], graduation: [], other: [], requirements: null };
+  const hasModuleLine = page.sections.some((s) => s.lines.some((l) => /^module[:.]?$/i.test(l)));
+  const startsByTotal = !hasModuleLine && MODULE_TYPES.includes(link.type) && page.sections[0]?.lines.some((l) => COURSE_TOTAL.test(l));
+
+  page.sections.forEach((section, i) => {
+    const isTitle = i === 0 && section.heading === name;
+    let lines = section.lines;
+    // The page's first line names its own faculty and department, which beats the list's table cell.
+    if (isTitle && lines[0]?.startsWith(`${faculty} - `)) [department, lines] = [lines[0].slice(faculty.length + 3), lines.slice(1)];
+    else if (isTitle && lines[0] === department) lines = lines.slice(1);
+
+    let part: Part | null = isTitle ? (hasModuleLine || startsByTotal ? "admission" : null) : partOf(section.heading);
+    if (part && !isTitle && !PLAIN.test(section.heading)) mod[part].push(section.heading);
+    let other: { heading: string; lines: string[] } | null = null;
+    for (const line of lines) {
+      if (MARKER.test(line)) {
+        part = partOf(line);
+        continue;
+      }
+      if (isTitle && startsByTotal && part === "admission" && COURSE_TOTAL.test(line)) part = "courses";
+      if (part) mod[part].push(line);
+      else {
+        if (!other) mod.other.push((other = { heading: isTitle ? "" : section.heading, lines: [] }));
+        other.lines.push(line);
+      }
+    }
+  });
+  return { ...mod, faculty, department };
+}
+
+/** The degree page without the policy menu above its content, which ends with the page's own title. */
+export function toDegreeRequirements(page: PageText): PageText {
+  const start = page.sections.map((s) => s.heading).lastIndexOf(page.title);
+  return { title: page.title, sections: page.sections.slice(start + 1) };
 }
