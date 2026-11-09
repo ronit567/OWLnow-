@@ -12,7 +12,8 @@
     "build": "npm run build -w @owlnow/web && npm run build -w @owlnow/extension",
     "test": "vitest run",
     "typecheck": "tsc -p tsconfig.json",
-    "scrape:courses": "npm run courses -w @owlnow/scraper --"
+    "scrape:courses": "npm run courses -w @owlnow/scraper --",
+    "scrape:modules": "npm run modules -w @owlnow/scraper --"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
