@@ -1,0 +1,4673 @@
+{
+  "scraped": "2026-11-09",
+  "modules": [
+    {
+      "id": "21516",
+      "name": "HONOURS SPECIALIZATION IN ACCOUNTING",
+      "type": "Honours Specialization",
+      "area": "ACCOUNTING"
+    },
+    {
+      "id": "21488",
+      "name": "MAJOR IN ACCOUNTING (must be part of Honours Double Major) (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Major",
+      "area": "ACCOUNTING"
+    },
+    {
+      "id": "21521",
+      "name": "MAJOR IN ACCOUNTING (must be part of Honours Double Major)",
+      "type": "Major",
+      "area": "ACCOUNTING"
+    },
+    {
+      "id": "21526",
+      "name": "SPECIALIZATION IN ACCOUNTING",
+      "type": "Specialization",
+      "area": "ACCOUNTING"
+    },
+    {
+      "id": "21496",
+      "name": "HONOURS SPECIALIZATION IN ACCOUNTING",
+      "type": "Honours Specialization",
+      "area": "ACCOUNTING"
+    },
+    {
+      "id": "21499",
+      "name": "MAJOR IN ACCOUNTING (must be part of a double Major)",
+      "type": "Major",
+      "area": "ACCOUNTING"
+    },
+    {
+      "id": "21501",
+      "name": "SPECIALIZATION IN ACCOUNTING",
+      "type": "Specialization",
+      "area": "ACCOUNTING"
+    },
+    {
+      "id": "21504",
+      "name": "HONOURS SPECIALIZATION IN ACCOUNTING",
+      "type": "Honours Specialization",
+      "area": "ACCOUNTING"
+    },
+    {
+      "id": "21508",
+      "name": "MAJOR IN ACCOUNTING (must be part of an Honours Double Major)",
+      "type": "Major",
+      "area": "ACCOUNTING"
+    },
+    {
+      "id": "21512",
+      "name": "SPECIALIZATION IN ACCOUNTING",
+      "type": "Specialization",
+      "area": "ACCOUNTING"
+    },
+    {
+      "id": "21053",
+      "name": "HONOURS SPECIALIZATION IN ACTUARIAL SCIENCE",
+      "type": "Honours Specialization",
+      "area": "ACTUARIAL SCIENCE"
+    },
+    {
+      "id": "21050",
+      "name": "MAJOR IN ACTUARIAL SCIENCE",
+      "type": "Major",
+      "area": "ACTUARIAL SCIENCE"
+    },
+    {
+      "id": "21100",
+      "name": "MINOR IN ADVANCED PHYSICS",
+      "type": "Minor",
+      "area": "ADVANCED PHYSICS"
+    },
+    {
+      "id": "21694",
+      "name": "HONOURS DOUBLE MAJOR WITH ADVANCED STUDIES IN THE ARTS AND HUMANITIES/HBA",
+      "type": "Combined Degree Program",
+      "area": "ADVANCED STUDIES IN THE ARTS AND HUMANITIES/HBA"
+    },
+    {
+      "id": "21014",
+      "name": "HONOURS SPECIALIZATION IN AMERICAN CULTURAL STUDIES - admission discontinued",
+      "type": "Honours Specialization",
+      "area": "AMERICAN CULTURAL STUDIES"
+    },
+    {
+      "id": "21006",
+      "name": "MAJOR IN AMERICAN STUDIES - admission discontinued",
+      "type": "Major",
+      "area": "AMERICAN STUDIES"
+    },
+    {
+      "id": "21010",
+      "name": "MINOR IN AMERICAN STUDIES - admission discontinued",
+      "type": "Minor",
+      "area": "AMERICAN STUDIES"
+    },
+    {
+      "id": "21736",
+      "name": "MAJOR IN ANALYTICS AND DECISION SCIENCES",
+      "type": "Major",
+      "area": "ANALYTICS AND DECISION SCIENCES"
+    },
+    {
+      "id": "21651",
+      "name": "MINOR IN ANALYTICS AND DECISION SCIENCES",
+      "type": "Minor",
+      "area": "ANALYTICS AND DECISION SCIENCES"
+    },
+    {
+      "id": "21133",
+      "name": "HONOURS SPECIALIZATION IN ANIMAL BEHAVIOUR (BSc)",
+      "type": "Honours Specialization",
+      "area": "ANIMAL BEHAVIOUR (BSc)"
+    },
+    {
+      "id": "21718",
+      "name": "MAJOR IN ANIMAL ETHICS AND SUSTAINABILITY LEADERSHIP",
+      "type": "Major",
+      "area": "ANIMAL ETHICS, SUSTAINABILITY LEADERSHIP"
+    },
+    {
+      "id": "21719",
+      "name": "MINOR IN ANIMAL ETHICS AND SUSTAINABILITY LEADERSHIP",
+      "type": "Minor",
+      "area": "ANIMAL ETHICS, SUSTAINABILITY LEADERSHIP"
+    },
+    {
+      "id": "20994",
+      "name": "HONOURS SPECIALIZATION IN ANTHROPOLOGY",
+      "type": "Honours Specialization",
+      "area": "ANTHROPOLOGY"
+    },
+    {
+      "id": "20990",
+      "name": "MAJOR IN ANTHROPOLOGY",
+      "type": "Major",
+      "area": "ANTHROPOLOGY"
+    },
+    {
+      "id": "20995",
+      "name": "SPECIALIZATION IN ANTHROPOLOGY",
+      "type": "Specialization",
+      "area": "ANTHROPOLOGY"
+    },
+    {
+      "id": "20991",
+      "name": "MINOR IN ANTHROPOLOGY",
+      "type": "Minor",
+      "area": "ANTHROPOLOGY"
+    },
+    {
+      "id": "21606",
+      "name": "MINOR IN APPLIED FINANCIAL MODELLING",
+      "type": "Minor",
+      "area": "APPLIED FINANCIAL MODELLING"
+    },
+    {
+      "id": "21065",
+      "name": "MAJOR IN APPLIED MATHEMATICAL METHODS - ADMISSION DISCONTINUED",
+      "type": "Major",
+      "area": "APPLIED MATHEMATICAL METHODS"
+    },
+    {
+      "id": "21070",
+      "name": "HONOURS SPECIALIZATION IN APPLIED MATHEMATICS",
+      "type": "Honours Specialization",
+      "area": "APPLIED MATHEMATICS"
+    },
+    {
+      "id": "21064",
+      "name": "MAJOR IN APPLIED MATHEMATICS",
+      "type": "Major",
+      "area": "APPLIED MATHEMATICS"
+    },
+    {
+      "id": "21072",
+      "name": "SPECIALIZATION IN APPLIED MATHEMATICS - ADMISSION DISCONTINUED",
+      "type": "Specialization",
+      "area": "APPLIED MATHEMATICS"
+    },
+    {
+      "id": "21068",
+      "name": "MINOR IN APPLIED MATHEMATICS - ADMISSION DISCONTINUED",
+      "type": "Minor",
+      "area": "APPLIED MATHEMATICS"
+    },
+    {
+      "id": "21693",
+      "name": "HONOURS SPECIALIZATION IN APPLIED PSYCHOLOGY",
+      "type": "Honours Specialization",
+      "area": "APPLIED PSYCHOLOGY"
+    },
+    {
+      "id": "21740",
+      "name": "CERTIFICATE IN THEORY-TO-ACTION: APPLIED SOCIAL RESEARCH",
+      "type": "Certificate",
+      "area": "APPLIED SOCIAL RESEARCH"
+    },
+    {
+      "id": "21052",
+      "name": "MAJOR IN APPLIED STATISTICS",
+      "type": "Major",
+      "area": "APPLIED STATISTICS"
+    },
+    {
+      "id": "21605",
+      "name": "MINOR IN APPLIED STATISTICS",
+      "type": "Minor",
+      "area": "APPLIED STATISTICS"
+    },
+    {
+      "id": "20989",
+      "name": "MAJOR IN ARCHAEOLOGY AND BIOLOGICAL ANTHROPOLOGY",
+      "type": "Major",
+      "area": "ARCHAEOLOGY AND BIOLOGICAL ANTHROPOLOGY"
+    },
+    {
+      "id": "20945",
+      "name": "MAJOR IN ART HISTORY - ADMISSION DISCONTINUED",
+      "type": "Major",
+      "area": "ART HISTORY"
+    },
+    {
+      "id": "21618",
+      "name": "MINOR IN ART HISTORY",
+      "type": "Minor",
+      "area": "ART HISTORY"
+    },
+    {
+      "id": "21619",
+      "name": "CERTIFICATE IN ART HISTORY - ADMISSION DISCONTINUED",
+      "type": "Certificate",
+      "area": "ART HISTORY"
+    },
+    {
+      "id": "20952",
+      "name": "HONOURS SPECIALIZATION IN ART HISTORY AND MUSEUM AND CURATORIAL STUDIES",
+      "type": "Honours Specialization",
+      "area": "ART HISTORY AND MUSEUM AND CURATORIAL STUDIES"
+    },
+    {
+      "id": "21737",
+      "name": "MAJOR IN ART HISTORY AND MUSEUM AND CURATORIAL STUDIES",
+      "type": "Major",
+      "area": "ART HISTORY AND MUSEUM AND CURATORIAL STUDIES"
+    },
+    {
+      "id": "20953",
+      "name": "HONOURS SPECIALIZATION IN ART HISTORY AND STUDIO ART",
+      "type": "Honours Specialization",
+      "area": "ART HISTORY AND STUDIO ART"
+    },
+    {
+      "id": "20946",
+      "name": "MAJOR IN ART HISTORY AND STUDIO ART",
+      "type": "Major",
+      "area": "ART HISTORY AND STUDIO ART"
+    },
+    {
+      "id": "21685",
+      "name": "G. CHEMICAL ENGINEERING AND ARTIFICIAL INTELLIGENCE SYSTEMS ENGINEERING OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "ARTIFICIAL INTELLIGENCE SYSTEMS ENGINEERING"
+    },
+    {
+      "id": "21686",
+      "name": "H. CIVIL ENGINEERING AND ARTIFICIAL INTELLIGENCE SYSTEMS ENGINEERING, SMART CITIES AND STRUCTURAL ENGINEERING OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "ARTIFICIAL INTELLIGENCE SYSTEMS ENGINEERING"
+    },
+    {
+      "id": "21687",
+      "name": "I. CIVIL ENGINEERING AND ARTIFICIAL INTELLIGENCE SYSTEMS ENGINEERING, SMART CITIES AND ENVIRONMENTAL ENGINEERING OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "ARTIFICIAL INTELLIGENCE SYSTEMS ENGINEERING"
+    },
+    {
+      "id": "21688",
+      "name": "M. ELECTRICAL ENGINEERING AND ARTIFICIAL INTELLIGENCE SYSTEMS ENGINEERING OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "ARTIFICIAL INTELLIGENCE SYSTEMS ENGINEERING"
+    },
+    {
+      "id": "21678",
+      "name": "ARTIFICIAL INTELLIGENCE SYSTEMS ENGINEERING PROGRAM",
+      "type": "Other - Non Modular Program",
+      "area": "ARTIFICIAL INTELLIGENCE SYSTEMS ENGINEERING"
+    },
+    {
+      "id": "21689",
+      "name": "H. MECHANICAL ENGINEERING – MECHANICAL ENGINEERING AND ARTIFICIAL INTELLIGENCE SYSTEMS ENGINEERING OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "ARTIFICIAL INTELLIGENCE SYSTEMS ENGINEERING"
+    },
+    {
+      "id": "21690",
+      "name": "E. MECHATRONIC SYSTEMS ENGINEERING AND ARTIFICIAL INTELLIGENCE SYSTEMS ENGINEERING OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "ARTIFICIAL INTELLIGENCE SYSTEMS ENGINEERING"
+    },
+    {
+      "id": "20811",
+      "name": "MAJOR IN ADVANCED STUDIES IN THE ARTS AND HUMANITIES",
+      "type": "Major",
+      "area": "ARTS AND HUMANITIES"
+    },
+    {
+      "id": "21102",
+      "name": "HONOURS SPECIALIZATION IN ASTROPHYSICS",
+      "type": "Honours Specialization",
+      "area": "ASTROPHYSICS"
+    },
+    {
+      "id": "21092",
+      "name": "MAJOR IN ASTROPHYSICS",
+      "type": "Major",
+      "area": "ASTROPHYSICS"
+    },
+    {
+      "id": "21108",
+      "name": "SPECIALIZATION IN ASTROPHYSICS",
+      "type": "Specialization",
+      "area": "ASTROPHYSICS"
+    },
+    {
+      "id": "21665",
+      "name": "MINOR IN ASTROPHYSICS",
+      "type": "Minor",
+      "area": "ASTROPHYSICS"
+    },
+    {
+      "id": "20746",
+      "name": "MINOR IN THE ATLANTIC WORLD",
+      "type": "Minor",
+      "area": "ATLANTIC WORLD"
+    },
+    {
+      "id": "20781",
+      "name": "BACHELOR OF MUSIC",
+      "type": "Other - Non Modular Program",
+      "area": "BACHELOR OF MUSIC"
+    },
+    {
+      "id": "20782",
+      "name": "BACHELOR OF MUSIC (HONOURS)",
+      "type": "Other - Non Modular Program",
+      "area": "BACHELOR OF MUSIC (HONOURS)"
+    },
+    {
+      "id": "21738",
+      "name": "BACHELOR OF SCIENCE IN NURSING PROGRAM",
+      "type": "Other - Non Modular Program",
+      "area": "BACHELOR OF SCIENCE IN NURSING PROGRAM"
+    },
+    {
+      "id": "21258",
+      "name": "B. BIOCHEMICAL AND ENVIRONMENTAL ENGINEERING OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "BIOCHEMICAL AND ENVIRONMENTAL ENGINEERING"
+    },
+    {
+      "id": "21178",
+      "name": "HONOURS SPECIALIZATION IN BIOCHEMISTRY",
+      "type": "Honours Specialization",
+      "area": "BIOCHEMISTRY"
+    },
+    {
+      "id": "21176",
+      "name": "MAJOR IN BIOCHEMISTRY",
+      "type": "Major",
+      "area": "BIOCHEMISTRY"
+    },
+    {
+      "id": "21177",
+      "name": "MINOR IN BIOCHEMISTRY",
+      "type": "Minor",
+      "area": "BIOCHEMISTRY"
+    },
+    {
+      "id": "21184",
+      "name": "HONOURS SPECIALIZATION IN BIOCHEMISTRY AND CANCER BIOLOGY",
+      "type": "Honours Specialization",
+      "area": "BIOCHEMISTRY AND CANCER BIOLOGY"
+    },
+    {
+      "id": "21179",
+      "name": "HONOURS SPECIALIZATION IN BIOCHEMISTRY AND CELL BIOLOGY - ADMISSION DISCONTINUED",
+      "type": "Honours Specialization",
+      "area": "BIOCHEMISTRY AND CELL BIOLOGY"
+    },
+    {
+      "id": "21076",
+      "name": "HONOURS SPECIALIZATION IN BIOCHEMISTRY AND CHEMISTRY",
+      "type": "Honours Specialization",
+      "area": "BIOCHEMISTRY AND CHEMISTRY"
+    },
+    {
+      "id": "21183",
+      "name": "HONOURS SPECIALIZATION IN BIOCHEMISTRY AND PATHOLOGY OF HUMAN DISEASE - ADMISSION DISCONTINUED",
+      "type": "Honours Specialization",
+      "area": "BIOCHEMISTRY AND PATHOLOGY OF HUMAN DISEASE"
+    },
+    {
+      "id": "21180",
+      "name": "HONOURS SPECIALIZATION IN BIOCHEMISTRY OF INFECTION AND IMMUNITY - ADMISSION DISCONTINUED",
+      "type": "Honours Specialization",
+      "area": "BIOCHEMISTRY OF INFECTION AND IMMUNITY"
+    },
+    {
+      "id": "21314",
+      "name": "HONOURS BMSc BIOCHEMISTRY/HBA",
+      "type": "Combined Degree Program",
+      "area": "BIOCHEMISTRY/HBA"
+    },
+    {
+      "id": "21134",
+      "name": "HONOURS SPECIALIZATION IN BIODIVERSITY AND CONSERVATION",
+      "type": "Honours Specialization",
+      "area": "BIODIVERSITY AND CONSERVATION"
+    },
+    {
+      "id": "21121",
+      "name": "HONOURS SPECIALIZATION IN BIOINFORMATICS - admission discontinued effective 2027",
+      "type": "Honours Specialization",
+      "area": "BIOINFORMATICS"
+    },
+    {
+      "id": "21135",
+      "name": "HONOURS SPECIALIZATION IN BIOLOGY",
+      "type": "Honours Specialization",
+      "area": "BIOLOGY"
+    },
+    {
+      "id": "21128",
+      "name": "MAJOR IN BIOLOGY",
+      "type": "Major",
+      "area": "BIOLOGY"
+    },
+    {
+      "id": "21138",
+      "name": "SPECIALIZATION IN BIOLOGY",
+      "type": "Specialization",
+      "area": "BIOLOGY"
+    },
+    {
+      "id": "21131",
+      "name": "MINOR IN BIOLOGY",
+      "type": "Minor",
+      "area": "BIOLOGY"
+    },
+    {
+      "id": "21728",
+      "name": "MAJOR IN BLACK STUDIES",
+      "type": "Major",
+      "area": "BLACK STUDIES"
+    },
+    {
+      "id": "21684",
+      "name": "MINOR IN BLACK STUDIES",
+      "type": "Minor",
+      "area": "BLACK STUDIES"
+    },
+    {
+      "id": "21729",
+      "name": "MAJOR IN BLACK STUDIES",
+      "type": "Major",
+      "area": "BLACK STUDIES"
+    },
+    {
+      "id": "21717",
+      "name": "MINOR IN BLACK STUDIES",
+      "type": "Minor",
+      "area": "BLACK STUDIES"
+    },
+    {
+      "id": "21578",
+      "name": "BMOS INTERNSHIP PROGRAM - ADMISSION DISCONTINUED",
+      "type": "Other - Non Modular Program",
+      "area": "BMOS INTERNSHIP PROGRAM"
+    },
+    {
+      "id": "21611",
+      "name": "BMOS INTERNSHIP PROGRAM (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Other - Non Modular Program",
+      "area": "BMOS INTERNSHIP PROGRAM"
+    },
+    {
+      "id": "21612",
+      "name": "BMOS INTERNSHIP PROGRAM",
+      "type": "Other - Non Modular Program",
+      "area": "BMOS INTERNSHIP PROGRAM"
+    },
+    {
+      "id": "21674",
+      "name": "HONOURS SPECIALIZATION IN BUSINESS INTELLIGENCE",
+      "type": "Honours Specialization",
+      "area": "BUSINESS INTELLIGENCE"
+    },
+    {
+      "id": "21675",
+      "name": "SPECIALIZATION IN BUSINESS INTELLIGENCE",
+      "type": "Specialization",
+      "area": "BUSINESS INTELLIGENCE"
+    },
+    {
+      "id": "20669",
+      "name": "MINOR IN CANADIAN STUDIES",
+      "type": "Minor",
+      "area": "CANADIAN STUDIES"
+    },
+    {
+      "id": "20674",
+      "name": "HONOURS SPECIALIZATION IN CATHOLIC STUDIES",
+      "type": "Honours Specialization",
+      "area": "CATHOLIC STUDIES"
+    },
+    {
+      "id": "20670",
+      "name": "MAJOR IN CATHOLIC STUDIES",
+      "type": "Major",
+      "area": "CATHOLIC STUDIES"
+    },
+    {
+      "id": "20676",
+      "name": "SPECIALIZATION IN CATHOLIC STUDIES",
+      "type": "Specialization",
+      "area": "CATHOLIC STUDIES"
+    },
+    {
+      "id": "20672",
+      "name": "MINOR IN CATHOLIC STUDIES",
+      "type": "Minor",
+      "area": "CATHOLIC STUDIES"
+    },
+    {
+      "id": "20675",
+      "name": "HONOURS SPECIALIZATION IN CATHOLIC STUDIES FOR TEACHERS",
+      "type": "Honours Specialization",
+      "area": "CATHOLIC STUDIES FOR TEACHERS"
+    },
+    {
+      "id": "20671",
+      "name": "MAJOR IN CATHOLIC STUDIES FOR TEACHERS",
+      "type": "Major",
+      "area": "CATHOLIC STUDIES FOR TEACHERS"
+    },
+    {
+      "id": "20673",
+      "name": "MINOR IN CATHOLIC STUDIES FOR TEACHERS",
+      "type": "Minor",
+      "area": "CATHOLIC STUDIES FOR TEACHERS"
+    },
+    {
+      "id": "21185",
+      "name": "HONOURS SPECIALIZATION IN CHEMICAL BIOLOGY - ADMISSION DISCONTINUED",
+      "type": "Honours Specialization",
+      "area": "CHEMICAL BIOLOGY"
+    },
+    {
+      "id": "21257",
+      "name": "A. GENERAL CHEMICAL ENGINEERING OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "CHEMICAL ENGINEERING"
+    },
+    {
+      "id": "21607",
+      "name": "F. CHEMICAL ENGINEERING AND BIOMEDICAL ENGINEERING OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "CHEMICAL ENGINEERING AND BIOMEDICAL ENGINEERING"
+    },
+    {
+      "id": "21697",
+      "name": "H. CHEMICAL ENGINEERING/HONOURS SPECIALIZATION IN FOODS AND NUTRITION OPTION",
+      "type": "Combined Degree Program",
+      "area": "CHEMICAL ENGINEERING AND FOODS AND NUTRITION"
+    },
+    {
+      "id": "21260",
+      "name": "C. CHEMICAL ENGINEERING/HBA",
+      "type": "Combined Degree Program",
+      "area": "CHEMICAL ENGINEERING/HBA"
+    },
+    {
+      "id": "21262",
+      "name": "D. CHEMICAL ENGINEERING/LAW",
+      "type": "Combined Degree Program",
+      "area": "CHEMICAL ENGINEERING/LAW"
+    },
+    {
+      "id": "21077",
+      "name": "HONOURS SPECIALIZATION IN CHEMISTRY",
+      "type": "Honours Specialization",
+      "area": "CHEMISTRY"
+    },
+    {
+      "id": "21073",
+      "name": "MAJOR IN CHEMISTRY",
+      "type": "Major",
+      "area": "CHEMISTRY"
+    },
+    {
+      "id": "21078",
+      "name": "SPECIALIZATION IN CHEMISTRY",
+      "type": "Specialization",
+      "area": "CHEMISTRY"
+    },
+    {
+      "id": "21074",
+      "name": "MINOR IN CHEMISTRY",
+      "type": "Minor",
+      "area": "CHEMISTRY"
+    },
+    {
+      "id": "20693",
+      "name": "CERTIFICATE IN CHILDHOOD AND ADVOCACY",
+      "type": "Certificate",
+      "area": "CHILDHOOD AND ADVOCACY"
+    },
+    {
+      "id": "20694",
+      "name": "CERTIFICATE IN CHILDHOOD AND THE LEGAL SYSTEM",
+      "type": "Certificate",
+      "area": "CHILDHOOD AND THE LEGAL SYSTEM"
+    },
+    {
+      "id": "20692",
+      "name": "HONOURS SPECIALIZATION IN CHILDHOOD AND YOUTH STUDIES (formerly the HONOURS SPECIALIZATION IN CHILDHOOD AND SOCIAL INSTITUTIONS)",
+      "type": "Honours Specialization",
+      "area": "CHILDHOOD AND YOUTH STUDIES"
+    },
+    {
+      "id": "20691",
+      "name": "MAJOR IN CHILDHOOD AND YOUTH STUDIES (formerly the MAJOR IN CHILDHOOD AND SOCIAL INSTITUTIONS)",
+      "type": "Major",
+      "area": "CHILDHOOD AND YOUTH STUDIES"
+    },
+    {
+      "id": "21673",
+      "name": "MINOR IN CHILDHOOD AND YOUTH STUDIES",
+      "type": "Minor",
+      "area": "CHILDHOOD AND YOUTH STUDIES"
+    },
+    {
+      "id": "21705",
+      "name": "MAJOR IN CHINA STUDIES",
+      "type": "Major",
+      "area": "CHINA STUDIES"
+    },
+    {
+      "id": "20696",
+      "name": "MINOR IN CHINA STUDIES",
+      "type": "Minor",
+      "area": "CHINA STUDIES"
+    },
+    {
+      "id": "21579",
+      "name": "MINOR IN CHINESE BUSINESS COMMUNICATIONS",
+      "type": "Minor",
+      "area": "CHINESE BUSINESS COMMUNICATIONS"
+    },
+    {
+      "id": "21653",
+      "name": "MINOR IN CHINESE HISTORY",
+      "type": "Minor",
+      "area": "CHINESE HISTORY"
+    },
+    {
+      "id": "20697",
+      "name": "MINOR IN CHINESE STUDIES",
+      "type": "Minor",
+      "area": "CHINESE STUDIES"
+    },
+    {
+      "id": "21266",
+      "name": "C. CIVIL ENGINEERING/HBA",
+      "type": "Combined Degree Program",
+      "area": "CIVIL ENGINEERING/HBA"
+    },
+    {
+      "id": "21267",
+      "name": "D. CIVIL ENGINEERING/LAW",
+      "type": "Combined Degree Program",
+      "area": "CIVIL ENGINEERING/LAW"
+    },
+    {
+      "id": "20897",
+      "name": "HONOURS SPECIALIZATION IN CLASSICAL STUDIES",
+      "type": "Honours Specialization",
+      "area": "CLASSICAL STUDIES"
+    },
+    {
+      "id": "20889",
+      "name": "MAJOR IN CLASSICAL STUDIES",
+      "type": "Major",
+      "area": "CLASSICAL STUDIES"
+    },
+    {
+      "id": "20898",
+      "name": "SPECIALIZATION IN CLASSICAL STUDIES",
+      "type": "Specialization",
+      "area": "CLASSICAL STUDIES"
+    },
+    {
+      "id": "20890",
+      "name": "MINOR IN CLASSICAL STUDIES",
+      "type": "Minor",
+      "area": "CLASSICAL STUDIES"
+    },
+    {
+      "id": "21662",
+      "name": "MAJOR IN CLIMATE CHANGE AND SOCIETY",
+      "type": "Major",
+      "area": "CLIMATE CHANGE AND SOCIETY"
+    },
+    {
+      "id": "21725",
+      "name": "CERTIFICATE IN CLIMATE CHANGE AND SOCIETY",
+      "type": "Certificate",
+      "area": "CLIMATE CHANGE AND SOCIETY"
+    },
+    {
+      "id": "21173",
+      "name": "HONOURS SPECIALIZATION IN CLINICAL KINESIOLOGY",
+      "type": "Honours Specialization",
+      "area": "CLINICAL KINESIOLOGY"
+    },
+    {
+      "id": "21580",
+      "name": "HONOURS SPECIALIZATION IN COMMERCIAL AVIATION MANAGEMENT",
+      "type": "Honours Specialization",
+      "area": "COMMERCIAL AVIATION MANAGEMENT"
+    },
+    {
+      "id": "21522",
+      "name": "MAJOR IN COMMERCIAL AVIATION MANAGEMENT (must be part of Honours Double Major)",
+      "type": "Major",
+      "area": "COMMERCIAL AVIATION MANAGEMENT"
+    },
+    {
+      "id": "21527",
+      "name": "SPECIALIZATION IN COMMERCIAL AVIATION MANAGEMENT",
+      "type": "Specialization",
+      "area": "COMMERCIAL AVIATION MANAGEMENT"
+    },
+    {
+      "id": "20701",
+      "name": "MINOR IN COMMUNICATING CULTURES",
+      "type": "Minor",
+      "area": "COMMUNICATING CULTURES"
+    },
+    {
+      "id": "20826",
+      "name": "HONOURS SPECIALIZATION IN COMMUNITY AND CRIMINAL JUSTICE (Brescia)",
+      "type": "Honours Specialization",
+      "area": "COMMUNITY AND CRIMINAL JUSTICE"
+    },
+    {
+      "id": "20830",
+      "name": "MAJOR IN COMMUNITY DEVELOPMENT (Brescia)",
+      "type": "Major",
+      "area": "COMMUNITY DEVELOPMENT"
+    },
+    {
+      "id": "20836",
+      "name": "CERTIFICATE IN COMMUNITY DEVELOPMENT (Brescia)",
+      "type": "Certificate",
+      "area": "COMMUNITY DEVELOPMENT"
+    },
+    {
+      "id": "20827",
+      "name": "HONOURS SPECIALIZATION IN COMMUNITY DEVELOPMENT IN A GLOBAL CONTEXT (Brescia)",
+      "type": "Honours Specialization",
+      "area": "COMMUNITY DEVELOPMENT IN A GLOBAL CONTEXT"
+    },
+    {
+      "id": "20966",
+      "name": "MINOR IN COMPARATIVE LITERATURE AND CULTURE",
+      "type": "Minor",
+      "area": "COMPARATIVE LITERATURE AND CULTURE"
+    },
+    {
+      "id": "20780",
+      "name": "BACHELOR OF MUSIC WITH HONOURS IN COMPOSITION",
+      "type": "Other - Non Modular Program",
+      "area": "COMPOSITION"
+    },
+    {
+      "id": "21494",
+      "name": "COMPRESSED TIME FRAME BACHELOR OF SCIENCE IN NURSING PROGRAM – REGULAR STREAM",
+      "type": "Other - Non Modular Program",
+      "area": "COMPRESSED TIME FRAME BACHELOR OF SCIENCE IN NURSING PROGRAM – REGULAR STREAM"
+    },
+    {
+      "id": "21744",
+      "name": "COMPRESSED TIME FRAME BACHELOR OF SCIENCE IN NURSING PROGRAM – RPN STREAM A",
+      "type": "Other - Non Modular Program",
+      "area": "COMPRESSED TIME FRAME BACHELOR OF SCIENCE IN NURSING PROGRAM – RPN STREAM A"
+    },
+    {
+      "id": "21745",
+      "name": "COMPRESSED TIME FRAME BACHELOR OF SCIENCE IN NURSING PROGRAM – RPN STREAM B",
+      "type": "Other - Non Modular Program",
+      "area": "COMPRESSED TIME FRAME BACHELOR OF SCIENCE IN NURSING PROGRAM – RPN STREAM B"
+    },
+    {
+      "id": "21182",
+      "name": "HONOURS SPECIALIZATION IN COMPUTATIONAL BIOCHEMISTRY - ADMISSION DISCONTINUED",
+      "type": "Honours Specialization",
+      "area": "COMPUTATIONAL BIOCHEMISTRY"
+    },
+    {
+      "id": "21123",
+      "name": "HONOURS SPECIALIZATION IN COMPUTER SCIENCE (COMPUTER SCIENCE PROGRAM)",
+      "type": "Honours Specialization",
+      "area": "COMPUTER SCIENCE"
+    },
+    {
+      "id": "21112",
+      "name": "MAJOR IN COMPUTER SCIENCE (COMPUTER SCIENCE PROGRAM)",
+      "type": "Major",
+      "area": "COMPUTER SCIENCE"
+    },
+    {
+      "id": "21125",
+      "name": "SPECIALIZATION IN COMPUTER SCIENCE (COMPUTER SCIENCE PROGRAM)",
+      "type": "Specialization",
+      "area": "COMPUTER SCIENCE"
+    },
+    {
+      "id": "21113",
+      "name": "MINOR IN COMPUTER SCIENCE",
+      "type": "Minor",
+      "area": "COMPUTER SCIENCE"
+    },
+    {
+      "id": "21097",
+      "name": "MINOR IN CONCEPTUAL ASTRONOMY",
+      "type": "Minor",
+      "area": "CONCEPTUAL ASTRONOMY"
+    },
+    {
+      "id": "21517",
+      "name": "HONOURS SPECIALIZATION IN CONSUMER BEHAVIOR",
+      "type": "Honours Specialization",
+      "area": "CONSUMER BEHAVIOR"
+    },
+    {
+      "id": "21523",
+      "name": "MAJOR IN CONSUMER BEHAVIOR (must be part of Honours Double Major)",
+      "type": "Major",
+      "area": "CONSUMER BEHAVIOR"
+    },
+    {
+      "id": "21528",
+      "name": "SPECIALIZATION IN CONSUMER BEHAVIOR",
+      "type": "Specialization",
+      "area": "CONSUMER BEHAVIOR"
+    },
+    {
+      "id": "20722",
+      "name": "MINOR IN CONTEMPORARY ENGLISH LITERATURE",
+      "type": "Minor",
+      "area": "CONTEMPORARY ENGLISH LITERATURE"
+    },
+    {
+      "id": "21669",
+      "name": "MAJOR IN CREATIVE ARTS AND PRODUCTION",
+      "type": "Major",
+      "area": "CREATIVE ARTS AND PRODUCTION"
+    },
+    {
+      "id": "21668",
+      "name": "MAJOR IN CREATIVE ARTS AND PRODUCTION",
+      "type": "Major",
+      "area": "CREATIVE ARTS AND PRODUCTION"
+    },
+    {
+      "id": "21670",
+      "name": "MAJOR IN CREATIVE ARTS AND PRODUCTION",
+      "type": "Major",
+      "area": "CREATIVE ARTS AND PRODUCTION"
+    },
+    {
+      "id": "21730",
+      "name": "MAJOR IN CREATIVE WRITING",
+      "type": "Major",
+      "area": "CREATIVE WRITING"
+    },
+    {
+      "id": "20907",
+      "name": "MINOR IN CREATIVE WRITING",
+      "type": "Minor",
+      "area": "CREATIVE WRITING"
+    },
+    {
+      "id": "20912",
+      "name": "HONOURS SPECIALIZATION IN CREATIVE WRITING AND ENGLISH LANGUAGE AND LITERATURE",
+      "type": "Honours Specialization",
+      "area": "CREATIVE WRITING AND ENGLISH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "21600",
+      "name": "MAJOR IN CREATIVITY AND LITERATURE (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Major",
+      "area": "CREATIVITY AND LITERATURE"
+    },
+    {
+      "id": "20831",
+      "name": "MAJOR IN CRIMINAL JUSTICE (Brescia)",
+      "type": "Major",
+      "area": "CRIMINAL JUSTICE"
+    },
+    {
+      "id": "20834",
+      "name": "MINOR IN CRIMINAL JUSTICE (Brescia)",
+      "type": "Minor",
+      "area": "CRIMINAL JUSTICE"
+    },
+    {
+      "id": "21043",
+      "name": "MAJOR IN CRIMINOLOGY - admission discontinued",
+      "type": "Major",
+      "area": "CRIMINOLOGY"
+    },
+    {
+      "id": "21046",
+      "name": "MINOR IN CRIMINOLOGY",
+      "type": "Minor",
+      "area": "CRIMINOLOGY"
+    },
+    {
+      "id": "21244",
+      "name": "HONOURS SPECIALIZATION IN CRIMINOLOGY",
+      "type": "Honours Specialization",
+      "area": "CRIMINOLOGY"
+    },
+    {
+      "id": "21240",
+      "name": "MAJOR IN CRIMINOLOGY",
+      "type": "Major",
+      "area": "CRIMINOLOGY"
+    },
+    {
+      "id": "21242",
+      "name": "MINOR IN CRIMINOLOGY",
+      "type": "Minor",
+      "area": "CRIMINOLOGY"
+    },
+    {
+      "id": "21732",
+      "name": "CERTIFICATE IN CRITICAL PUBLIC HEALTH",
+      "type": "Certificate",
+      "area": "CRITICAL PUBLIC HEALTH"
+    },
+    {
+      "id": "21733",
+      "name": "CERTIFICATE IN CRITICAL PUBLIC HEALTH",
+      "type": "Certificate",
+      "area": "CRITICAL PUBLIC HEALTH"
+    },
+    {
+      "id": "21731",
+      "name": "CERTIFICATE IN CRITICAL PUBLIC HEALTH",
+      "type": "Certificate",
+      "area": "CRITICAL PUBLIC HEALTH"
+    },
+    {
+      "id": "20684",
+      "name": "HONOURS SPECIALIZATION IN CULTURAL FORCES OF GLOBAL CHANGE",
+      "type": "Honours Specialization",
+      "area": "CULTURAL FORCES OF GLOBAL CHANGE"
+    },
+    {
+      "id": "20677",
+      "name": "MAJOR IN CULTURAL FORCES OF GLOBAL CHANGE",
+      "type": "Major",
+      "area": "CULTURAL FORCES OF GLOBAL CHANGE"
+    },
+    {
+      "id": "20688",
+      "name": "SPECIALIZATION IN CULTURAL FORCES OF GLOBAL CHANGE",
+      "type": "Specialization",
+      "area": "CULTURAL FORCES OF GLOBAL CHANGE"
+    },
+    {
+      "id": "20680",
+      "name": "MINOR IN CULTURAL FORCES OF GLOBAL CHANGE",
+      "type": "Minor",
+      "area": "CULTURAL FORCES OF GLOBAL CHANGE"
+    },
+    {
+      "id": "21297",
+      "name": "HONOURS SPECIALIZATION IN CULTURAL FORCES OF GLOBAL CHANGE/HBA",
+      "type": "Combined Degree Program",
+      "area": "CULTURAL FORCES OF GLOBAL CHANGE/HBA"
+    },
+    {
+      "id": "20771",
+      "name": "MINOR IN DANCE",
+      "type": "Minor",
+      "area": "DANCE"
+    },
+    {
+      "id": "21056",
+      "name": "HONOURS SPECIALIZATION IN DATA SCIENCE",
+      "type": "Honours Specialization",
+      "area": "DATA SCIENCE"
+    },
+    {
+      "id": "21057",
+      "name": "MAJOR IN DATA SCIENCE",
+      "type": "Major",
+      "area": "DATA SCIENCE"
+    },
+    {
+      "id": "21604",
+      "name": "MINOR IN DATA SCIENCE",
+      "type": "Minor",
+      "area": "DATA SCIENCE"
+    },
+    {
+      "id": "21658",
+      "name": "CERTIFICATE IN DATA SCIENCE",
+      "type": "Certificate",
+      "area": "DATA SCIENCE"
+    },
+    {
+      "id": "21598",
+      "name": "HONOURS SPECIALIZATION IN DEVELOPMENTAL COGNITIVE NEUROSCIENCE - BSc",
+      "type": "Honours Specialization",
+      "area": "DEVELOPMENTAL COGNITIVE NEUROSCIENCE - BSc"
+    },
+    {
+      "id": "20844",
+      "name": "DIPLOMA IN DIETETIC EDUCATION AND PRACTICAL TRAINING",
+      "type": "Diploma",
+      "area": "DIETETIC EDUCATION AND PRACTICAL TRAINING"
+    },
+    {
+      "id": "21155",
+      "name": "CERTIFICATE IN DIGITAL COMMUNICATION: SOCIAL MEDIA & VIRTUAL WORLDS",
+      "type": "Certificate",
+      "area": "DIGITAL COMMUNICATION: SOCIAL MEDIA & VIRTUAL WORLDS"
+    },
+    {
+      "id": "21156",
+      "name": "DIPLOMA IN DIGITAL COMMUNICATION: SOCIAL MEDIA & VIRTUAL WORLDS",
+      "type": "Diploma",
+      "area": "DIGITAL COMMUNICATION: SOCIAL MEDIA & VIRTUAL WORLDS"
+    },
+    {
+      "id": "20967",
+      "name": "MINOR IN DIGITAL HUMANITIES",
+      "type": "Minor",
+      "area": "DIGITAL HUMANITIES"
+    },
+    {
+      "id": "20702",
+      "name": "MAJOR IN DISABILITY STUDIES",
+      "type": "Major",
+      "area": "DISABILITY STUDIES"
+    },
+    {
+      "id": "20703",
+      "name": "MINOR IN DISABILITY STUDIES",
+      "type": "Minor",
+      "area": "DISABILITY STUDIES"
+    },
+    {
+      "id": "21627",
+      "name": "CERTIFICATE IN DIVERSITY AND FAMILIES",
+      "type": "Certificate",
+      "area": "DIVERSITY AND FAMILIES"
+    },
+    {
+      "id": "21626",
+      "name": "DIPLOMA IN DIVERSITY AND FAMILIES",
+      "type": "Diploma",
+      "area": "DIVERSITY AND FAMILIES"
+    },
+    {
+      "id": "20695",
+      "name": "MAJOR IN EAST ASIA STUDIES",
+      "type": "Major",
+      "area": "EAST ASIA STUDIES"
+    },
+    {
+      "id": "20698",
+      "name": "MINOR IN EAST ASIA STUDIES",
+      "type": "Minor",
+      "area": "EAST ASIA STUDIES"
+    },
+    {
+      "id": "21724",
+      "name": "CERTIFICATE IN ECOLOGICAL JUSTICE AND CLIMATE ETHICS",
+      "type": "Certificate",
+      "area": "ECOLOGICAL JUSTICE AND CLIMATE ETHICS"
+    },
+    {
+      "id": "20705",
+      "name": "MINOR IN ECONOMIC THEORY",
+      "type": "Minor",
+      "area": "ECONOMIC THEORY"
+    },
+    {
+      "id": "21002",
+      "name": "HONOURS SPECIALIZATION IN ECONOMICS",
+      "type": "Honours Specialization",
+      "area": "ECONOMICS"
+    },
+    {
+      "id": "20999",
+      "name": "MAJOR IN ECONOMICS",
+      "type": "Major",
+      "area": "ECONOMICS"
+    },
+    {
+      "id": "21005",
+      "name": "SPECIALIZATION IN ECONOMICS",
+      "type": "Specialization",
+      "area": "ECONOMICS"
+    },
+    {
+      "id": "21001",
+      "name": "MINOR IN ECONOMICS",
+      "type": "Minor",
+      "area": "ECONOMICS"
+    },
+    {
+      "id": "20706",
+      "name": "HONOURS SPECIALIZATION IN ECONOMICS",
+      "type": "Honours Specialization",
+      "area": "ECONOMICS"
+    },
+    {
+      "id": "20704",
+      "name": "MAJOR IN ECONOMICS",
+      "type": "Major",
+      "area": "ECONOMICS"
+    },
+    {
+      "id": "20712",
+      "name": "HONOURS SPECIALIZATION IN ECONOMICS",
+      "type": "Honours Specialization",
+      "area": "ECONOMICS"
+    },
+    {
+      "id": "20708",
+      "name": "MAJOR IN ECONOMICS",
+      "type": "Major",
+      "area": "ECONOMICS"
+    },
+    {
+      "id": "21597",
+      "name": "SPECIALIZATION IN ECONOMICS",
+      "type": "Specialization",
+      "area": "ECONOMICS"
+    },
+    {
+      "id": "20710",
+      "name": "MINOR IN ECONOMICS",
+      "type": "Minor",
+      "area": "ECONOMICS"
+    },
+    {
+      "id": "21316",
+      "name": "HONOURS SPECIALIZATION IN ECONOMICS/HBA",
+      "type": "Combined Degree Program",
+      "area": "ECONOMICS/HBA"
+    },
+    {
+      "id": "21129",
+      "name": "MAJOR IN ECOSYSTEM HEALTH",
+      "type": "Major",
+      "area": "ECOSYSTEM HEALTH"
+    },
+    {
+      "id": "21581",
+      "name": "BACHELOR OF EDUCATION PROGRAM",
+      "type": "Other - Non Modular Program",
+      "area": "EDUCATION"
+    },
+    {
+      "id": "21270",
+      "name": "A. ELECTRICAL ENGINEERING PROGRAM",
+      "type": "Other - Non Modular Program",
+      "area": "ELECTRICAL ENGINEERING"
+    },
+    {
+      "id": "21608",
+      "name": "H. ELECTRICAL ENGINEERING AND BIOMEDICAL ENGINEERING OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "ELECTRICAL ENGINEERING AND BIOMEDICAL ENGINEERING"
+    },
+    {
+      "id": "21271",
+      "name": "B. ELECTRICAL ENGINEERING/HBA",
+      "type": "Combined Degree Program",
+      "area": "ELECTRICAL ENGINEERING/HBA"
+    },
+    {
+      "id": "21273",
+      "name": "D. ELECTRICAL ENGINEERING/LAW",
+      "type": "Combined Degree Program",
+      "area": "ELECTRICAL ENGINEERING/LAW"
+    },
+    {
+      "id": "21654",
+      "name": "ENGINEERING CO-OP PROGRAM",
+      "type": "Other - Non Modular Program",
+      "area": "ENGINEERING CO-OP PROGRAM"
+    },
+    {
+      "id": "21139",
+      "name": "CERTIFICATE IN ENGINEERING LEADERSHIP AND INNOVATION",
+      "type": "Certificate",
+      "area": "ENGINEERING LEADERSHIP AND INNOVATION"
+    },
+    {
+      "id": "20724",
+      "name": "HONOURS SPECIALIZATION IN ENGLISH AND CULTURAL STUDIES",
+      "type": "Honours Specialization",
+      "area": "ENGLISH AND CULTURAL STUDIES"
+    },
+    {
+      "id": "20720",
+      "name": "MAJOR IN ENGLISH AND CULTURAL STUDIES",
+      "type": "Major",
+      "area": "ENGLISH AND CULTURAL STUDIES"
+    },
+    {
+      "id": "20725",
+      "name": "SPECIALIZATION IN ENGLISH AND CULTURAL STUDIES",
+      "type": "Specialization",
+      "area": "ENGLISH AND CULTURAL STUDIES"
+    },
+    {
+      "id": "20721",
+      "name": "MINOR IN ENGLISH AND CULTURAL STUDIES",
+      "type": "Minor",
+      "area": "ENGLISH AND CULTURAL STUDIES"
+    },
+    {
+      "id": "20847",
+      "name": "MINOR IN ENGLISH FOR TEACHERS (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Minor",
+      "area": "ENGLISH FOR TEACHERS"
+    },
+    {
+      "id": "20904",
+      "name": "MINOR IN ENGLISH FOR TEACHERS",
+      "type": "Minor",
+      "area": "ENGLISH FOR TEACHERS"
+    },
+    {
+      "id": "20723",
+      "name": "MINOR IN ENGLISH FOR TEACHERS",
+      "type": "Minor",
+      "area": "ENGLISH FOR TEACHERS"
+    },
+    {
+      "id": "20716",
+      "name": "MINOR IN ENGLISH FOR TEACHERS",
+      "type": "Minor",
+      "area": "ENGLISH FOR TEACHERS"
+    },
+    {
+      "id": "20849",
+      "name": "HONOURS SPECIALIZATION IN ENGLISH LANGUAGE AND LITERATURE (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Honours Specialization",
+      "area": "ENGLISH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20911",
+      "name": "HONOURS SPECIALIZATION IN ENGLISH LANGUAGE AND LITERATURE",
+      "type": "Honours Specialization",
+      "area": "ENGLISH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20845",
+      "name": "MAJOR IN ENGLISH LANGUAGE AND LITERATURE (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Major",
+      "area": "ENGLISH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20899",
+      "name": "MAJOR IN ENGLISH LANGUAGE AND LITERATURE",
+      "type": "Major",
+      "area": "ENGLISH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20850",
+      "name": "SPECIALIZATION IN ENGLISH LANGUAGE AND LITERATURE (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Specialization",
+      "area": "ENGLISH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20913",
+      "name": "SPECIALIZATION IN ENGLISH LANGUAGE AND LITERATURE",
+      "type": "Specialization",
+      "area": "ENGLISH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20846",
+      "name": "MINOR IN ENGLISH LANGUAGE AND LITERATURE (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Minor",
+      "area": "ENGLISH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20902",
+      "name": "MINOR IN ENGLISH LANGUAGE AND LITERATURE",
+      "type": "Minor",
+      "area": "ENGLISH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20718",
+      "name": "HONOURS SPECIALIZATION IN ENGLISH LANGUAGE AND LITERATURE",
+      "type": "Honours Specialization",
+      "area": "ENGLISH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20714",
+      "name": "MAJOR IN ENGLISH LANGUAGE AND LITERATURE",
+      "type": "Major",
+      "area": "ENGLISH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20719",
+      "name": "SPECIALIZATION IN ENGLISH LANGUAGE AND LITERATURE",
+      "type": "Specialization",
+      "area": "ENGLISH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20715",
+      "name": "MINOR IN ENGLISH LANGUAGE AND LITERATURE",
+      "type": "Minor",
+      "area": "ENGLISH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "21700",
+      "name": "MINOR IN ENTREPRENEURSHIP",
+      "type": "Minor",
+      "area": "ENTREPRENEURSHIP"
+    },
+    {
+      "id": "21702",
+      "name": "CERTIFICATE IN ENTREPRENEURSHIP",
+      "type": "Certificate",
+      "area": "ENTREPRENEURSHIP"
+    },
+    {
+      "id": "20992",
+      "name": "MINOR IN ENVIRONMENT AND CULTURE",
+      "type": "Minor",
+      "area": "ENVIRONMENT AND CULTURE"
+    },
+    {
+      "id": "21032",
+      "name": "MAJOR IN ENVIRONMENT AND HEALTH",
+      "type": "Major",
+      "area": "ENVIRONMENT AND HEALTH"
+    },
+    {
+      "id": "21265",
+      "name": "B. ENVIRONMENTAL ENGINEERING OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "ENVIRONMENTAL ENGINEERING"
+    },
+    {
+      "id": "21268",
+      "name": "F. ENVIRONMENTAL ENGINEERING WITH INTERNATIONAL DEVELOPMENT OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "ENVIRONMENTAL ENGINEERING WITH INTERNATIONAL DEVELOPMENT"
+    },
+    {
+      "id": "21638",
+      "name": "HONOURS SPECIALIZATION IN ENVIRONMENTAL GEOSCIENCE – For Professional Registration",
+      "type": "Honours Specialization",
+      "area": "ENVIRONMENTAL GEOSCIENCE – For Professional Registration"
+    },
+    {
+      "id": "21639",
+      "name": "SPECIALIZATION IN ENVIRONMENTAL GEOSCIENCE – For Professional Registration",
+      "type": "Specialization",
+      "area": "ENVIRONMENTAL GEOSCIENCE – For Professional Registration"
+    },
+    {
+      "id": "20729",
+      "name": "HONOURS SPECIALIZATION IN ENVIRONMENTAL SCIENCE",
+      "type": "Honours Specialization",
+      "area": "ENVIRONMENTAL SCIENCE"
+    },
+    {
+      "id": "20726",
+      "name": "MAJOR IN ENVIRONMENTAL SCIENCE",
+      "type": "Major",
+      "area": "ENVIRONMENTAL SCIENCE"
+    },
+    {
+      "id": "20727",
+      "name": "SPECIALIZATION IN ENVIRONMENTAL SCIENCE",
+      "type": "Specialization",
+      "area": "ENVIRONMENTAL SCIENCE"
+    },
+    {
+      "id": "20728",
+      "name": "MINOR IN ENVIRONMENTAL SCIENCE",
+      "type": "Minor",
+      "area": "ENVIRONMENTAL SCIENCE"
+    },
+    {
+      "id": "21666",
+      "name": "MINOR IN ENVIRONMENTAL STEWARDSHIP",
+      "type": "Minor",
+      "area": "ENVIRONMENTAL STEWARDSHIP"
+    },
+    {
+      "id": "21217",
+      "name": "HONOURS SPECIALIZATION IN EPIDEMIOLOGY AND BIOSTATISTICS",
+      "type": "Honours Specialization",
+      "area": "EPIDEMIOLOGY AND BIOSTATISTICS"
+    },
+    {
+      "id": "21216",
+      "name": "MAJOR IN EPIDEMIOLOGY AND BIOSTATISTICS",
+      "type": "Major",
+      "area": "EPIDEMIOLOGY AND BIOSTATISTICS"
+    },
+    {
+      "id": "21635",
+      "name": "MINOR IN EPIDEMIOLOGY AND BIOSTATISTICS",
+      "type": "Minor",
+      "area": "EPIDEMIOLOGY AND BIOSTATISTICS"
+    },
+    {
+      "id": "20925",
+      "name": "MINOR IN ETHICS",
+      "type": "Minor",
+      "area": "ETHICS"
+    },
+    {
+      "id": "21547",
+      "name": "CERTIFICATE IN ETHICS",
+      "type": "Certificate",
+      "area": "ETHICS"
+    },
+    {
+      "id": "20927",
+      "name": "DIPLOMA IN ETHICS",
+      "type": "Diploma",
+      "area": "ETHICS"
+    },
+    {
+      "id": "20789",
+      "name": "MINOR IN ETHICS",
+      "type": "Minor",
+      "area": "ETHICS"
+    },
+    {
+      "id": "21545",
+      "name": "HONOURS SPECIALIZATION IN THE FACULTY OF ARTS AND HUMANITIES/HBA",
+      "type": "Combined Degree Program",
+      "area": "FACULTY OF ARTS AND HUMANITIES/HBA"
+    },
+    {
+      "id": "21588",
+      "name": "FACULTY OF ARTS AND SOCIAL SCIENCE AT HURON UNIVERSITY COLLEGE/HBA",
+      "type": "Combined Degree Program",
+      "area": "FACULTY OF ARTS AND SOCIAL SCIENCE AT HURON UNIVERSITY COLLEGE/HBA"
+    },
+    {
+      "id": "20812",
+      "name": "HONOURS SPECIALIZATION IN FAMILIES AND COMMUNITIES - BA (HUMAN ECOLOGY) - ADMISSION DISCONTINUED",
+      "type": "Honours Specialization",
+      "area": "FAMILIES AND COMMUNITIES - BA (HUMAN ECOLOGY)"
+    },
+    {
+      "id": "20818",
+      "name": "MINOR IN FAMILY STUDIES AND HUMAN DEVELOPMENT",
+      "type": "Minor",
+      "area": "FAMILY STUDIES AND HUMAN DEVELOPMENT"
+    },
+    {
+      "id": "20813",
+      "name": "HONOURS SPECIALIZATION IN FAMILY STUDIES AND HUMAN DEVELOPMENT - BA (HUMAN ECOLOGY)",
+      "type": "Honours Specialization",
+      "area": "FAMILY STUDIES AND HUMAN DEVELOPMENT - BA (HUMAN ECOLOGY)"
+    },
+    {
+      "id": "20816",
+      "name": "MAJOR IN FAMILY STUDIES AND HUMAN DEVELOPMENT - BA (HUMAN ECOLOGY)",
+      "type": "Major",
+      "area": "FAMILY STUDIES AND HUMAN DEVELOPMENT - BA (HUMAN ECOLOGY)"
+    },
+    {
+      "id": "20819",
+      "name": "SPECIALIZATION IN FAMILY STUDIES AND HUMAN DEVELOPMENT - BA (HUMAN ECOLOGY)",
+      "type": "Specialization",
+      "area": "FAMILY STUDIES AND HUMAN DEVELOPMENT - BA (HUMAN ECOLOGY)"
+    },
+    {
+      "id": "20814",
+      "name": "HONOURS SPECIALIZATION IN FAMILY STUDIES AND HUMAN DEVELOPMENT - BSc (HUMAN ECOLOGY) - ADMISSION DISCONTINUED",
+      "type": "Honours Specialization",
+      "area": "FAMILY STUDIES AND HUMAN DEVELOPMENT- BSc (HUMAN ECOLOGY)"
+    },
+    {
+      "id": "20820",
+      "name": "SPECIALIZATION IN FAMILY STUDIES AND HUMAN DEVELOPMENT - BSc (HUMAN ECOLOGY) - ADMISSION DISCONTINUED",
+      "type": "Specialization",
+      "area": "FAMILY STUDIES AND HUMAN DEVELOPMENT- BSc (HUMAN ECOLOGY)"
+    },
+    {
+      "id": "21146",
+      "name": "MINOR IN FEMINIST, QUEER, AND CRITICAL RACE THEORY",
+      "type": "Minor",
+      "area": "FEMINIST, QUEER, AND CRITICAL RACE THEORY"
+    },
+    {
+      "id": "21713",
+      "name": "MINOR IN FEMINIST, QUEER, AND CRITICAL RACE THEORY",
+      "type": "Minor",
+      "area": "FEMINIST, QUEER, AND CRITICAL RACE THEORY"
+    },
+    {
+      "id": "20915",
+      "name": "HONOURS SPECIALIZATION IN FILM STUDIES",
+      "type": "Honours Specialization",
+      "area": "FILM STUDIES"
+    },
+    {
+      "id": "20901",
+      "name": "MAJOR IN FILM STUDIES",
+      "type": "Major",
+      "area": "FILM STUDIES"
+    },
+    {
+      "id": "20914",
+      "name": "SPECIALIZATION IN FILM STUDIES",
+      "type": "Specialization",
+      "area": "FILM STUDIES"
+    },
+    {
+      "id": "20909",
+      "name": "MINOR IN FILM STUDIES",
+      "type": "Minor",
+      "area": "FILM STUDIES"
+    },
+    {
+      "id": "21518",
+      "name": "HONOURS SPECIALIZATION IN FINANCE",
+      "type": "Honours Specialization",
+      "area": "FINANCE"
+    },
+    {
+      "id": "21524",
+      "name": "MAJOR IN FINANCE (must be part of Honours Double Major)",
+      "type": "Major",
+      "area": "FINANCE"
+    },
+    {
+      "id": "21529",
+      "name": "SPECIALIZATION IN FINANCE",
+      "type": "Specialization",
+      "area": "FINANCE"
+    },
+    {
+      "id": "20707",
+      "name": "MAJOR IN FINANCE",
+      "type": "Major",
+      "area": "FINANCE"
+    },
+    {
+      "id": "20709",
+      "name": "MAJOR IN FINANCE",
+      "type": "Major",
+      "area": "FINANCE"
+    },
+    {
+      "id": "20711",
+      "name": "MINOR IN FINANCE",
+      "type": "Minor",
+      "area": "FINANCE"
+    },
+    {
+      "id": "21497",
+      "name": "HONOURS SPECIALIZATION IN FINANCE AND ADMINISTRATION",
+      "type": "Honours Specialization",
+      "area": "FINANCE AND ADMINISTRATION"
+    },
+    {
+      "id": "21502",
+      "name": "SPECIALIZATION IN FINANCE AND ADMINISTRATION",
+      "type": "Specialization",
+      "area": "FINANCE AND ADMINISTRATION"
+    },
+    {
+      "id": "21505",
+      "name": "HONOURS SPECIALIZATION IN FINANCE AND ADMINISTRATION",
+      "type": "Honours Specialization",
+      "area": "FINANCE AND ADMINISTRATION"
+    },
+    {
+      "id": "21513",
+      "name": "SPECIALIZATION IN FINANCE AND ADMINISTRATION",
+      "type": "Specialization",
+      "area": "FINANCE AND ADMINISTRATION"
+    },
+    {
+      "id": "21000",
+      "name": "MAJOR IN FINANCIAL ECONOMICS",
+      "type": "Major",
+      "area": "FINANCIAL ECONOMICS"
+    },
+    {
+      "id": "21726",
+      "name": "HONOURS SPECIALIZATION IN FINANCIAL ECONOMICS",
+      "type": "Honours Specialization",
+      "area": "FINANCIAL ECONOMICS"
+    },
+    {
+      "id": "20713",
+      "name": "SPECIALIZATION IN FINANCIAL ECONOMICS",
+      "type": "Specialization",
+      "area": "FINANCIAL ECONOMICS"
+    },
+    {
+      "id": "21054",
+      "name": "HONOURS SPECIALIZATION IN FINANCIAL MODELLING",
+      "type": "Honours Specialization",
+      "area": "FINANCIAL MODELLING"
+    },
+    {
+      "id": "21051",
+      "name": "MAJOR IN FINANCIAL MODELLING",
+      "type": "Major",
+      "area": "FINANCIAL MODELLING"
+    },
+    {
+      "id": "21486",
+      "name": "HONOURS SPECIALIZATION IN FOOD MANAGEMENT AND MARKETING (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Honours Specialization",
+      "area": "FOOD MANAGEMENT AND MARKETING"
+    },
+    {
+      "id": "21490",
+      "name": "MAJOR IN FOOD MANAGEMENT AND MARKETING (must be part of Honours Double Major) (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Major",
+      "area": "FOOD MANAGEMENT AND MARKETING"
+    },
+    {
+      "id": "21492",
+      "name": "SPECIALIZATION IN FOOD MANAGEMENT AND MARKETING (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Specialization",
+      "area": "FOOD MANAGEMENT AND MARKETING"
+    },
+    {
+      "id": "21634",
+      "name": "HONOURS SPECIALIZATION IN FOODS AND NUTRITION",
+      "type": "Honours Specialization",
+      "area": "FOODS AND NUTRITION"
+    },
+    {
+      "id": "20843",
+      "name": "SPECIALIZATION IN FOODS AND NUTRITION",
+      "type": "Specialization",
+      "area": "FOODS AND NUTRITION"
+    },
+    {
+      "id": "20839",
+      "name": "MINOR IN FOODS AND NUTRITION",
+      "type": "Minor",
+      "area": "FOODS AND NUTRITION"
+    },
+    {
+      "id": "21698",
+      "name": "HONOURS SPECIALIZATION IN FOODS AND NUTRITION/CHEMICAL ENGINEERING (OPTION H)",
+      "type": "Combined Degree Program",
+      "area": "FOODS AND NUTRITION"
+    },
+    {
+      "id": "20942",
+      "name": "CERTIFICAT DE FRANÇAIS PRATIQUE",
+      "type": "Certificate",
+      "area": "FRANÇAIS PRATIQUE (PRACTICAL FRENCH)"
+    },
+    {
+      "id": "20944",
+      "name": "DIPLÔME DE FRANÇAIS PRATIQUE",
+      "type": "Diploma",
+      "area": "FRANÇAIS PRATIQUE (PRACTICAL FRENCH)"
+    },
+    {
+      "id": "20851",
+      "name": "MAJOR IN FRENCH FOR TEACHING",
+      "type": "Major",
+      "area": "FRENCH FOR TEACHING"
+    },
+    {
+      "id": "20732",
+      "name": "MINOR IN FRENCH LANGUAGE - admission discontinued",
+      "type": "Minor",
+      "area": "FRENCH LANGUAGE"
+    },
+    {
+      "id": "20737",
+      "name": "HONOURS SPECIALIZATION IN FRENCH LANGUAGE AND LITERATURE - admission discontinued",
+      "type": "Honours Specialization",
+      "area": "FRENCH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20733",
+      "name": "MAJOR IN FRENCH LANGUAGE AND LITERATURE - admission discontinued",
+      "type": "Major",
+      "area": "FRENCH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20736",
+      "name": "MINOR IN FRENCH LANGUAGE AND LITERATURE - admission discontinued",
+      "type": "Minor",
+      "area": "FRENCH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20730",
+      "name": "HONOURS SPECIALIZATION IN FRENCH LANGUAGE AND LITERATURE",
+      "type": "Honours Specialization",
+      "area": "FRENCH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20739",
+      "name": "MAJOR IN FRENCH LANGUAGE AND LITERATURE",
+      "type": "Major",
+      "area": "FRENCH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20740",
+      "name": "MINOR IN FRENCH LANGUAGE AND LITERATURE",
+      "type": "Minor",
+      "area": "FRENCH LANGUAGE AND LITERATURE"
+    },
+    {
+      "id": "20937",
+      "name": "HONOURS SPECIALIZATION IN FRENCH STUDIES",
+      "type": "Honours Specialization",
+      "area": "FRENCH STUDIES"
+    },
+    {
+      "id": "21567",
+      "name": "HONOURS SPECIALIZATION IN FRENCH STUDIES (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Honours Specialization",
+      "area": "FRENCH STUDIES"
+    },
+    {
+      "id": "20852",
+      "name": "MAJOR IN FRENCH STUDIES (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Major",
+      "area": "FRENCH STUDIES"
+    },
+    {
+      "id": "20928",
+      "name": "MAJOR IN FRENCH STUDIES",
+      "type": "Major",
+      "area": "FRENCH STUDIES"
+    },
+    {
+      "id": "20857",
+      "name": "SPECIALIZATION IN FRENCH STUDIES (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Specialization",
+      "area": "FRENCH STUDIES"
+    },
+    {
+      "id": "20940",
+      "name": "SPECIALIZATION IN FRENCH STUDIES",
+      "type": "Specialization",
+      "area": "FRENCH STUDIES"
+    },
+    {
+      "id": "20854",
+      "name": "MINOR IN FRENCH STUDIES (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Minor",
+      "area": "FRENCH STUDIES"
+    },
+    {
+      "id": "20933",
+      "name": "MINOR IN FRENCH STUDIES",
+      "type": "Minor",
+      "area": "FRENCH STUDIES"
+    },
+    {
+      "id": "20731",
+      "name": "MAJOR IN FRENCH STUDIES",
+      "type": "Major",
+      "area": "FRENCH STUDIES"
+    },
+    {
+      "id": "20738",
+      "name": "SPECIALIZATION IN FRENCH STUDIES - admission discontinued",
+      "type": "Specialization",
+      "area": "FRENCH STUDIES"
+    },
+    {
+      "id": "20734",
+      "name": "MINOR IN FRENCH STUDIES",
+      "type": "Minor",
+      "area": "FRENCH STUDIES"
+    },
+    {
+      "id": "20741",
+      "name": "SPECIALIZATION IN FRENCH STUDIES",
+      "type": "Specialization",
+      "area": "FRENCH STUDIES"
+    },
+    {
+      "id": "21118",
+      "name": "MINOR IN GAME DEVELOPMENT",
+      "type": "Minor",
+      "area": "GAME DEVELOPMENT"
+    },
+    {
+      "id": "21143",
+      "name": "HONOURS SPECIALIZATION IN GENDER AND WOMEN'S STUDIES",
+      "type": "Honours Specialization",
+      "area": "GENDER AND WOMEN'S STUDIES (formerly WOMEN'S STUDIES)"
+    },
+    {
+      "id": "21145",
+      "name": "MAJOR IN GENDER AND WOMEN'S STUDIES",
+      "type": "Major",
+      "area": "GENDER AND WOMEN'S STUDIES (formerly WOMEN'S STUDIES)"
+    },
+    {
+      "id": "21149",
+      "name": "SPECIALIZATION IN GENDER AND WOMEN'S STUDIES",
+      "type": "Specialization",
+      "area": "GENDER AND WOMEN'S STUDIES (formerly WOMEN'S STUDIES)"
+    },
+    {
+      "id": "21148",
+      "name": "MINOR IN GENDER AND WOMEN'S STUDIES",
+      "type": "Minor",
+      "area": "GENDER AND WOMEN'S STUDIES (formerly WOMEN'S STUDIES)"
+    },
+    {
+      "id": "21710",
+      "name": "HONOURS SPECIALIZATION IN GENDER AND WOMEN'S STUDIES",
+      "type": "Honours Specialization",
+      "area": "GENDER AND WOMEN'S STUDIES (formerly WOMEN'S STUDIES)"
+    },
+    {
+      "id": "21712",
+      "name": "MAJOR IN GENDER AND WOMEN'S STUDIES",
+      "type": "Major",
+      "area": "GENDER AND WOMEN'S STUDIES (formerly WOMEN'S STUDIES)"
+    },
+    {
+      "id": "21716",
+      "name": "SPECIALIZATION IN GENDER AND WOMEN'S STUDIES",
+      "type": "Specialization",
+      "area": "GENDER AND WOMEN'S STUDIES (formerly WOMEN'S STUDIES)"
+    },
+    {
+      "id": "21715",
+      "name": "MINOR IN GENDER AND WOMEN'S STUDIES",
+      "type": "Minor",
+      "area": "GENDER AND WOMEN'S STUDIES (formerly WOMEN'S STUDIES)"
+    },
+    {
+      "id": "20910",
+      "name": "MINOR IN GENERAL CINEMA STUDIES",
+      "type": "Minor",
+      "area": "GENERAL CINEMA STUDIES"
+    },
+    {
+      "id": "20848",
+      "name": "MINOR IN GENERAL ENGLISH (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Minor",
+      "area": "GENERAL ENGLISH"
+    },
+    {
+      "id": "20903",
+      "name": "MINOR IN GENERAL ENGLISH",
+      "type": "Minor",
+      "area": "GENERAL ENGLISH"
+    },
+    {
+      "id": "20717",
+      "name": "MINOR IN GENERAL ENGLISH",
+      "type": "Minor",
+      "area": "GENERAL ENGLISH"
+    },
+    {
+      "id": "21136",
+      "name": "HONOURS SPECIALIZATION IN GENETICS",
+      "type": "Honours Specialization",
+      "area": "GENETICS"
+    },
+    {
+      "id": "21130",
+      "name": "MAJOR IN GENETICS",
+      "type": "Major",
+      "area": "GENETICS"
+    },
+    {
+      "id": "21132",
+      "name": "MINOR IN GENETICS",
+      "type": "Minor",
+      "area": "GENETICS"
+    },
+    {
+      "id": "21137",
+      "name": "HONOURS SPECIALIZATION IN GENETICS AND BIOCHEMISTRY",
+      "type": "Honours Specialization",
+      "area": "GENETICS AND BIOCHEMISTRY"
+    },
+    {
+      "id": "21030",
+      "name": "MAJOR IN GEOGRAPHIC INFORMATION SCIENCE",
+      "type": "Major",
+      "area": "GEOGRAPHIC INFORMATION SCIENCE"
+    },
+    {
+      "id": "21655",
+      "name": "CERTIFICATE IN GEOGRAPHIC INFORMATION SCIENCE",
+      "type": "Certificate",
+      "area": "GEOGRAPHIC INFORMATION SCIENCE"
+    },
+    {
+      "id": "21036",
+      "name": "HONOURS SPECIALIZATION IN GEOGRAPHIC INFORMATION SCIENCE - BA",
+      "type": "Honours Specialization",
+      "area": "GEOGRAPHIC INFORMATION SCIENCE - BA"
+    },
+    {
+      "id": "21037",
+      "name": "HONOURS SPECIALIZATION IN GEOGRAPHIC INFORMATION SCIENCE - BSc",
+      "type": "Honours Specialization",
+      "area": "GEOGRAPHIC INFORMATION SCIENCE - BSc"
+    },
+    {
+      "id": "21029",
+      "name": "MAJOR IN GEOGRAPHY AND ENVIRONMENT",
+      "type": "Major",
+      "area": "GEOGRAPHY AND ENVIRONMENT"
+    },
+    {
+      "id": "21040",
+      "name": "SPECIALIZATION IN GEOGRAPHY AND ENVIRONMENT",
+      "type": "Specialization",
+      "area": "GEOGRAPHY AND ENVIRONMENT"
+    },
+    {
+      "id": "21033",
+      "name": "MINOR IN GEOGRAPHY AND ENVIRONMENT",
+      "type": "Minor",
+      "area": "GEOGRAPHY AND ENVIRONMENT"
+    },
+    {
+      "id": "21034",
+      "name": "HONOURS SPECIALIZATION IN GEOGRAPHY AND ENVIRONMENT - BA",
+      "type": "Honours Specialization",
+      "area": "GEOGRAPHY AND ENVIRONMENT - BA"
+    },
+    {
+      "id": "21035",
+      "name": "HONOURS SPECIALIZATION IN GEOGRAPHY AND ENVIRONMENT - BSc",
+      "type": "Honours Specialization",
+      "area": "GEOGRAPHY AND ENVIRONMENT - BSc"
+    },
+    {
+      "id": "21039",
+      "name": "HONOURS SPECIALIZATION IN GEOGRAPHY AND ENVIRONMENT AND COMMERCIAL AVIATION MANAGEMENT - BA",
+      "type": "Honours Specialization",
+      "area": "GEOGRAPHY AND ENVIRONMENT AND COMMERCIAL AVIATION MANAGEMENT - BA"
+    },
+    {
+      "id": "21041",
+      "name": "SPECIALIZATION IN GEOGRAPHY AND ENVIRONMENT AND COMMERCIAL AVIATION MANAGEMENT - BA",
+      "type": "Specialization",
+      "area": "GEOGRAPHY AND ENVIRONMENT AND COMMERCIAL AVIATION MANAGEMENT - BA"
+    },
+    {
+      "id": "21317",
+      "name": "HONOURS SPECIALIZATION IN GEOGRAPHY AND ENVIRONMENT/HBA",
+      "type": "Combined Degree Program",
+      "area": "GEOGRAPHY AND ENVIRONMENT/HBA"
+    },
+    {
+      "id": "21079",
+      "name": "MAJOR IN GEOLOGY",
+      "type": "Major",
+      "area": "GEOLOGY"
+    },
+    {
+      "id": "21081",
+      "name": "MINOR IN GEOLOGY",
+      "type": "Minor",
+      "area": "GEOLOGY"
+    },
+    {
+      "id": "21640",
+      "name": "HONOURS SPECIALIZATION IN GEOLOGY - For Professional Registration",
+      "type": "Honours Specialization",
+      "area": "GEOLOGY - For Professional Registration"
+    },
+    {
+      "id": "21641",
+      "name": "SPECIALIZATION IN GEOLOGY – For Professional Registration",
+      "type": "Specialization",
+      "area": "GEOLOGY - For Professional Registration"
+    },
+    {
+      "id": "21085",
+      "name": "HONOURS SPECIALIZATION IN GEOLOGY AND BIOLOGY",
+      "type": "Honours Specialization",
+      "area": "GEOLOGY AND BIOLOGY"
+    },
+    {
+      "id": "21089",
+      "name": "SPECIALIZATION IN GEOLOGY AND BIOLOGY",
+      "type": "Specialization",
+      "area": "GEOLOGY AND BIOLOGY"
+    },
+    {
+      "id": "21661",
+      "name": "MAJOR IN GEOPHYSICS",
+      "type": "Major",
+      "area": "GEOPHYSICS"
+    },
+    {
+      "id": "21080",
+      "name": "MINOR IN GEOPHYSICS",
+      "type": "Minor",
+      "area": "GEOPHYSICS"
+    },
+    {
+      "id": "21643",
+      "name": "HONOURS SPECIALIZATION IN GEOPHYSICS – For Professional Registration",
+      "type": "Honours Specialization",
+      "area": "GEOPHYSICS – For Professional Registration"
+    },
+    {
+      "id": "21642",
+      "name": "SPECIALIZATION IN GEOPHYSICS – For Professional Registration",
+      "type": "Specialization",
+      "area": "GEOPHYSICS – For Professional Registration"
+    },
+    {
+      "id": "20968",
+      "name": "MINOR IN GERMAN STUDIES (formerly the MINOR IN GERMAN)",
+      "type": "Minor",
+      "area": "GERMAN"
+    },
+    {
+      "id": "20983",
+      "name": "CERTIFICATE IN GERMAN STUDIES (formerly CERTIFICATE IN GERMAN)",
+      "type": "Certificate",
+      "area": "GERMAN"
+    },
+    {
+      "id": "21506",
+      "name": "HONOURS SPECIALIZATION IN GLOBAL COMMERCE",
+      "type": "Honours Specialization",
+      "area": "GLOBAL COMMERCE"
+    },
+    {
+      "id": "21509",
+      "name": "MAJOR IN GLOBAL COMMERCE (must be part of an Honours Double Major)",
+      "type": "Major",
+      "area": "GLOBAL COMMERCE"
+    },
+    {
+      "id": "21514",
+      "name": "SPECIALIZATION IN GLOBAL COMMERCE",
+      "type": "Specialization",
+      "area": "GLOBAL COMMERCE"
+    },
+    {
+      "id": "20685",
+      "name": "HONOURS SPECIALIZATION IN GLOBAL DEVELOPMENT",
+      "type": "Honours Specialization",
+      "area": "GLOBAL DEVELOPMENT"
+    },
+    {
+      "id": "20678",
+      "name": "MAJOR IN GLOBAL DEVELOPMENT",
+      "type": "Major",
+      "area": "GLOBAL DEVELOPMENT"
+    },
+    {
+      "id": "20689",
+      "name": "SPECIALIZATION IN GLOBAL DEVELOPMENT",
+      "type": "Specialization",
+      "area": "GLOBAL DEVELOPMENT"
+    },
+    {
+      "id": "20681",
+      "name": "MINOR IN GLOBAL DEVELOPMENT",
+      "type": "Minor",
+      "area": "GLOBAL DEVELOPMENT"
+    },
+    {
+      "id": "21298",
+      "name": "HONOURS SPECIALIZATION IN GLOBAL DEVELOPMENT/HBA",
+      "type": "Combined Degree Program",
+      "area": "GLOBAL DEVELOPMENT/HBA"
+    },
+    {
+      "id": "21004",
+      "name": "HONOURS SPECIALIZATION IN GLOBAL ECONOMICS",
+      "type": "Honours Specialization",
+      "area": "GLOBAL ECONOMICS"
+    },
+    {
+      "id": "21142",
+      "name": "HONOURS SPECIALIZATION IN GLOBAL GENDER STUDIES",
+      "type": "Honours Specialization",
+      "area": "GLOBAL GENDER STUDIES"
+    },
+    {
+      "id": "21709",
+      "name": "HONOURS SPECIALIZATION IN GLOBAL GENDER STUDIES",
+      "type": "Honours Specialization",
+      "area": "GLOBAL GENDER STUDIES"
+    },
+    {
+      "id": "20686",
+      "name": "HONOURS SPECIALIZATION IN GLOBAL GENDER STUDIES",
+      "type": "Honours Specialization",
+      "area": "GLOBAL GENDER STUDIES"
+    },
+    {
+      "id": "21568",
+      "name": "SPECIALIZATION IN GLOBAL GENDER STUDIES",
+      "type": "Specialization",
+      "area": "GLOBAL GENDER STUDIES"
+    },
+    {
+      "id": "21645",
+      "name": "MAJOR IN GLOBAL GREAT BOOKS",
+      "type": "Major",
+      "area": "GLOBAL GREAT BOOKS"
+    },
+    {
+      "id": "21663",
+      "name": "MINOR IN GLOBAL GREAT BOOKS",
+      "type": "Minor",
+      "area": "GLOBAL GREAT BOOKS"
+    },
+    {
+      "id": "21681",
+      "name": "MINOR IN GLOBAL GREAT QUESTIONS IN ARTS AND MUSIC",
+      "type": "Minor",
+      "area": "GLOBAL GREAT BOOKS"
+    },
+    {
+      "id": "20683",
+      "name": "HONOURS SPECIALIZATION IN GLOBAL HEALTH STUDIES",
+      "type": "Honours Specialization",
+      "area": "GLOBAL HEALTH STUDIES"
+    },
+    {
+      "id": "21601",
+      "name": "SPECIALIZATION IN GLOBAL HEALTH STUDIES",
+      "type": "Specialization",
+      "area": "GLOBAL HEALTH STUDIES"
+    },
+    {
+      "id": "21596",
+      "name": "HONOURS SPECIALIZATION IN GLOBAL JUSTICE",
+      "type": "Honours Specialization",
+      "area": "GLOBAL JUSTICE"
+    },
+    {
+      "id": "21595",
+      "name": "MAJOR IN GLOBAL JUSTICE",
+      "type": "Major",
+      "area": "GLOBAL JUSTICE"
+    },
+    {
+      "id": "21550",
+      "name": "HONOURS SPECIALIZATION IN GLOBAL RIGHTS ACTIONS",
+      "type": "Honours Specialization",
+      "area": "GLOBAL RIGHTS ACTIONS"
+    },
+    {
+      "id": "21551",
+      "name": "SPECIALIZATION IN GLOBAL RIGHTS ACTIONS",
+      "type": "Specialization",
+      "area": "GLOBAL RIGHTS ACTIONS"
+    },
+    {
+      "id": "20687",
+      "name": "HONOURS SPECIALIZATION IN GLOBAL SOCIAL INNOVATION",
+      "type": "Honours Specialization",
+      "area": "GLOBAL SOCIAL INNOVATION"
+    },
+    {
+      "id": "20679",
+      "name": "MAJOR IN GLOBAL SOCIAL INNOVATION",
+      "type": "Major",
+      "area": "GLOBAL SOCIAL INNOVATION"
+    },
+    {
+      "id": "20690",
+      "name": "SPECIALIZATION IN GLOBAL SOCIAL INNOVATION",
+      "type": "Specialization",
+      "area": "GLOBAL SOCIAL INNOVATION"
+    },
+    {
+      "id": "20682",
+      "name": "MINOR IN GLOBAL SOCIAL INNOVATION",
+      "type": "Minor",
+      "area": "GLOBAL SOCIAL INNOVATION"
+    },
+    {
+      "id": "21299",
+      "name": "HONOURS SPECIALIZATION IN GLOBAL SOCIAL INNOVATION/HBA",
+      "type": "Combined Degree Program",
+      "area": "GLOBAL SOCIAL INNOVATION/HBA"
+    },
+    {
+      "id": "20742",
+      "name": "MAJOR IN GOVERNANCE, LEADERSHIP AND ETHICS",
+      "type": "Major",
+      "area": "GOVERNANCE, LEADERSHIP AND ETHICS"
+    },
+    {
+      "id": "20891",
+      "name": "MINOR IN GREEK",
+      "type": "Minor",
+      "area": "GREEK"
+    },
+    {
+      "id": "20893",
+      "name": "MINOR IN GREEK AND LATIN",
+      "type": "Minor",
+      "area": "GREEK AND LATIN"
+    },
+    {
+      "id": "20894",
+      "name": "MINOR IN GREEK AND LATIN LITERATURE",
+      "type": "Minor",
+      "area": "GREEK AND LATIN LITERATURE"
+    },
+    {
+      "id": "20895",
+      "name": "MINOR IN GREEK AND ROMAN ARCHAEOLOGY",
+      "type": "Minor",
+      "area": "GREEK AND ROMAN ARCHAEOLOGY"
+    },
+    {
+      "id": "20896",
+      "name": "MINOR IN GREEK AND ROMAN HISTORY",
+      "type": "Minor",
+      "area": "GREEK AND ROMAN HISTORY"
+    },
+    {
+      "id": "21323",
+      "name": "THE HBA PROGRAM",
+      "type": "Other - Non Modular Program",
+      "area": "HBA PROGRAM"
+    },
+    {
+      "id": "21695",
+      "name": "HBA/HONOURS DOUBLE MAJOR WITH ADVANCED STUDIES IN THE ARTS AND HUMANITIES",
+      "type": "Combined Degree Program",
+      "area": "HBA/ADVANCED STUDIES IN THE ARTS AND HUMANITIES"
+    },
+    {
+      "id": "21478",
+      "name": "HBA/HONOURS BMSc BIOCHEMISTRY",
+      "type": "Combined Degree Program",
+      "area": "HBA/BIOCHEMISTRY"
+    },
+    {
+      "id": "21543",
+      "name": "HBA/CHEMICAL ENGINEERING",
+      "type": "Combined Degree Program",
+      "area": "HBA/CHEMICAL ENGINEERING"
+    },
+    {
+      "id": "21445",
+      "name": "HBA/CIVIL ENGINEERING",
+      "type": "Combined Degree Program",
+      "area": "HBA/CIVIL ENGINEERING"
+    },
+    {
+      "id": "21462",
+      "name": "HBA/HONOURS SPECIALIZATION IN CULTURAL FORCES OF GLOBAL CHANGE",
+      "type": "Combined Degree Program",
+      "area": "HBA/CULTURAL FORCES OF GLOBAL CHANGE"
+    },
+    {
+      "id": "21480",
+      "name": "HBA/HONOURS SPECIALIZATION IN ECONOMICS",
+      "type": "Combined Degree Program",
+      "area": "HBA/ECONOMICS"
+    },
+    {
+      "id": "21561",
+      "name": "HBA/ELECTRICAL ENGINEERING",
+      "type": "Combined Degree Program",
+      "area": "HBA/ELECTRICAL ENGINEERING"
+    },
+    {
+      "id": "21546",
+      "name": "HBA/HONOURS SPECIALIZATION IN THE FACULTY OF ARTS AND HUMANITIES",
+      "type": "Combined Degree Program",
+      "area": "HBA/FACULTY OF ARTS AND HUMANITIES"
+    },
+    {
+      "id": "21589",
+      "name": "HBA/FACULTY OF ARTS AND SOCIAL SCIENCE AT HURON UNIVERSITY COLLEGE",
+      "type": "Combined Degree Program",
+      "area": "HBA/FACULTY OF ARTS AND SOCIAL SCIENCE AT HURON UNIVERSITY COLLEGE"
+    },
+    {
+      "id": "21481",
+      "name": "HBA/HONOURS SPECIALIZATION IN GEOGRAPHY AND ENVIRONMENT",
+      "type": "Combined Degree Program",
+      "area": "HBA/GEOGRAPHY AND ENVIRONMENT"
+    },
+    {
+      "id": "21463",
+      "name": "HBA/HONOURS SPECIALIZATION IN GLOBAL DEVELOPMENT",
+      "type": "Combined Degree Program",
+      "area": "HBA/GLOBAL DEVELOPMENT"
+    },
+    {
+      "id": "21464",
+      "name": "HBA/HONOURS SPECIALIZATION IN GLOBAL SOCIAL INNOVATION",
+      "type": "Combined Degree Program",
+      "area": "HBA/GLOBAL SOCIAL INNOVATION"
+    },
+    {
+      "id": "21459",
+      "name": "HBA/HONOURS SPECIALIZATION IN HEALTH SCIENCES",
+      "type": "Combined Degree Program",
+      "area": "HBA/HEALTH SCIENCES"
+    },
+    {
+      "id": "21451",
+      "name": "HBA/INTEGRATED ENGINEERING",
+      "type": "Combined Degree Program",
+      "area": "HBA/INTEGRATED ENGINEERING"
+    },
+    {
+      "id": "21479",
+      "name": "HBA/HONOURS BMSc INTERDISCIPLINARY MEDICAL SCIENCES",
+      "type": "Combined Degree Program",
+      "area": "HBA/INTERDISCIPLINARY MEDICAL SCIENCES"
+    },
+    {
+      "id": "21483",
+      "name": "HBA/HONOURS SPECIALIZATION IN INTERNATIONAL RELATIONS",
+      "type": "Combined Degree Program",
+      "area": "HBA/INTERNATIONAL RELATIONS"
+    },
+    {
+      "id": "21302",
+      "name": "HBA/LAW",
+      "type": "Combined Degree Program",
+      "area": "HBA/LAW"
+    },
+    {
+      "id": "21456",
+      "name": "HBA/MECHANICAL ENGINEERING",
+      "type": "Combined Degree Program",
+      "area": "HBA/MECHANICAL ENGINEERING"
+    },
+    {
+      "id": "21453",
+      "name": "HBA/MECHATRONIC SYSTEMS ENGINEERING",
+      "type": "Combined Degree Program",
+      "area": "HBA/MECHATRONIC SYSTEMS ENGINEERING"
+    },
+    {
+      "id": "21457",
+      "name": "HBA/HONOURS SPECIALIZATION IN MIT",
+      "type": "Combined Degree Program",
+      "area": "HBA/MIT"
+    },
+    {
+      "id": "21475",
+      "name": "HBA/BACHELOR OF MUSIC (HONOURS)",
+      "type": "Combined Degree Program",
+      "area": "HBA/MUSIC (Bachelor of Music - Honours)"
+    },
+    {
+      "id": "21476",
+      "name": "HBA/HONOURS SPECIALIZATION IN MUSIC",
+      "type": "Combined Degree Program",
+      "area": "HBA/MUSIC (Honours Specialization)"
+    },
+    {
+      "id": "21477",
+      "name": "HBA/MAJOR IN MUSIC",
+      "type": "Combined Degree Program",
+      "area": "HBA/MUSIC (Major)"
+    },
+    {
+      "id": "21441",
+      "name": "HBA/HONOURS SPECIALIZATION IN NUTRITION AND DIETETICS",
+      "type": "Combined Degree Program",
+      "area": "HBA/NUTRITION AND DIETETICS"
+    },
+    {
+      "id": "21484",
+      "name": "HBA/HONOURS SPECIALIZATION IN POLITICAL SCIENCE",
+      "type": "Combined Degree Program",
+      "area": "HBA/POLITICAL SCIENCE"
+    },
+    {
+      "id": "21633",
+      "name": "HBA/HONOURS SPECIALIZATION IN POLITICS, PHILOSOPHY AND ECONOMICS - ECONOMICS CONCENTRATION (PPE-E)",
+      "type": "Combined Degree Program",
+      "area": "HBA/PPE-E - POLITICS, PHILOSOPHY AND ECONOMICS - ECONOMICS"
+    },
+    {
+      "id": "21631",
+      "name": "HBA/HONOURS SPECIALIZATION IN POLITICS, PHILOSOPHY AND ECONOMICS - POLITICS AND PHILOSOPHY CONCENTRATION (PPE-P)",
+      "type": "Combined Degree Program",
+      "area": "HBA/PPE-P - POLITICS, PHILOSOPHY AND ECONOMICS - POLITICS AND PHILOSOPHY CONCENTRATION"
+    },
+    {
+      "id": "21485",
+      "name": "HBA/HONOURS SPECIALIZATION IN PSYCHOLOGY",
+      "type": "Combined Degree Program",
+      "area": "HBA/PSYCHOLOGY"
+    },
+    {
+      "id": "21465",
+      "name": "HBA/HONOURS SPECIALIZATION IN PSYCHOLOGY (HURON)",
+      "type": "Combined Degree Program",
+      "area": "HBA/PSYCHOLOGY (HURON)"
+    },
+    {
+      "id": "21563",
+      "name": "HBA/SCIENCE",
+      "type": "Combined Degree Program",
+      "area": "HBA/SCIENCE"
+    },
+    {
+      "id": "21449",
+      "name": "HBA/SOFTWARE ENGINEERING",
+      "type": "Combined Degree Program",
+      "area": "HBA/SOFTWARE ENGINEERING"
+    },
+    {
+      "id": "21482",
+      "name": "HBA/HONOURS SPECIALIZATION IN URBAN DEVELOPMENT",
+      "type": "Combined Degree Program",
+      "area": "HBA/URBAN DEVELOPMENT"
+    },
+    {
+      "id": "21161",
+      "name": "HONOURS SPECIALIZATION IN HEALTH SCIENCES",
+      "type": "Honours Specialization",
+      "area": "HEALTH SCIENCES"
+    },
+    {
+      "id": "21162",
+      "name": "HONOURS SPECIALIZATION IN HEALTH SCIENCES - HEALTH AND AGING - admission discontinued",
+      "type": "Honours Specialization",
+      "area": "HEALTH SCIENCES"
+    },
+    {
+      "id": "21163",
+      "name": "HONOURS SPECIALIZATION IN HEALTH SCIENCES - HEALTH PROMOTION - admission discontinued",
+      "type": "Honours Specialization",
+      "area": "HEALTH SCIENCES"
+    },
+    {
+      "id": "21157",
+      "name": "MAJOR IN HEALTH SCIENCES",
+      "type": "Major",
+      "area": "HEALTH SCIENCES"
+    },
+    {
+      "id": "21167",
+      "name": "SPECIALIZATION IN HEALTH SCIENCES",
+      "type": "Specialization",
+      "area": "HEALTH SCIENCES"
+    },
+    {
+      "id": "21159",
+      "name": "MINOR IN HEALTH SCIENCES",
+      "type": "Minor",
+      "area": "HEALTH SCIENCES"
+    },
+    {
+      "id": "21164",
+      "name": "HONOURS SPECIALIZATION IN HEALTH SCIENCES WITH BIOLOGY",
+      "type": "Honours Specialization",
+      "area": "HEALTH SCIENCES WITH BIOLOGY"
+    },
+    {
+      "id": "21294",
+      "name": "HONOURS SPECIALIZATION IN HEALTH SCIENCES/HBA",
+      "type": "Combined Degree Program",
+      "area": "HEALTH SCIENCES/HBA"
+    },
+    {
+      "id": "20748",
+      "name": "MINOR IN HISTORIES OF AFRICA AND THE AFRICAN DIASPORAS",
+      "type": "Minor",
+      "area": "HISTORIES OF AFRICA AND THE AFRICAN DIASPORAS"
+    },
+    {
+      "id": "20869",
+      "name": "HONOURS SPECIALIZATION IN HISTORY (Brescia) - admission discontinued",
+      "type": "Honours Specialization",
+      "area": "HISTORY"
+    },
+    {
+      "id": "21016",
+      "name": "HONOURS SPECIALIZATION IN HISTORY",
+      "type": "Honours Specialization",
+      "area": "HISTORY"
+    },
+    {
+      "id": "20865",
+      "name": "MAJOR IN HISTORY (Brescia) - admission discontinued",
+      "type": "Major",
+      "area": "HISTORY"
+    },
+    {
+      "id": "21007",
+      "name": "MAJOR IN HISTORY",
+      "type": "Major",
+      "area": "HISTORY"
+    },
+    {
+      "id": "20870",
+      "name": "SPECIALIZATION IN HISTORY (Brescia) - admission discontinued",
+      "type": "Specialization",
+      "area": "HISTORY"
+    },
+    {
+      "id": "21018",
+      "name": "SPECIALIZATION IN HISTORY",
+      "type": "Specialization",
+      "area": "HISTORY"
+    },
+    {
+      "id": "20867",
+      "name": "MINOR IN HISTORY (Brescia) - admission discontinued",
+      "type": "Minor",
+      "area": "HISTORY"
+    },
+    {
+      "id": "21011",
+      "name": "MINOR IN HISTORY",
+      "type": "Minor",
+      "area": "HISTORY"
+    },
+    {
+      "id": "20751",
+      "name": "HONOURS SPECIALIZATION IN HISTORY",
+      "type": "Honours Specialization",
+      "area": "HISTORY"
+    },
+    {
+      "id": "20743",
+      "name": "MAJOR IN HISTORY",
+      "type": "Major",
+      "area": "HISTORY"
+    },
+    {
+      "id": "20752",
+      "name": "SPECIALIZATION IN HISTORY",
+      "type": "Specialization",
+      "area": "HISTORY"
+    },
+    {
+      "id": "20744",
+      "name": "MINOR IN HISTORY",
+      "type": "Minor",
+      "area": "HISTORY"
+    },
+    {
+      "id": "21221",
+      "name": "HONOURS SPECIALIZATION IN HISTORY",
+      "type": "Honours Specialization",
+      "area": "HISTORY"
+    },
+    {
+      "id": "21218",
+      "name": "MAJOR IN HISTORY",
+      "type": "Major",
+      "area": "HISTORY"
+    },
+    {
+      "id": "21219",
+      "name": "MINOR IN HISTORY",
+      "type": "Minor",
+      "area": "HISTORY"
+    },
+    {
+      "id": "21628",
+      "name": "MINOR IN HISTORY OF THE BOOK",
+      "type": "Minor",
+      "area": "HISTORY OF THE BOOK"
+    },
+    {
+      "id": "21519",
+      "name": "HONOURS SPECIALIZATION IN HUMAN RESOURCE MANAGEMENT",
+      "type": "Honours Specialization",
+      "area": "HUMAN RESOURCE MANAGEMENT"
+    },
+    {
+      "id": "21525",
+      "name": "MAJOR IN HUMAN RESOURCE MANAGEMENT (must be part of Honours Double Major)",
+      "type": "Major",
+      "area": "HUMAN RESOURCE MANAGEMENT"
+    },
+    {
+      "id": "21530",
+      "name": "SPECIALIZATION IN HUMAN RESOURCE MANAGEMENT",
+      "type": "Specialization",
+      "area": "HUMAN RESOURCE MANAGEMENT"
+    },
+    {
+      "id": "21652",
+      "name": "MAJOR IN HUMAN RIGHTS STUDIES",
+      "type": "Major",
+      "area": "HUMAN RIGHTS STUDIES"
+    },
+    {
+      "id": "21648",
+      "name": "MINOR IN HUMAN RIGHTS STUDIES",
+      "type": "Minor",
+      "area": "HUMAN RIGHTS STUDIES"
+    },
+    {
+      "id": "20998",
+      "name": "HONOURS SPECIALIZATION IN INDIGENOUS STUDIES",
+      "type": "Honours Specialization",
+      "area": "INDIGENOUS STUDIES"
+    },
+    {
+      "id": "20996",
+      "name": "MAJOR IN INDIGENOUS STUDIES",
+      "type": "Major",
+      "area": "INDIGENOUS STUDIES"
+    },
+    {
+      "id": "20997",
+      "name": "MINOR IN INDIGENOUS STUDIES",
+      "type": "Minor",
+      "area": "INDIGENOUS STUDIES"
+    },
+    {
+      "id": "21124",
+      "name": "HONOURS SPECIALIZATION IN INFORMATION SYSTEMS - admission discontinued effective 2027",
+      "type": "Honours Specialization",
+      "area": "INFORMATION SYSTEMS"
+    },
+    {
+      "id": "21285",
+      "name": "INTEGRATED ENGINEERING PROGRAM",
+      "type": "Other - Non Modular Program",
+      "area": "INTEGRATED ENGINEERING"
+    },
+    {
+      "id": "21283",
+      "name": "B. INTEGRATED ENGINEERING/HBA",
+      "type": "Combined Degree Program",
+      "area": "INTEGRATED ENGINEERING/HBA"
+    },
+    {
+      "id": "21284",
+      "name": "D. INTEGRATED ENGINEERING/LAW",
+      "type": "Combined Degree Program",
+      "area": "INTEGRATED ENGINEERING/LAW"
+    },
+    {
+      "id": "21636",
+      "name": "HONOURS SPECIALIZATION IN INTEGRATED SCIENCE WITH ASTROPHYSICS",
+      "type": "Honours Specialization",
+      "area": "INTEGRATED SCIENCE WITH ASTROPHYSICS"
+    },
+    {
+      "id": "21535",
+      "name": "HONOURS SPECIALIZATION IN INTEGRATED SCIENCE WITH BIOLOGY",
+      "type": "Honours Specialization",
+      "area": "INTEGRATED SCIENCE WITH BIOLOGY"
+    },
+    {
+      "id": "21536",
+      "name": "HONOURS SPECIALIZATION IN INTEGRATED SCIENCE WITH CHEMISTRY",
+      "type": "Honours Specialization",
+      "area": "INTEGRATED SCIENCE WITH CHEMISTRY"
+    },
+    {
+      "id": "21537",
+      "name": "HONOURS SPECIALIZATION IN INTEGRATED SCIENCE WITH COMPUTER SCIENCE - admission discontinued",
+      "type": "Honours Specialization",
+      "area": "INTEGRATED SCIENCE WITH COMPUTER SCIENCE"
+    },
+    {
+      "id": "21538",
+      "name": "HONOURS SPECIALIZATION IN INTEGRATED SCIENCE WITH EARTH SCIENCES",
+      "type": "Honours Specialization",
+      "area": "INTEGRATED SCIENCE WITH EARTH SCIENCES"
+    },
+    {
+      "id": "21539",
+      "name": "HONOURS SPECIALIZATION IN INTEGRATED SCIENCE WITH ENVIRONMENTAL SCIENCE",
+      "type": "Honours Specialization",
+      "area": "INTEGRATED SCIENCE WITH ENVIRONMENTAL SCIENCE"
+    },
+    {
+      "id": "21540",
+      "name": "HONOURS SPECIALIZATION IN INTEGRATED SCIENCE WITH GENETICS",
+      "type": "Honours Specialization",
+      "area": "INTEGRATED SCIENCE WITH GENETICS"
+    },
+    {
+      "id": "21541",
+      "name": "HONOURS SPECIALIZATION IN INTEGRATED SCIENCE WITH MATHEMATICAL AND STATISTICAL SCIENCES",
+      "type": "Honours Specialization",
+      "area": "INTEGRATED SCIENCE WITH MATHEMATICAL AND STATISTICAL SCIENCES"
+    },
+    {
+      "id": "21542",
+      "name": "HONOURS SPECIALIZATION IN INTEGRATED SCIENCE WITH PHYSICS",
+      "type": "Honours Specialization",
+      "area": "INTEGRATED SCIENCE WITH PHYSICS"
+    },
+    {
+      "id": "21679",
+      "name": "HONOURS SPECIALIZATION IN INTEGRATED SCIENCE WITH SYNTHETIC BIOLOGY",
+      "type": "Honours Specialization",
+      "area": "INTEGRATED SCIENCE WITH SYNTHETIC BIOLOGY"
+    },
+    {
+      "id": "20969",
+      "name": "MINOR IN INTERCULTURAL COMMUNICATION FOR ARABIC - admission discontinued",
+      "type": "Minor",
+      "area": "INTERCULTURAL COMMUNICATION FOR ARABIC"
+    },
+    {
+      "id": "20978",
+      "name": "CERTIFICATE IN INTERCULTURAL COMMUNICATION FOR ARABIC - admission discontinued",
+      "type": "Certificate",
+      "area": "INTERCULTURAL COMMUNICATION FOR ARABIC"
+    },
+    {
+      "id": "20970",
+      "name": "MINOR IN INTERCULTURAL COMMUNICATION FOR JAPANESE - ADMISSION DISCONTINUED",
+      "type": "Minor",
+      "area": "INTERCULTURAL COMMUNICATION FOR JAPANESE"
+    },
+    {
+      "id": "20981",
+      "name": "CERTIFICATE IN INTERCULTURAL COMMUNICATION FOR JAPANESE - ADMISSION DISCONTINUED",
+      "type": "Certificate",
+      "area": "INTERCULTURAL COMMUNICATION FOR JAPANESE"
+    },
+    {
+      "id": "20754",
+      "name": "HONOURS SPECIALIZATION IN INTERDISCIPLINARY MEDICAL SCIENCES (IMS)",
+      "type": "Honours Specialization",
+      "area": "INTERDISCIPLINARY MEDICAL SCIENCES (IMS)"
+    },
+    {
+      "id": "20753",
+      "name": "MAJOR IN INTERDISCIPLINARY MEDICAL SCIENCES (IMS)",
+      "type": "Major",
+      "area": "INTERDISCIPLINARY MEDICAL SCIENCES (IMS)"
+    },
+    {
+      "id": "20755",
+      "name": "SPECIALIZATION IN INTERDISCIPLINARY MEDICAL SCIENCES (IMS)",
+      "type": "Specialization",
+      "area": "INTERDISCIPLINARY MEDICAL SCIENCES (IMS)"
+    },
+    {
+      "id": "21315",
+      "name": "HONOURS BMSc INTERDISCIPLINARY MEDICAL SCIENCES/HBA",
+      "type": "Combined Degree Program",
+      "area": "INTERDISCIPLINARY MEDICAL SCIENCES/HBA"
+    },
+    {
+      "id": "21017",
+      "name": "HONOURS SPECIALIZATION IN INTERNATIONAL RELATIONS",
+      "type": "Honours Specialization",
+      "area": "INTERNATIONAL RELATIONS"
+    },
+    {
+      "id": "21319",
+      "name": "HONOURS SPECIALIZATION IN INTERNATIONAL RELATIONS/HBA",
+      "type": "Combined Degree Program",
+      "area": "INTERNATIONAL RELATIONS/HBA"
+    },
+    {
+      "id": "21722",
+      "name": "ARTS AND HUMANITIES INTERNSHIP PROGRAM (AHIP)",
+      "type": "Other - Non Modular Program",
+      "area": "INTERNSHIP"
+    },
+    {
+      "id": "21704",
+      "name": "FIMS INTERNSHIP MODULE",
+      "type": "Other - Non Modular Program",
+      "area": "INTERNSHIP"
+    },
+    {
+      "id": "20886",
+      "name": "MINOR IN ISLAMIC STUDIES",
+      "type": "Minor",
+      "area": "ISLAMIC STUDIES"
+    },
+    {
+      "id": "20971",
+      "name": "MINOR IN ITALIAN (formerly the MINOR IN ITALIAN LANGUAGE AND CULTURE)",
+      "type": "Minor",
+      "area": "ITALIAN"
+    },
+    {
+      "id": "20984",
+      "name": "CERTIFICATE IN ITALIAN (formerly CERTIFICATE IN PRACTICAL ITALIAN)",
+      "type": "Certificate",
+      "area": "ITALIAN"
+    },
+    {
+      "id": "20963",
+      "name": "MAJOR IN ITALIAN LANGUAGE AND CULTURE",
+      "type": "Major",
+      "area": "ITALIAN LANGUAGE AND CULTURE"
+    },
+    {
+      "id": "20699",
+      "name": "MINOR IN JAPAN STUDIES",
+      "type": "Minor",
+      "area": "JAPAN STUDIES"
+    },
+    {
+      "id": "21646",
+      "name": "MAJOR IN JAPANESE STUDIES",
+      "type": "Major",
+      "area": "JAPANESE STUDIES"
+    },
+    {
+      "id": "20700",
+      "name": "MINOR IN JAPANESE STUDIES",
+      "type": "Minor",
+      "area": "JAPANESE STUDIES"
+    },
+    {
+      "id": "21008",
+      "name": "MAJOR IN JEWISH STUDIES",
+      "type": "Major",
+      "area": "JEWISH STUDIES"
+    },
+    {
+      "id": "21013",
+      "name": "MINOR IN JEWISH STUDIES",
+      "type": "Minor",
+      "area": "JEWISH STUDIES"
+    },
+    {
+      "id": "20756",
+      "name": "MAJOR IN JEWISH STUDIES",
+      "type": "Major",
+      "area": "JEWISH STUDIES"
+    },
+    {
+      "id": "20757",
+      "name": "MINOR IN JEWISH STUDIES",
+      "type": "Minor",
+      "area": "JEWISH STUDIES"
+    },
+    {
+      "id": "20758",
+      "name": "MAJOR IN JEWISH STUDIES",
+      "type": "Major",
+      "area": "JEWISH STUDIES"
+    },
+    {
+      "id": "20759",
+      "name": "MINOR IN JEWISH STUDIES",
+      "type": "Minor",
+      "area": "JEWISH STUDIES"
+    },
+    {
+      "id": "21570",
+      "name": "JURIS DOCTOR",
+      "type": "Other - Non Modular Program",
+      "area": "JURIS DOCTOR"
+    },
+    {
+      "id": "21168",
+      "name": "MAJOR IN KINESIOLOGY",
+      "type": "Major",
+      "area": "KINESIOLOGY"
+    },
+    {
+      "id": "21170",
+      "name": "HONOURS SPECIALIZATION IN KINESIOLOGY - BA",
+      "type": "Honours Specialization",
+      "area": "KINESIOLOGY - BA"
+    },
+    {
+      "id": "21169",
+      "name": "HONOURS SPECIALIZATION IN KINESIOLOGY - BSc",
+      "type": "Honours Specialization",
+      "area": "KINESIOLOGY - BSc"
+    },
+    {
+      "id": "21171",
+      "name": "HONOURS SPECIALIZATION IN KINESIOLOGY - SPORT MANAGEMENT - admission discontinued",
+      "type": "Honours Specialization",
+      "area": "KINESIOLOGY - SPORT MANAGEMENT"
+    },
+    {
+      "id": "21682",
+      "name": "HONOURS SPECIALIZATION KINESIOLOGY (BA)/HBA",
+      "type": "Combined Degree Program",
+      "area": "KINESIOLOGY and BUSINESS"
+    },
+    {
+      "id": "21683",
+      "name": "HBA/HONOURS SPECIALIZATION KINESIOLOGY (BA)",
+      "type": "Combined Degree Program",
+      "area": "KINESIOLOGY and BUSINESS"
+    },
+    {
+      "id": "21566",
+      "name": "KING'S KEY (KING'S ENHANCED YEAR) PROGRAM",
+      "type": "Other - Non Modular Program",
+      "area": "KING'S KEY (KING'S ENHANCED YEAR) PROGRAM"
+    },
+    {
+      "id": "21571",
+      "name": "KING'S SCHOLAR PROGRAM",
+      "type": "Other - Non Modular Program",
+      "area": "KING'S SCHOLAR PROGRAM"
+    },
+    {
+      "id": "20892",
+      "name": "MINOR IN LATIN",
+      "type": "Minor",
+      "area": "LATIN"
+    },
+    {
+      "id": "21657",
+      "name": "CERTIFICATE IN THE STUDY OF LAW AND PUBLIC POLICY",
+      "type": "Certificate",
+      "area": "LAW AND PUBLIC POLICY"
+    },
+    {
+      "id": "21303",
+      "name": "LAW/AMBA",
+      "type": "Combined Degree Program",
+      "area": "LAW/AMBA"
+    },
+    {
+      "id": "21444",
+      "name": "LAW/CHEMICAL ENGINEERING",
+      "type": "Combined Degree Program",
+      "area": "LAW/CHEMICAL ENGINEERING"
+    },
+    {
+      "id": "21544",
+      "name": "LAW/CIVIL ENGINEERING",
+      "type": "Combined Degree Program",
+      "area": "LAW/CIVIL ENGINEERING"
+    },
+    {
+      "id": "21446",
+      "name": "LAW/ELECTRICAL ENGINEERING",
+      "type": "Combined Degree Program",
+      "area": "LAW/ELECTRICAL ENGINEERING"
+    },
+    {
+      "id": "21305",
+      "name": "LAW/GEOLOGY or GEOPHYSICS - MSc",
+      "type": "Combined Degree Program",
+      "area": "LAW/GEOLOGY or GEOPHYSICS - MSc"
+    },
+    {
+      "id": "21301",
+      "name": "LAW/HBA",
+      "type": "Combined Degree Program",
+      "area": "LAW/HBA"
+    },
+    {
+      "id": "21452",
+      "name": "LAW/INTEGRATED ENGINEERING",
+      "type": "Combined Degree Program",
+      "area": "LAW/INTEGRATED ENGINEERING"
+    },
+    {
+      "id": "21309",
+      "name": "LAW/MBA",
+      "type": "Combined Degree Program",
+      "area": "LAW/MBA"
+    },
+    {
+      "id": "21455",
+      "name": "LAW/MECHANICAL ENGINEERING",
+      "type": "Combined Degree Program",
+      "area": "LAW/MECHANICAL ENGINEERING"
+    },
+    {
+      "id": "21454",
+      "name": "LAW/MECHATRONIC SYSTEMS ENGINEERING",
+      "type": "Combined Degree Program",
+      "area": "LAW/MECHATRONIC SYSTEMS ENGINEERING"
+    },
+    {
+      "id": "21450",
+      "name": "LAW/SOFTWARE ENGINEERING",
+      "type": "Combined Degree Program",
+      "area": "LAW/SOFTWARE ENGINEERING"
+    },
+    {
+      "id": "21727",
+      "name": "CERTIFICATE IN PURPOSE-DRIVEN AND CHARACTER LEADERSHIP",
+      "type": "Certificate",
+      "area": "LEADERSHIP"
+    },
+    {
+      "id": "20874",
+      "name": "MAJOR IN LEADERSHIP STUDIES (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Major",
+      "area": "LEADERSHIP STUDIES"
+    },
+    {
+      "id": "20987",
+      "name": "MAJOR IN LINGUISTIC ANTHROPOLOGY",
+      "type": "Major",
+      "area": "LINGUISTIC ANTHROPOLOGY"
+    },
+    {
+      "id": "20760",
+      "name": "HONOURS SPECIALIZATION IN LINGUISTICS",
+      "type": "Honours Specialization",
+      "area": "LINGUISTICS"
+    },
+    {
+      "id": "20761",
+      "name": "MAJOR IN LINGUISTICS",
+      "type": "Major",
+      "area": "LINGUISTICS"
+    },
+    {
+      "id": "20762",
+      "name": "MINOR IN LINGUISTICS",
+      "type": "Minor",
+      "area": "LINGUISTICS"
+    },
+    {
+      "id": "21706",
+      "name": "HONOURS SPECIALIZATION IN LINGUISTICS",
+      "type": "Honours Specialization",
+      "area": "LINGUISTICS"
+    },
+    {
+      "id": "21707",
+      "name": "MAJOR IN LINGUISTICS",
+      "type": "Major",
+      "area": "LINGUISTICS"
+    },
+    {
+      "id": "21708",
+      "name": "MINOR IN LINGUISTICS",
+      "type": "Minor",
+      "area": "LINGUISTICS"
+    },
+    {
+      "id": "20883",
+      "name": "CERTIFICATE IN LOSS, GRIEF AND BEREAVEMENT STUDIES",
+      "type": "Certificate",
+      "area": "LOSS, GRIEF AND BEREAVEMENT STUDIES"
+    },
+    {
+      "id": "21599",
+      "name": "HONOURS SPECIALIZATION IN MANAGEMENT AND LEGAL STUDIES",
+      "type": "Honours Specialization",
+      "area": "MANAGEMENT AND LEGAL STUDIES"
+    },
+    {
+      "id": "21602",
+      "name": "SPECIALIZATION IN MANAGEMENT AND LEGAL STUDIES",
+      "type": "Specialization",
+      "area": "MANAGEMENT AND LEGAL STUDIES"
+    },
+    {
+      "id": "21500",
+      "name": "MAJOR IN MANAGEMENT AND ORGANIZATIONAL STUDIES (must be part of a double Major)",
+      "type": "Major",
+      "area": "MANAGEMENT AND ORGANIZATIONAL STUDIES"
+    },
+    {
+      "id": "21510",
+      "name": "MAJOR IN MANAGEMENT AND ORGANIZATIONAL STUDIES (must be part of an Honours Double Major)",
+      "type": "Major",
+      "area": "MANAGEMENT AND ORGANIZATIONAL STUDIES"
+    },
+    {
+      "id": "20875",
+      "name": "DIPLOMA IN MANAGEMENT STUDIES (Brescia)",
+      "type": "Diploma",
+      "area": "MANAGEMENT STUDIES"
+    },
+    {
+      "id": "20876",
+      "name": "DIPLOMA IN MANAGEMENT STUDIES WITH WORK PLACEMENT (Brescia)",
+      "type": "Diploma",
+      "area": "MANAGEMENT STUDIES WITH WORK PLACEMENT"
+    },
+    {
+      "id": "21489",
+      "name": "MAJOR IN MARKETING (must be part of Honours Double Major) (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Major",
+      "area": "MARKETING"
+    },
+    {
+      "id": "21491",
+      "name": "SPECIALIZATION IN MARKETING (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Specialization",
+      "area": "MARKETING"
+    },
+    {
+      "id": "21676",
+      "name": "HONOURS SPECIALIZATION IN MARKETING AND SUSTAINABILITY",
+      "type": "Honours Specialization",
+      "area": "MARKETING AND SUSTAINABILITY"
+    },
+    {
+      "id": "21677",
+      "name": "SPECIALIZATION IN MARKETING AND SUSTAINABILITY",
+      "type": "Specialization",
+      "area": "MARKETING AND SUSTAINABILITY"
+    },
+    {
+      "id": "21103",
+      "name": "HONOURS SPECIALIZATION IN MATERIALS SCIENCE - admission discontinued",
+      "type": "Honours Specialization",
+      "area": "MATERIALS SCIENCE - admission discontinued"
+    },
+    {
+      "id": "21094",
+      "name": "MAJOR IN MATERIALS SCIENCE - admission discontinued",
+      "type": "Major",
+      "area": "MATERIALS SCIENCE - admission discontinued"
+    },
+    {
+      "id": "21110",
+      "name": "SPECIALIZATION IN MATERIALS SCIENCE - admission discontinued",
+      "type": "Specialization",
+      "area": "MATERIALS SCIENCE - admission discontinued"
+    },
+    {
+      "id": "21098",
+      "name": "MINOR IN MATERIALS SCIENCE - admission discontinued",
+      "type": "Minor",
+      "area": "MATERIALS SCIENCE - admission discontinued"
+    },
+    {
+      "id": "21071",
+      "name": "HONOURS SPECIALIZATION IN MATHEMATICAL AND STATISTICAL SCIENCES",
+      "type": "Honours Specialization",
+      "area": "MATHEMATICAL AND STATISTICAL SCIENCES"
+    },
+    {
+      "id": "21060",
+      "name": "HONOURS SPECIALIZATION IN MATHEMATICS",
+      "type": "Honours Specialization",
+      "area": "MATHEMATICS"
+    },
+    {
+      "id": "21058",
+      "name": "MAJOR IN MATHEMATICS",
+      "type": "Major",
+      "area": "MATHEMATICS"
+    },
+    {
+      "id": "21062",
+      "name": "SPECIALIZATION IN MATHEMATICS",
+      "type": "Specialization",
+      "area": "MATHEMATICS"
+    },
+    {
+      "id": "21059",
+      "name": "MINOR IN MATHEMATICS",
+      "type": "Minor",
+      "area": "MATHEMATICS"
+    },
+    {
+      "id": "21061",
+      "name": "HONOURS SPECIALIZATION IN MATHEMATICS IN SOCIETY - admission discontinued",
+      "type": "Honours Specialization",
+      "area": "MATHEMATICS IN SOCIETY"
+    },
+    {
+      "id": "21063",
+      "name": "SPECIALIZATION IN MATHEMATICS IN SOCIETY - ADMISSION DISCONTINUED",
+      "type": "Specialization",
+      "area": "MATHEMATICS IN SOCIETY"
+    },
+    {
+      "id": "21289",
+      "name": "A. MECHANICAL ENGINEERING OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "MECHANICAL ENGINEERING"
+    },
+    {
+      "id": "21609",
+      "name": "F. MECHANICAL ENGINEERING AND BIOMEDICAL ENGINEERING OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "MECHANICAL ENGINEERING AND BIOMEDICAL ENGINEERING"
+    },
+    {
+      "id": "21291",
+      "name": "D. MECHANICAL ENGINEERING/HBA",
+      "type": "Combined Degree Program",
+      "area": "MECHANICAL ENGINEERING/HBA"
+    },
+    {
+      "id": "21290",
+      "name": "B. MECHANICAL ENGINEERING/LAW",
+      "type": "Combined Degree Program",
+      "area": "MECHANICAL ENGINEERING/LAW"
+    },
+    {
+      "id": "21288",
+      "name": "MECHATRONIC SYSTEMS ENGINEERING",
+      "type": "Other - Non Modular Program",
+      "area": "MECHATRONIC SYSTEMS ENGINEERING"
+    },
+    {
+      "id": "21610",
+      "name": "D. MECHATRONIC SYSTEMS ENGINEERING AND BIOMEDICAL ENGINEERING OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "MECHATRONIC SYSTEMS ENGINEERING AND BIOMEDICAL ENGINEERING"
+    },
+    {
+      "id": "21286",
+      "name": "B. MECHATRONIC SYSTEMS ENGINEERING/HBA",
+      "type": "Combined Degree Program",
+      "area": "MECHATRONIC SYSTEMS ENGINEERING/HBA"
+    },
+    {
+      "id": "21287",
+      "name": "C. MECHATRONIC SYSTEMS ENGINEERING/LAW",
+      "type": "Combined Degree Program",
+      "area": "MECHATRONIC SYSTEMS ENGINEERING/LAW"
+    },
+    {
+      "id": "21154",
+      "name": "HONOURS SPECIALIZATION IN MEDIA AND THE PUBLIC INTEREST (MPI)",
+      "type": "Honours Specialization",
+      "area": "MEDIA AND THE PUBLIC INTEREST (MPI)"
+    },
+    {
+      "id": "21151",
+      "name": "MAJOR IN MEDIA AND THE PUBLIC INTEREST (MPI)",
+      "type": "Major",
+      "area": "MEDIA AND THE PUBLIC INTEREST (MPI)"
+    },
+    {
+      "id": "21153",
+      "name": "HONOURS SPECIALIZATION IN MEDIA, INFORMATION AND TECHNOCULTURE",
+      "type": "Honours Specialization",
+      "area": "MEDIA, INFORMATION AND TECHNOCULTURE"
+    },
+    {
+      "id": "21150",
+      "name": "MAJOR IN MEDIA, INFORMATION AND TECHNOCULTURE",
+      "type": "Major",
+      "area": "MEDIA, INFORMATION AND TECHNOCULTURE"
+    },
+    {
+      "id": "21152",
+      "name": "MINOR IN MEDIA, INFORMATION AND TECHNOCULTURE",
+      "type": "Minor",
+      "area": "MEDIA, INFORMATION AND TECHNOCULTURE"
+    },
+    {
+      "id": "21659",
+      "name": "HONOURS SPECIALIZATION IN MEDICAL BIOINFORMATICS",
+      "type": "Honours Specialization",
+      "area": "MEDICAL BIOINFORMATICS"
+    },
+    {
+      "id": "21743",
+      "name": "MAJOR IN MEDICAL BIOINFORMATICS",
+      "type": "Major",
+      "area": "MEDICAL BIOINFORMATICS"
+    },
+    {
+      "id": "21208",
+      "name": "MAJOR IN MEDICAL BIOPHYSICS",
+      "type": "Major",
+      "area": "MEDICAL BIOPHYSICS"
+    },
+    {
+      "id": "21209",
+      "name": "MINOR IN MEDICAL BIOPHYSICS",
+      "type": "Minor",
+      "area": "MEDICAL BIOPHYSICS"
+    },
+    {
+      "id": "21212",
+      "name": "HONOURS SPECIALIZATION IN MEDICAL BIOPHYSICS (Biological Science Concentration) - admission discontinued",
+      "type": "Honours Specialization",
+      "area": "MEDICAL BIOPHYSICS (Biological Science Concentration)"
+    },
+    {
+      "id": "21210",
+      "name": "HONOURS SPECIALIZATION IN MEDICAL BIOPHYSICS (Clinical Physics Concentration)* - admission discontinued",
+      "type": "Honours Specialization",
+      "area": "MEDICAL BIOPHYSICS (Clinical Physics Concentration)"
+    },
+    {
+      "id": "21211",
+      "name": "HONOURS SPECIALIZATION IN MEDICAL BIOPHYSICS (Medical Science Concentration)",
+      "type": "Honours Specialization",
+      "area": "MEDICAL BIOPHYSICS (Medical Science Concentration)"
+    },
+    {
+      "id": "21213",
+      "name": "HONOURS SPECIALIZATION IN MEDICAL BIOPHYSICS (Physical Science Concentration) - admission discontinued",
+      "type": "Honours Specialization",
+      "area": "MEDICAL BIOPHYSICS (Physical Science Concentration)"
+    },
+    {
+      "id": "21215",
+      "name": "HONOURS SPECIALIZATION IN MEDICAL BIOPHYSICS AND BIOCHEMISTRY* - admission discontinued",
+      "type": "Honours Specialization",
+      "area": "MEDICAL BIOPHYSICS AND BIOCHEMISTRY"
+    },
+    {
+      "id": "21197",
+      "name": "HONOURS SPECIALIZATION IN MEDICAL CELL BIOLOGY",
+      "type": "Honours Specialization",
+      "area": "MEDICAL CELL BIOLOGY"
+    },
+    {
+      "id": "21195",
+      "name": "MAJOR IN MEDICAL CELL BIOLOGY",
+      "type": "Major",
+      "area": "MEDICAL CELL BIOLOGY"
+    },
+    {
+      "id": "21196",
+      "name": "MINOR IN MEDICAL CELL BIOLOGY",
+      "type": "Minor",
+      "area": "MEDICAL CELL BIOLOGY"
+    },
+    {
+      "id": "21104",
+      "name": "HONOURS SPECIALIZATION IN MEDICAL PHYSICS",
+      "type": "Honours Specialization",
+      "area": "MEDICAL PHYSICS"
+    },
+    {
+      "id": "21093",
+      "name": "MAJOR IN MEDICAL PHYSICS",
+      "type": "Major",
+      "area": "MEDICAL PHYSICS"
+    },
+    {
+      "id": "21109",
+      "name": "SPECIALIZATION IN MEDICAL PHYSICS",
+      "type": "Specialization",
+      "area": "MEDICAL PHYSICS"
+    },
+    {
+      "id": "21174",
+      "name": "MAJOR IN MEDICAL SCIENCES",
+      "type": "Major",
+      "area": "MEDICAL SCIENCES"
+    },
+    {
+      "id": "21175",
+      "name": "MINOR IN MEDICAL SCIENCES",
+      "type": "Minor",
+      "area": "MEDICAL SCIENCES"
+    },
+    {
+      "id": "20764",
+      "name": "MAJOR IN MEDIEVAL STUDIES",
+      "type": "Major",
+      "area": "MEDIEVAL STUDIES"
+    },
+    {
+      "id": "20765",
+      "name": "MINOR IN MEDIEVAL STUDIES",
+      "type": "Minor",
+      "area": "MEDIEVAL STUDIES"
+    },
+    {
+      "id": "21205",
+      "name": "HONOURS SPECIALIZATION IN MICROBIOLOGY AND IMMUNOLOGY",
+      "type": "Honours Specialization",
+      "area": "MICROBIOLOGY AND IMMUNOLOGY"
+    },
+    {
+      "id": "21203",
+      "name": "MAJOR IN MICROBIOLOGY AND IMMUNOLOGY",
+      "type": "Major",
+      "area": "MICROBIOLOGY AND IMMUNOLOGY"
+    },
+    {
+      "id": "21204",
+      "name": "MINOR IN MICROBIOLOGY AND IMMUNOLOGY",
+      "type": "Minor",
+      "area": "MICROBIOLOGY AND IMMUNOLOGY"
+    },
+    {
+      "id": "21206",
+      "name": "HONOURS SPECIALIZATION IN MICROBIOLOGY AND IMMUNOLOGY WITH PATHOLOGY - ADMISSION DISCONTINUED",
+      "type": "Honours Specialization",
+      "area": "MICROBIOLOGY AND IMMUNOLOGY WITH PATHOLOGY"
+    },
+    {
+      "id": "21222",
+      "name": "MAJOR IN MIDDLE EAST STUDIES",
+      "type": "Major",
+      "area": "MIDDLE EAST STUDIES"
+    },
+    {
+      "id": "21691",
+      "name": "MINOR IN MIGRATION AND BORDER STUDIES",
+      "type": "Minor",
+      "area": "MIGRATION AND BORDER STUDIES"
+    },
+    {
+      "id": "21292",
+      "name": "HONOURS SPECIALIZATION IN MIT/HBA",
+      "type": "Combined Degree Program",
+      "area": "MIT/HBA"
+    },
+    {
+      "id": "21692",
+      "name": "CERTIFICATE IN MODERN HEBREW",
+      "type": "Certificate",
+      "area": "MODERN HEBREW"
+    },
+    {
+      "id": "21613",
+      "name": "MOS CO-OP PROGRAM",
+      "type": "Other - Non Modular Program",
+      "area": "MOS CO-OP PROGRAM"
+    },
+    {
+      "id": "20947",
+      "name": "MAJOR IN MUSEUM AND CURATORIAL STUDIES - admission discontinued",
+      "type": "Major",
+      "area": "MUSEUM AND CURATORIAL STUDIES"
+    },
+    {
+      "id": "21620",
+      "name": "MINOR IN MUSEUM AND CURATORIAL STUDIES",
+      "type": "Minor",
+      "area": "MUSEUM AND CURATORIAL STUDIES"
+    },
+    {
+      "id": "21621",
+      "name": "CERTIFICATE IN MUSEUM AND CURATORIAL STUDIES - ADMISSION DISCONTINUED",
+      "type": "Certificate",
+      "area": "MUSEUM AND CURATORIAL STUDIES"
+    },
+    {
+      "id": "20772",
+      "name": "HONOURS SPECIALIZATION IN MUSIC",
+      "type": "Honours Specialization",
+      "area": "MUSIC"
+    },
+    {
+      "id": "20769",
+      "name": "MAJOR IN MUSIC",
+      "type": "Major",
+      "area": "MUSIC"
+    },
+    {
+      "id": "20770",
+      "name": "MINOR IN MUSIC",
+      "type": "Minor",
+      "area": "MUSIC"
+    },
+    {
+      "id": "21311",
+      "name": "HONOURS SPECIALIZATION IN MUSIC/HBA",
+      "type": "Combined Degree Program",
+      "area": "MUSIC (Honours Specialization)/HBA"
+    },
+    {
+      "id": "21312",
+      "name": "MAJOR IN MUSIC/HBA",
+      "type": "Combined Degree Program",
+      "area": "MUSIC (Major)/HBA"
+    },
+    {
+      "id": "20773",
+      "name": "SPECIALIZATION IN MUSIC ADMINISTRATIVE STUDIES",
+      "type": "Specialization",
+      "area": "MUSIC ADMINISTRATIVE STUDIES"
+    },
+    {
+      "id": "20774",
+      "name": "BACHELOR OF MUSIC WITH HONOURS IN MUSIC EDUCATION",
+      "type": "Other - Non Modular Program",
+      "area": "MUSIC EDUCATION"
+    },
+    {
+      "id": "21671",
+      "name": "MINOR IN MUSIC PERFORMANCE STUDIES",
+      "type": "Minor",
+      "area": "MUSIC PERFORMANCE STUDIES"
+    },
+    {
+      "id": "21313",
+      "name": "WESTERN/FANSHAWE COLLABORATIVE DEGREE/DIPLOMA IN MUSIC RECORDING ARTS (MRA)",
+      "type": "Other - Non Modular Program",
+      "area": "MUSIC RECORDING ARTS (MRA)"
+    },
+    {
+      "id": "21650",
+      "name": "BACHELOR OF MUSIC WITH HONOURS IN MUSIC RESEARCH",
+      "type": "Other - Non Modular Program",
+      "area": "MUSIC RESEARCH"
+    },
+    {
+      "id": "21310",
+      "name": "BACHELOR OF MUSIC (HONOURS)/HBA",
+      "type": "Combined Degree Program",
+      "area": "MUSIC/HBA (Bachelor of Music - Honours)"
+    },
+    {
+      "id": "20784",
+      "name": "HONOURS SPECIALIZATION IN NEUROSCIENCE",
+      "type": "Honours Specialization",
+      "area": "NEUROSCIENCE"
+    },
+    {
+      "id": "21487",
+      "name": "HONOURS SPECIALIZATION IN NONPROFIT MANAGEMENT (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Honours Specialization",
+      "area": "NONPROFIT MANAGEMENT"
+    },
+    {
+      "id": "21493",
+      "name": "SPECIALIZATION IN NONPROFIT MANAGEMENT (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Specialization",
+      "area": "NONPROFIT MANAGEMENT"
+    },
+    {
+      "id": "21495",
+      "name": "WESTERN-FANSHAWE COLLABORATIVE BACHELOR OF SCIENCE IN NURSING PROGRAM - ADMISSION DISCONTINUED",
+      "type": "Other - Non Modular Program",
+      "area": "NURSING - WESTERN-FANSHAWE COLLABORATIVE NURSING PROGRAM"
+    },
+    {
+      "id": "20837",
+      "name": "DIPLOMA IN NUTRITION",
+      "type": "Diploma",
+      "area": "NUTRITION"
+    },
+    {
+      "id": "20841",
+      "name": "HONOURS SPECIALIZATION IN NUTRITION AND DIETETICS",
+      "type": "Honours Specialization",
+      "area": "NUTRITION AND DIETETICS"
+    },
+    {
+      "id": "21723",
+      "name": "HONOURS SPECIALIZATION IN NUTRITION AND DIETETICS/HBA",
+      "type": "Combined Degree Program",
+      "area": "NUTRITION AND DIETETICS"
+    },
+    {
+      "id": "20815",
+      "name": "HONOURS SPECIALIZATION IN NUTRITION AND FAMILIES - BA (HUMAN ECOLOGY) - ADMISSION DISCONTINUED",
+      "type": "Honours Specialization",
+      "area": "NUTRITION AND FAMILIES - BA (HUMAN ECOLOGY)"
+    },
+    {
+      "id": "20817",
+      "name": "MAJOR IN NUTRITION AND FAMILIES - BA (HUMAN ECOLOGY) - ADMISSION DISCONTINUED",
+      "type": "Major",
+      "area": "NUTRITION AND FAMILIES - BA (HUMAN ECOLOGY)"
+    },
+    {
+      "id": "20821",
+      "name": "SPECIALIZATION IN NUTRITION AND FAMILIES - BA (HUMAN ECOLOGY) - ADMISSION DISCONTINUED",
+      "type": "Specialization",
+      "area": "NUTRITION AND FAMILIES - BA (HUMAN ECOLOGY)"
+    },
+    {
+      "id": "21703",
+      "name": "MAJOR IN NUTRITION MANAGEMENT",
+      "type": "Major",
+      "area": "NUTRITION MANAGEMENT"
+    },
+    {
+      "id": "20785",
+      "name": "HONOURS SPECIALIZATION IN ONE HEALTH",
+      "type": "Honours Specialization",
+      "area": "ONE HEALTH"
+    },
+    {
+      "id": "21656",
+      "name": "MAJOR IN ONE HEALTH",
+      "type": "Major",
+      "area": "ONE HEALTH"
+    },
+    {
+      "id": "21507",
+      "name": "HONOURS SPECIALIZATION IN ORGANIZATIONAL AND HUMAN RESOURCES",
+      "type": "Honours Specialization",
+      "area": "ORGANIZATIONAL AND HUMAN RESOURCES"
+    },
+    {
+      "id": "21511",
+      "name": "MAJOR IN ORGANIZATIONAL AND HUMAN RESOURCES (must be part of an Honours Double Major)",
+      "type": "Major",
+      "area": "ORGANIZATIONAL AND HUMAN RESOURCES"
+    },
+    {
+      "id": "21515",
+      "name": "SPECIALIZATION IN ORGANIZATIONAL AND HUMAN RESOURCES",
+      "type": "Specialization",
+      "area": "ORGANIZATIONAL AND HUMAN RESOURCES"
+    },
+    {
+      "id": "21498",
+      "name": "HONOURS SPECIALIZATION IN ORGANIZATIONAL STUDIES, POLICY, AND ETHICS",
+      "type": "Honours Specialization",
+      "area": "ORGANIZATIONAL STUDIES, POLICY, AND ETHICS"
+    },
+    {
+      "id": "21503",
+      "name": "SPECIALIZATION IN ORGANIZATIONAL STUDIES, POLICY, AND ETHICS",
+      "type": "Specialization",
+      "area": "ORGANIZATIONAL STUDIES, POLICY, AND ETHICS"
+    },
+    {
+      "id": "20749",
+      "name": "MINOR IN PACIFIC RIM STUDIES",
+      "type": "Minor",
+      "area": "PACIFIC RIM STUDIES"
+    },
+    {
+      "id": "21680",
+      "name": "MINOR IN PAGE, STAGE AND SCREEN",
+      "type": "Minor",
+      "area": "PAGE, STAGE AND SCREEN"
+    },
+    {
+      "id": "21199",
+      "name": "HONOURS SPECIALIZATION IN PATHOLOGY",
+      "type": "Honours Specialization",
+      "area": "PATHOLOGY"
+    },
+    {
+      "id": "21198",
+      "name": "MAJOR IN PATHOLOGY",
+      "type": "Major",
+      "area": "PATHOLOGY"
+    },
+    {
+      "id": "20766",
+      "name": "ARTIST DIPLOMA IN PERFORMANCE (ONE-YEAR PROGRAM) - admission suspended",
+      "type": "Diploma",
+      "area": "PERFORMANCE (ONE-YEAR PROGRAM) - admission suspended"
+    },
+    {
+      "id": "20775",
+      "name": "BACHELOR OF MUSIC WITH HONOURS IN PERFORMANCE (ORCHESTRAL INSTRUMENT)",
+      "type": "Other - Non Modular Program",
+      "area": "PERFORMANCE (ORCHESTRAL INSTRUMENT)"
+    },
+    {
+      "id": "20777",
+      "name": "BACHELOR OF MUSIC WITH HONOURS IN PERFORMANCE (PIANO)",
+      "type": "Other - Non Modular Program",
+      "area": "PERFORMANCE (PIANO)"
+    },
+    {
+      "id": "20778",
+      "name": "BACHELOR OF MUSIC WITH HONOURS IN PERFORMANCE (VOICE)",
+      "type": "Other - Non Modular Program",
+      "area": "PERFORMANCE (VOICE)"
+    },
+    {
+      "id": "21193",
+      "name": "HONOURS SPECIALIZATION IN PHARMACOLOGY - ADMISSION DISCONTINUED",
+      "type": "Honours Specialization",
+      "area": "PHARMACOLOGY"
+    },
+    {
+      "id": "21188",
+      "name": "MAJOR IN PHARMACOLOGY",
+      "type": "Major",
+      "area": "PHARMACOLOGY"
+    },
+    {
+      "id": "21189",
+      "name": "MINOR IN PHARMACOLOGY",
+      "type": "Minor",
+      "area": "PHARMACOLOGY"
+    },
+    {
+      "id": "20921",
+      "name": "HONOURS SPECIALIZATION IN PHILOSOPHY",
+      "type": "Honours Specialization",
+      "area": "PHILOSOPHY"
+    },
+    {
+      "id": "20922",
+      "name": "MAJOR IN PHILOSOPHY",
+      "type": "Major",
+      "area": "PHILOSOPHY"
+    },
+    {
+      "id": "20926",
+      "name": "SPECIALIZATION IN PHILOSOPHY",
+      "type": "Specialization",
+      "area": "PHILOSOPHY"
+    },
+    {
+      "id": "20861",
+      "name": "MINOR IN PHILOSOPHY (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Minor",
+      "area": "PHILOSOPHY"
+    },
+    {
+      "id": "20923",
+      "name": "MINOR IN PHILOSOPHY",
+      "type": "Minor",
+      "area": "PHILOSOPHY"
+    },
+    {
+      "id": "20791",
+      "name": "HONOURS SPECIALIZATION IN PHILOSOPHY",
+      "type": "Honours Specialization",
+      "area": "PHILOSOPHY"
+    },
+    {
+      "id": "20786",
+      "name": "MAJOR IN PHILOSOPHY",
+      "type": "Major",
+      "area": "PHILOSOPHY"
+    },
+    {
+      "id": "20793",
+      "name": "SPECIALIZATION IN PHILOSOPHY",
+      "type": "Specialization",
+      "area": "PHILOSOPHY"
+    },
+    {
+      "id": "20788",
+      "name": "MINOR IN PHILOSOPHY",
+      "type": "Minor",
+      "area": "PHILOSOPHY"
+    },
+    {
+      "id": "21231",
+      "name": "HONOURS SPECIALIZATION IN PHILOSOPHY",
+      "type": "Honours Specialization",
+      "area": "PHILOSOPHY"
+    },
+    {
+      "id": "21227",
+      "name": "MAJOR IN PHILOSOPHY",
+      "type": "Major",
+      "area": "PHILOSOPHY"
+    },
+    {
+      "id": "21234",
+      "name": "SPECIALIZATION IN PHILOSOPHY",
+      "type": "Specialization",
+      "area": "PHILOSOPHY"
+    },
+    {
+      "id": "21230",
+      "name": "MINOR IN PHILOSOPHY",
+      "type": "Minor",
+      "area": "PHILOSOPHY"
+    },
+    {
+      "id": "20787",
+      "name": "MAJOR IN PHILOSOPHY IN COMMERCE",
+      "type": "Major",
+      "area": "PHILOSOPHY IN COMMERCE"
+    },
+    {
+      "id": "20924",
+      "name": "MINOR IN PHILOSOPHY OF SCIENCE",
+      "type": "Minor",
+      "area": "PHILOSOPHY OF SCIENCE"
+    },
+    {
+      "id": "20792",
+      "name": "HONOURS SPECIALIZATION IN PHILOSOPHY, REASONING AND ETHICS",
+      "type": "Honours Specialization",
+      "area": "PHILOSOPHY, REASONING AND ETHICS"
+    },
+    {
+      "id": "20794",
+      "name": "SPECIALIZATION IN PHILOSOPHY, REASONING AND ETHICS",
+      "type": "Specialization",
+      "area": "PHILOSOPHY, REASONING AND ETHICS"
+    },
+    {
+      "id": "21031",
+      "name": "MAJOR IN PHYSICAL GEOGRAPHY AND ENVIRONMENT",
+      "type": "Major",
+      "area": "PHYSICAL GEOGRAPHY AND ENVIRONMENT"
+    },
+    {
+      "id": "21105",
+      "name": "HONOURS SPECIALIZATION IN PHYSICS",
+      "type": "Honours Specialization",
+      "area": "PHYSICS"
+    },
+    {
+      "id": "21091",
+      "name": "MAJOR IN PHYSICS",
+      "type": "Major",
+      "area": "PHYSICS"
+    },
+    {
+      "id": "21107",
+      "name": "SPECIALIZATION IN PHYSICS",
+      "type": "Specialization",
+      "area": "PHYSICS"
+    },
+    {
+      "id": "21096",
+      "name": "MINOR IN PHYSICS",
+      "type": "Minor",
+      "area": "PHYSICS"
+    },
+    {
+      "id": "21194",
+      "name": "HONOURS SPECIALIZATION IN PHYSIOLOGY",
+      "type": "Honours Specialization",
+      "area": "PHYSIOLOGY"
+    },
+    {
+      "id": "21187",
+      "name": "MAJOR IN PHYSIOLOGY",
+      "type": "Major",
+      "area": "PHYSIOLOGY"
+    },
+    {
+      "id": "21192",
+      "name": "HONOURS SPECIALIZATION IN PHYSIOLOGY AND PHARMACOLOGY",
+      "type": "Honours Specialization",
+      "area": "PHYSIOLOGY AND PHARMACOLOGY"
+    },
+    {
+      "id": "21082",
+      "name": "MINOR IN PLANETARY SCIENCE AND SPACE EXPLORATION",
+      "type": "Minor",
+      "area": "PLANETARY SCIENCE AND SPACE EXPLORATION"
+    },
+    {
+      "id": "21021",
+      "name": "HONOURS SPECIALIZATION IN POLITICAL SCIENCE",
+      "type": "Honours Specialization",
+      "area": "POLITICAL SCIENCE"
+    },
+    {
+      "id": "20871",
+      "name": "MAJOR IN POLITICAL SCIENCE (Brescia) - admission discontinued",
+      "type": "Major",
+      "area": "POLITICAL SCIENCE"
+    },
+    {
+      "id": "21019",
+      "name": "MAJOR IN POLITICAL SCIENCE",
+      "type": "Major",
+      "area": "POLITICAL SCIENCE"
+    },
+    {
+      "id": "20872",
+      "name": "MINOR IN POLITICAL SCIENCE (Brescia) - admission discontinued",
+      "type": "Minor",
+      "area": "POLITICAL SCIENCE"
+    },
+    {
+      "id": "21020",
+      "name": "MINOR IN POLITICAL SCIENCE",
+      "type": "Minor",
+      "area": "POLITICAL SCIENCE"
+    },
+    {
+      "id": "20803",
+      "name": "HONOURS SPECIALIZATION IN POLITICAL SCIENCE",
+      "type": "Honours Specialization",
+      "area": "POLITICAL SCIENCE"
+    },
+    {
+      "id": "20795",
+      "name": "MAJOR IN POLITICAL SCIENCE",
+      "type": "Major",
+      "area": "POLITICAL SCIENCE"
+    },
+    {
+      "id": "20799",
+      "name": "MINOR IN POLITICAL SCIENCE",
+      "type": "Minor",
+      "area": "POLITICAL SCIENCE"
+    },
+    {
+      "id": "21249",
+      "name": "HONOURS SPECIALIZATION IN POLITICS AND INTERNATIONAL RELATIONS",
+      "type": "Honours Specialization",
+      "area": "POLITICAL SCIENCE"
+    },
+    {
+      "id": "21247",
+      "name": "MAJOR IN POLITICS AND INTERNATIONAL RELATIONS",
+      "type": "Major",
+      "area": "POLITICAL SCIENCE"
+    },
+    {
+      "id": "21248",
+      "name": "MINOR IN POLITICS AND INTERNATIONAL RELATIONS",
+      "type": "Minor",
+      "area": "POLITICAL SCIENCE"
+    },
+    {
+      "id": "21320",
+      "name": "HONOURS SPECIALIZATION IN POLITICAL SCIENCE/HBA",
+      "type": "Combined Degree Program",
+      "area": "POLITICAL SCIENCE/HBA"
+    },
+    {
+      "id": "20905",
+      "name": "MINOR IN POPULAR LITERATURE AND CULTURAL STUDIES",
+      "type": "Minor",
+      "area": "POPULAR LITERATURE AND CULTURAL STUDIES"
+    },
+    {
+      "id": "20783",
+      "name": "MAJOR IN POPULAR MUSIC STUDIES",
+      "type": "Major",
+      "area": "POPULAR MUSIC STUDIES"
+    },
+    {
+      "id": "21585",
+      "name": "MAJOR IN POWER IN HISTORY AND POLITICS (Brescia) - admission discontinued",
+      "type": "Major",
+      "area": "POWER IN HISTORY AND POLITICS"
+    },
+    {
+      "id": "21003",
+      "name": "HONOURS SPECIALIZATION IN POLITICS, PHILOSOPHY AND ECONOMICS - ECONOMICS (PPE-E)",
+      "type": "Honours Specialization",
+      "area": "PPE-E - POLITICS, PHILOSOPHY AND ECONOMICS - ECONOMICS"
+    },
+    {
+      "id": "21632",
+      "name": "HONOURS SPECIALIZATION IN POLITICS, PHILOSOPHY AND ECONOMICS - ECONOMICS CONCENTRATION (PPE-E)/HBA",
+      "type": "Combined Degree Program",
+      "area": "PPE-E - POLITICS, PHILOSOPHY AND ECONOMICS - ECONOMICS/HBA"
+    },
+    {
+      "id": "21022",
+      "name": "HONOURS SPECIALIZATION IN POLITICS, PHILOSOPHY AND ECONOMICS - POLITICS AND PHILOSOPHY (PPE-P)",
+      "type": "Honours Specialization",
+      "area": "PPE-P - POLITICS, PHILOSOPHY AND ECONOMICS - POLITICS AND PHILOSOPHY"
+    },
+    {
+      "id": "21630",
+      "name": "HONOURS SPECIALIZATION IN POLITICS, PHILOSOPHY AND ECONOMICS - POLITICS AND PHILOSOPHY CONCENTRATION (PPE-P)/HBA",
+      "type": "Combined Degree Program",
+      "area": "PPE-P - POLITICS, PHILOSOPHY AND ECONOMICS - POLITICS AND PHILOSOPHY CONCENTRATION/HBA"
+    },
+    {
+      "id": "21559",
+      "name": "PRIMARY HEALTH CARE NURSE PRACTITIONER CERTIFICATE PROGRAM",
+      "type": "Certificate",
+      "area": "PRIMARY HEALTH CARE NURSE PRACTITIONER CERTIFICATE PROGRAM"
+    },
+    {
+      "id": "20916",
+      "name": "CERTIFICATE IN PROFESSIONAL COMMUNICATION",
+      "type": "Certificate",
+      "area": "PROFESSIONAL COMMUNICATION"
+    },
+    {
+      "id": "20919",
+      "name": "DIPLOMA IN PROFESSIONAL COMMUNICATION - admission discontinued",
+      "type": "Diploma",
+      "area": "PROFESSIONAL COMMUNICATION"
+    },
+    {
+      "id": "20822",
+      "name": "HONOURS SPECIALIZATION IN PSYCHOLOGY - BA (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Honours Specialization",
+      "area": "PSYCHOLOGY"
+    },
+    {
+      "id": "20823",
+      "name": "MAJOR IN PSYCHOLOGY (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Major",
+      "area": "PSYCHOLOGY"
+    },
+    {
+      "id": "21024",
+      "name": "MAJOR IN PSYCHOLOGY",
+      "type": "Major",
+      "area": "PSYCHOLOGY"
+    },
+    {
+      "id": "20825",
+      "name": "SPECIALIZATION IN PSYCHOLOGY (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Specialization",
+      "area": "PSYCHOLOGY"
+    },
+    {
+      "id": "20824",
+      "name": "MINOR IN PSYCHOLOGY (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Minor",
+      "area": "PSYCHOLOGY"
+    },
+    {
+      "id": "21025",
+      "name": "MINOR IN PSYCHOLOGY",
+      "type": "Minor",
+      "area": "PSYCHOLOGY"
+    },
+    {
+      "id": "20806",
+      "name": "MAJOR IN PSYCHOLOGY",
+      "type": "Major",
+      "area": "PSYCHOLOGY"
+    },
+    {
+      "id": "20804",
+      "name": "MINOR IN PSYCHOLOGY",
+      "type": "Minor",
+      "area": "PSYCHOLOGY"
+    },
+    {
+      "id": "21237",
+      "name": "HONOURS SPECIALIZATION IN PSYCHOLOGY",
+      "type": "Honours Specialization",
+      "area": "PSYCHOLOGY"
+    },
+    {
+      "id": "21235",
+      "name": "MAJOR IN PSYCHOLOGY",
+      "type": "Major",
+      "area": "PSYCHOLOGY"
+    },
+    {
+      "id": "21238",
+      "name": "SPECIALIZATION IN PSYCHOLOGY",
+      "type": "Specialization",
+      "area": "PSYCHOLOGY"
+    },
+    {
+      "id": "21236",
+      "name": "MINOR IN PSYCHOLOGY",
+      "type": "Minor",
+      "area": "PSYCHOLOGY"
+    },
+    {
+      "id": "21026",
+      "name": "HONOURS SPECIALIZATION IN PSYCHOLOGY - BA",
+      "type": "Honours Specialization",
+      "area": "PSYCHOLOGY - BA"
+    },
+    {
+      "id": "20805",
+      "name": "HONOURS SPECIALIZATION IN PSYCHOLOGY - BA",
+      "type": "Honours Specialization",
+      "area": "PSYCHOLOGY - BA"
+    },
+    {
+      "id": "21027",
+      "name": "HONOURS SPECIALIZATION IN PSYCHOLOGY - BSc",
+      "type": "Honours Specialization",
+      "area": "PSYCHOLOGY - BSc"
+    },
+    {
+      "id": "21321",
+      "name": "HONOURS SPECIALIZATION IN PSYCHOLOGY/HBA",
+      "type": "Combined Degree Program",
+      "area": "PSYCHOLOGY/HBA"
+    },
+    {
+      "id": "21300",
+      "name": "HONOURS SPECIALIZATION IN PSYCHOLOGY/HBA (HURON)",
+      "type": "Combined Degree Program",
+      "area": "PSYCHOLOGY/HBA (HURON)"
+    },
+    {
+      "id": "21322",
+      "name": "DIPLOMA IN PUBLIC ADMINISTRATION",
+      "type": "Diploma",
+      "area": "PUBLIC ADMINISTRATION"
+    },
+    {
+      "id": "21742",
+      "name": "HONOURS SPECIALIZATION IN PUBLIC HEALTH",
+      "type": "Honours Specialization",
+      "area": "PUBLIC HEALTH"
+    },
+    {
+      "id": "21012",
+      "name": "MINOR IN PUBLIC HISTORY",
+      "type": "Minor",
+      "area": "PUBLIC HISTORY"
+    },
+    {
+      "id": "20750",
+      "name": "MINOR IN PUBLIC HISTORY",
+      "type": "Minor",
+      "area": "PUBLIC HISTORY"
+    },
+    {
+      "id": "21220",
+      "name": "MINOR IN PUBLIC HISTORY",
+      "type": "Minor",
+      "area": "PUBLIC HISTORY"
+    },
+    {
+      "id": "20993",
+      "name": "MINOR IN REFUGEE AND MIGRANT STUDIES",
+      "type": "Minor",
+      "area": "REFUGEE AND MIGRANT STUDIES"
+    },
+    {
+      "id": "21165",
+      "name": "HONOURS SPECIALIZATION IN REHABILITATION SCIENCES",
+      "type": "Honours Specialization",
+      "area": "REHABILITATION SCIENCES"
+    },
+    {
+      "id": "21158",
+      "name": "MAJOR IN REHABILITATION SCIENCES",
+      "type": "Major",
+      "area": "REHABILITATION SCIENCES"
+    },
+    {
+      "id": "21160",
+      "name": "MINOR IN REHABILITATION SCIENCES",
+      "type": "Minor",
+      "area": "REHABILITATION SCIENCES"
+    },
+    {
+      "id": "21225",
+      "name": "HONOURS SPECIALIZATION IN RELIGION AND SOCIETY",
+      "type": "Honours Specialization",
+      "area": "RELIGION AND SOCIETY"
+    },
+    {
+      "id": "21223",
+      "name": "MAJOR IN RELIGION AND SOCIETY",
+      "type": "Major",
+      "area": "RELIGION AND SOCIETY"
+    },
+    {
+      "id": "21226",
+      "name": "SPECIALIZATION IN RELIGION AND SOCIETY",
+      "type": "Specialization",
+      "area": "RELIGION AND SOCIETY"
+    },
+    {
+      "id": "21224",
+      "name": "MINOR IN RELIGION AND SOCIETY",
+      "type": "Minor",
+      "area": "RELIGION AND SOCIETY"
+    },
+    {
+      "id": "21586",
+      "name": "MAJOR IN RELIGION AND THEOLOGY",
+      "type": "Major",
+      "area": "RELIGION AND THEOLOGY"
+    },
+    {
+      "id": "21587",
+      "name": "MINOR IN RELIGION AND THEOLOGY",
+      "type": "Minor",
+      "area": "RELIGION AND THEOLOGY"
+    },
+    {
+      "id": "21741",
+      "name": "CERTIFICATE IN RELIGIOUS AND CULTURAL DIVERSITY",
+      "type": "Certificate",
+      "area": "RELIGIOUS AND CULTURAL DIVERSITY"
+    },
+    {
+      "id": "20864",
+      "name": "MINOR IN RELIGIOUS STUDIES (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Minor",
+      "area": "RELIGIOUS STUDIES"
+    },
+    {
+      "id": "20862",
+      "name": "MINOR IN RELIGIOUS STUDIES AND PHILOSOPHY (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Minor",
+      "area": "RELIGIOUS STUDIES AND PHILOSOPHY"
+    },
+    {
+      "id": "20790",
+      "name": "MINOR IN RELIGIOUS STUDIES AND PHILOSOPHY",
+      "type": "Minor",
+      "area": "RELIGIOUS STUDIES AND PHILOSOPHY"
+    },
+    {
+      "id": "21577",
+      "name": "SCHOLAR'S ELECTIVES PROGRAM, WISE, AND WESTERN SCHOLARS",
+      "type": "Other - Non Modular Program",
+      "area": "SCHOLARS"
+    },
+    {
+      "id": "21575",
+      "name": "SCHOLAR'S ELECTIVES PROGRAM AT HURON UNIVERSITY COLLEGE",
+      "type": "Other - Non Modular Program",
+      "area": "SCHOLAR'S ELECTIVES"
+    },
+    {
+      "id": "21569",
+      "name": "SCIENCE CO-OP PROGRAM",
+      "type": "Other - Non Modular Program",
+      "area": "SCIENCE CO-OP PROGRAM"
+    },
+    {
+      "id": "21562",
+      "name": "SCIENCE/HBA",
+      "type": "Combined Degree Program",
+      "area": "SCIENCE/HBA"
+    },
+    {
+      "id": "21066",
+      "name": "MAJOR IN SCIENTIFIC COMPUTING AND NUMERICAL METHODS",
+      "type": "Major",
+      "area": "SCIENTIFIC COMPUTING AND NUMERICAL METHODS"
+    },
+    {
+      "id": "21144",
+      "name": "MAJOR IN SEXUALITY STUDIES",
+      "type": "Major",
+      "area": "SEXUALITY STUDIES"
+    },
+    {
+      "id": "21147",
+      "name": "MINOR IN SEXUALITY STUDIES",
+      "type": "Minor",
+      "area": "SEXUALITY STUDIES"
+    },
+    {
+      "id": "21711",
+      "name": "MAJOR IN SEXUALITY STUDIES",
+      "type": "Major",
+      "area": "SEXUALITY STUDIES"
+    },
+    {
+      "id": "21714",
+      "name": "MINOR IN SEXUALITY STUDIES",
+      "type": "Minor",
+      "area": "SEXUALITY STUDIES"
+    },
+    {
+      "id": "21696",
+      "name": "MINOR IN SOCIAL AND ENVIRONMENTAL JUSTICE IN THE VISUAL ARTS",
+      "type": "Minor",
+      "area": "SOCIAL AND ENVIRONMENTAL JUSTICE IN THE VISUAL ARTS"
+    },
+    {
+      "id": "21232",
+      "name": "HONOURS SPECIALIZATION IN SOCIAL AND POLITICAL THOUGHT",
+      "type": "Honours Specialization",
+      "area": "SOCIAL AND POLITICAL THOUGHT"
+    },
+    {
+      "id": "21228",
+      "name": "MAJOR IN SOCIAL AND POLITICAL THOUGHT",
+      "type": "Major",
+      "area": "SOCIAL AND POLITICAL THOUGHT"
+    },
+    {
+      "id": "21624",
+      "name": "MINOR IN SOCIAL AND POLITICAL THOUGHT",
+      "type": "Minor",
+      "area": "SOCIAL AND POLITICAL THOUGHT"
+    },
+    {
+      "id": "20879",
+      "name": "HONOURS SPECIALIZATION IN SOCIAL JUSTICE AND PEACE STUDIES",
+      "type": "Honours Specialization",
+      "area": "SOCIAL JUSTICE AND PEACE STUDIES"
+    },
+    {
+      "id": "20877",
+      "name": "MAJOR IN SOCIAL JUSTICE AND PEACE STUDIES",
+      "type": "Major",
+      "area": "SOCIAL JUSTICE AND PEACE STUDIES"
+    },
+    {
+      "id": "20880",
+      "name": "SPECIALIZATION IN SOCIAL JUSTICE AND PEACE STUDIES",
+      "type": "Specialization",
+      "area": "SOCIAL JUSTICE AND PEACE STUDIES"
+    },
+    {
+      "id": "20878",
+      "name": "MINOR IN SOCIAL JUSTICE AND PEACE STUDIES",
+      "type": "Minor",
+      "area": "SOCIAL JUSTICE AND PEACE STUDIES"
+    },
+    {
+      "id": "21664",
+      "name": "SOCIAL SCIENCE CO-OP PROGRAM",
+      "type": "Other - Non Modular Program",
+      "area": "SOCIAL SCIENCE CO-OP PROGRAM"
+    },
+    {
+      "id": "21246",
+      "name": "BACHELOR OF SOCIAL WORK (HONOURS) - HONOURS SPECIALIZATION IN SOCIAL WORK",
+      "type": "Honours Specialization",
+      "area": "SOCIAL WORK"
+    },
+    {
+      "id": "21739",
+      "name": "MAJOR IN SOCIOCULTURAL AND LINGUISTIC ANTHROPOLOGY",
+      "type": "Major",
+      "area": "SOCIOCULTURAL AND LINGUISTIC ANTHROPOLOGY"
+    },
+    {
+      "id": "20988",
+      "name": "MAJOR IN SOCIOCULTURAL ANTHROPOLOGY",
+      "type": "Major",
+      "area": "SOCIOCULTURAL ANTHROPOLOGY"
+    },
+    {
+      "id": "20829",
+      "name": "HONOURS SPECIALIZATION IN SOCIOLOGY (Brescia)",
+      "type": "Honours Specialization",
+      "area": "SOCIOLOGY"
+    },
+    {
+      "id": "21047",
+      "name": "HONOURS SPECIALIZATION IN SOCIOLOGY",
+      "type": "Honours Specialization",
+      "area": "SOCIOLOGY"
+    },
+    {
+      "id": "20832",
+      "name": "MAJOR IN SOCIOLOGY (Brescia)",
+      "type": "Major",
+      "area": "SOCIOLOGY"
+    },
+    {
+      "id": "21042",
+      "name": "MAJOR IN SOCIOLOGY",
+      "type": "Major",
+      "area": "SOCIOLOGY"
+    },
+    {
+      "id": "21049",
+      "name": "SPECIALIZATION IN SOCIOLOGY",
+      "type": "Specialization",
+      "area": "SOCIOLOGY"
+    },
+    {
+      "id": "21603",
+      "name": "SPECIALIZATION IN SOCIOLOGY (Brescia)",
+      "type": "Specialization",
+      "area": "SOCIOLOGY"
+    },
+    {
+      "id": "21045",
+      "name": "MINOR IN SOCIOLOGY",
+      "type": "Minor",
+      "area": "SOCIOLOGY"
+    },
+    {
+      "id": "21591",
+      "name": "MINOR IN SOCIOLOGY (Brescia)",
+      "type": "Minor",
+      "area": "SOCIOLOGY"
+    },
+    {
+      "id": "21243",
+      "name": "HONOURS SPECIALIZATION IN SOCIOLOGY",
+      "type": "Honours Specialization",
+      "area": "SOCIOLOGY"
+    },
+    {
+      "id": "21239",
+      "name": "MAJOR IN SOCIOLOGY",
+      "type": "Major",
+      "area": "SOCIOLOGY"
+    },
+    {
+      "id": "21241",
+      "name": "MINOR IN SOCIOLOGY",
+      "type": "Minor",
+      "area": "SOCIOLOGY"
+    },
+    {
+      "id": "20835",
+      "name": "MINOR IN THE SOCIOLOGY OF GENDER (Brescia)",
+      "type": "Minor",
+      "area": "SOCIOLOGY OF GENDER"
+    },
+    {
+      "id": "21282",
+      "name": "SOFTWARE ENGINEERING PROGRAM",
+      "type": "Other - Non Modular Program",
+      "area": "SOFTWARE ENGINEERING"
+    },
+    {
+      "id": "21114",
+      "name": "MINOR IN SOFTWARE ENGINEERING",
+      "type": "Minor",
+      "area": "SOFTWARE ENGINEERING"
+    },
+    {
+      "id": "21279",
+      "name": "B. SOFTWARE ENGINEERING/HBA",
+      "type": "Combined Degree Program",
+      "area": "SOFTWARE ENGINEERING/HBA"
+    },
+    {
+      "id": "21280",
+      "name": "C. SOFTWARE ENGINEERING/LAW",
+      "type": "Combined Degree Program",
+      "area": "SOFTWARE ENGINEERING/LAW"
+    },
+    {
+      "id": "20960",
+      "name": "HONOURS SPECIALIZATION IN SPANISH (formerly the HONOURS SPECIALIZATION IN SPANISH LANGUAGE AND HISPANIC CULTURES)",
+      "type": "Honours Specialization",
+      "area": "SPANISH"
+    },
+    {
+      "id": "20964",
+      "name": "MAJOR IN SPANISH",
+      "type": "Major",
+      "area": "SPANISH"
+    },
+    {
+      "id": "20977",
+      "name": "SPECIALIZATION IN SPANISH (formerly the SPECIALIZATION IN SPANISH LANGUAGE AND HISPANIC CULTURES)",
+      "type": "Specialization",
+      "area": "SPANISH"
+    },
+    {
+      "id": "20972",
+      "name": "MINOR IN SPANISH",
+      "type": "Minor",
+      "area": "SPANISH"
+    },
+    {
+      "id": "20985",
+      "name": "CERTIFICATE IN SPANISH (formerly the CERTIFICATE IN PRACTICAL SPANISH)",
+      "type": "Certificate",
+      "area": "SPANISH"
+    },
+    {
+      "id": "20860",
+      "name": "MAJOR IN SPIRITUALITY AND COMMUNITY LEADERSHIP (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Major",
+      "area": "SPIRITUALITY AND COMMUNITY LEADERSHIP"
+    },
+    {
+      "id": "21296",
+      "name": "HONOURS SPECIALIZATION IN KINESIOLOGY - SPORT MANAGEMENT/HBA - admission discontinued",
+      "type": "Combined Degree Program",
+      "area": "SPORT MANAGEMENT"
+    },
+    {
+      "id": "21461",
+      "name": "HBA/HONOURS SPECIALIZATION IN KINESIOLOGY - SPORT MANAGEMENT - admission discontinued",
+      "type": "Combined Degree Program",
+      "area": "SPORT MANAGEMENT"
+    },
+    {
+      "id": "21055",
+      "name": "HONOURS SPECIALIZATION IN STATISTICS",
+      "type": "Honours Specialization",
+      "area": "STATISTICS"
+    },
+    {
+      "id": "21264",
+      "name": "A. STRUCTURAL ENGINEERING OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "STRUCTURAL ENGINEERING"
+    },
+    {
+      "id": "21269",
+      "name": "G. STRUCTURAL ENGINEERING WITH INTERNATIONAL DEVELOPMENT OPTION",
+      "type": "Other - Non Modular Program",
+      "area": "STRUCTURAL ENGINEERING WITH INTERNATIONAL DEVELOPMENT"
+    },
+    {
+      "id": "20747",
+      "name": "MINOR IN STUDIES IN IMPERIALISM",
+      "type": "Minor",
+      "area": "STUDIES IN IMPERIALISM"
+    },
+    {
+      "id": "20954",
+      "name": "BACHELOR OF FINE ARTS, HONOURS SPECIALIZATION IN STUDIO ART",
+      "type": "Honours Specialization",
+      "area": "STUDIO ART"
+    },
+    {
+      "id": "21623",
+      "name": "MINOR IN STUDIO ART",
+      "type": "Minor",
+      "area": "STUDIO ART"
+    },
+    {
+      "id": "21617",
+      "name": "CERTIFICATE IN STUDIO ART - ADMISSION DISCONTINUED",
+      "type": "Certificate",
+      "area": "STUDIO ART"
+    },
+    {
+      "id": "21637",
+      "name": "HONOURS SPECIALIZATION IN SYNTHETIC BIOLOGY",
+      "type": "Honours Specialization",
+      "area": "SYNTHETIC BIOLOGY"
+    },
+    {
+      "id": "21649",
+      "name": "CERTIFICATE IN THE TEACHING AND PRACTICE OF WRITING",
+      "type": "Certificate",
+      "area": "TEACHING AND PRACTICE OF WRITING"
+    },
+    {
+      "id": "21590",
+      "name": "HONOURS SPECIALIZATION IN THANATOLOGY",
+      "type": "Honours Specialization",
+      "area": "THANATOLOGY"
+    },
+    {
+      "id": "20881",
+      "name": "MAJOR IN THANATOLOGY",
+      "type": "Major",
+      "area": "THANATOLOGY"
+    },
+    {
+      "id": "20882",
+      "name": "MINOR IN THANATOLOGY",
+      "type": "Minor",
+      "area": "THANATOLOGY"
+    },
+    {
+      "id": "21660",
+      "name": "FOUNDATIONS IN THE NEW LIBERAL ARTS (formerly FOUNDATIONS IN WESTERN THOUGHT AND CIVILIZATION)",
+      "type": "Other - Non Modular Program",
+      "area": "THE NEW LIBERAL ARTS"
+    },
+    {
+      "id": "20900",
+      "name": "MAJOR IN THEATRE STUDIES",
+      "type": "Major",
+      "area": "THEATRE STUDIES"
+    },
+    {
+      "id": "20906",
+      "name": "MINOR IN THEATRE STUDIES",
+      "type": "Minor",
+      "area": "THEATRE STUDIES"
+    },
+    {
+      "id": "20917",
+      "name": "CERTIFICATE IN THEATRE STUDIES",
+      "type": "Certificate",
+      "area": "THEATRE STUDIES"
+    },
+    {
+      "id": "21023",
+      "name": "MINOR IN TRANSITIONAL JUSTICE AND POST-CONFLICT RECONSTRUCTION",
+      "type": "Minor",
+      "area": "TRANSITIONAL JUSTICE AND POST-CONFLICT RECONSTRUCTION"
+    },
+    {
+      "id": "21038",
+      "name": "HONOURS SPECIALIZATION IN URBAN DEVELOPMENT - BA",
+      "type": "Honours Specialization",
+      "area": "URBAN DEVELOPMENT - BA"
+    },
+    {
+      "id": "21318",
+      "name": "HONOURS SPECIALIZATION IN URBAN DEVELOPMENT/HBA",
+      "type": "Combined Degree Program",
+      "area": "URBAN DEVELOPMENT/HBA"
+    },
+    {
+      "id": "20957",
+      "name": "SPECIALIZATION IN VISUAL ARTS",
+      "type": "Specialization",
+      "area": "VISUAL ARTS"
+    },
+    {
+      "id": "20863",
+      "name": "MINOR IN WOMEN AND CHRISTIANITY (Brescia) - ADMISSION DISCONTINUED",
+      "type": "Minor",
+      "area": "WOMEN AND CHRISTIANITY"
+    },
+    {
+      "id": "20745",
+      "name": "MINOR IN WORLD HISTORY",
+      "type": "Minor",
+      "area": "WORLD HISTORY"
+    },
+    {
+      "id": "20887",
+      "name": "HONOURS SPECIALIZATION IN WORLD RELIGIONS AND CULTURES",
+      "type": "Honours Specialization",
+      "area": "WORLD RELIGIONS AND CULTURES"
+    },
+    {
+      "id": "20884",
+      "name": "MAJOR IN WORLD RELIGIONS AND CULTURES",
+      "type": "Major",
+      "area": "WORLD RELIGIONS AND CULTURES"
+    },
+    {
+      "id": "20888",
+      "name": "SPECIALIZATION IN WORLD RELIGIONS AND CULTURES",
+      "type": "Specialization",
+      "area": "WORLD RELIGIONS AND CULTURES"
+    },
+    {
+      "id": "20885",
+      "name": "MINOR IN WORLD RELIGIONS AND CULTURES",
+      "type": "Minor",
+      "area": "WORLD RELIGIONS AND CULTURES"
+    },
+    {
+      "id": "20918",
+      "name": "CERTIFICATE IN WRITING",
+      "type": "Certificate",
+      "area": "WRITING"
+    },
+    {
+      "id": "20920",
+      "name": "DIPLOMA IN WRITING - admission discontinued",
+      "type": "Diploma",
+      "area": "WRITING"
+    },
+    {
+      "id": "21672",
+      "name": "MINOR IN WRITING AND SOCIAL CHANGE",
+      "type": "Minor",
+      "area": "WRITING AND SOCIAL CHANGE"
+    },
+    {
+      "id": "20908",
+      "name": "MINOR IN WRITING STUDIES",
+      "type": "Minor",
+      "area": "WRITING STUDIES"
+    }
+  ]
+}

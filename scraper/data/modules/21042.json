@@ -1,0 +1,27 @@
+{
+  "id": "21042",
+  "name": "MAJOR IN SOCIOLOGY",
+  "type": "Major",
+  "area": "SOCIOLOGY",
+  "faculty": "Faculty of Social Science",
+  "department": "Sociology",
+  "url": "https://westerncalendar.uwo.ca/Modules.cfm?ModuleID=21042&SelectedCalendar=Live&ArchiveID=",
+  "title": "MAJOR IN SOCIOLOGY Faculty of Social Science - Sociology",
+  "sections": [
+    {
+      "heading": "MAJOR IN SOCIOLOGY",
+      "lines": [
+        "Faculty of Social Science - Sociology",
+        "Completion of first-year requirements, including 1.0 from: Sociology 1020, Sociology 1021E, Sociology 1025A/B, Sociology 1026F/G, Sociology 1027A/B with a mark in each Sociology course of at least 60%.",
+        "Module",
+        "6.0 courses:",
+        "1.0 course: Sociology 2205A/B and Sociology 2206A/B.",
+        "0.5 course from: Sociology 2240E, Sociology 2263A/B, Sociology 2270A/B or Sociology 2271A/B.",
+        "2.5 courses in Sociology numbered 2000-3999.",
+        "2.0 courses in Sociology numbered 3000-4999."
+      ]
+    }
+  ],
+  "requirements": null,
+  "scraped": "2026-11-09"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "21658",
+  "name": "CERTIFICATE IN DATA SCIENCE",
+  "type": "Certificate",
+  "area": "DATA SCIENCE",
+  "faculty": "Faculty of Science",
+  "department": "Statistical and Actuarial Sciences",
+  "url": "https://westerncalendar.uwo.ca/Modules.cfm?ModuleID=21658&SelectedCalendar=Live&ArchiveID=",
+  "title": "CERTIFICATE IN DATA SCIENCE Faculty of Science - Statistical and Actuarial Sciences",
+  "sections": [
+    {
+      "heading": "CERTIFICATE IN DATA SCIENCE",
+      "lines": [
+        "Faculty of Science - Statistical and Actuarial Sciences",
+        "Completion of the first-year requirements of any Major or Honours Specialization module, including 1.0 course from Mathematics, Calculus, or Applied Mathematics at the 1000-level (with a minimum grade of 60%). Data Science 1000A/B or Statistical Sciences 1024A/B (either with a minimum grade of 60%) can be used to fulfil 0.5 of these requirements. The Certificate cannot be combined with any degree in Statistics, Actuarial Science, Computer Science, Data Science, Software Engineering, Electrical Engineering, Mechatronic Systems Engineering, or Artificial Intelligence Systems Engineering.",
+        "Program",
+        "3.0 courses:",
+        "0.5 course from the Introductory Statistics Course List.",
+        "0.5 or 1.0 course from: Data Science 2000A/B, Data Science 2100A.",
+        "0.5 course: Data Science 3000A/B (or former Computer Science 4414A/B, the former Statistical Sciences 3850F/G, the former Software Engineering 4460A/B).",
+        "1.0 or 1.5 courses from: Computer Science 3120A/B, Computer Science 3121A/B, Computer Science 4417A/B, Statistical Sciences 2864A/B, Statistical Sciences 3869A/B, Statistical Sciences 4861A/B, Psychology 3801F/G, one of (Geography and Environment 4211A/B or the former Geography and Environment 3211A/B or Geography and Environment 4221A/B or the former Geography and Environment 3226A/B), or equivalent courses subject to the approval of the Department."
+      ]
+    }
+  ],
+  "requirements": null,
+  "scraped": "2026-11-09"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "21078",
+  "name": "SPECIALIZATION IN CHEMISTRY",
+  "type": "Specialization",
+  "area": "CHEMISTRY",
+  "faculty": "Faculty of Science",
+  "department": "Chemistry",
+  "url": "https://westerncalendar.uwo.ca/Modules.cfm?ModuleID=21078&SelectedCalendar=Live&ArchiveID=",
+  "title": "SPECIALIZATION IN CHEMISTRY Faculty of Science - Chemistry",
+  "sections": [
+    {
+      "heading": "SPECIALIZATION IN CHEMISTRY",
+      "lines": [
+        "Faculty of Science - Chemistry",
+        "This module builds on the Major in Chemistry, and allows the choice of specializing in a particular area of chemistry. This module includes Chemistry 4491E, an independent research project in which the student works in one of the research laboratories in the Department of Chemistry, typically in the final year of study. This module is identical to the Honours Specialization in Chemistry module but does not require a minimum 70% average.",
+        "Completion of first-year requirements, including the following 3.0 principal courses with a minimum mark of 60% in each.",
+        "1.0 course: Chemistry 1301A/B, Chemistry 1302A/B.",
+        "1.0 course from: (Physics 1201A/B or Physics 1401A/B or Physics 1501A/B or the former Physics 1028A/B or the former Physics 1301A/B) and (Physics 1202A/B or Physics 1402A/B or Physics 1502A/B or the former Physics 1029A/B or the former Physics 1302A/B).",
+        "1.0 course from: (Calculus 1000A/B or Calculus 1500A/B or Numerical and Mathematical Methods 1412A/B or the former Applied Mathematics 1412A/B) and (Applied Mathematics 1201A/B or Calculus 1301A/B or Calculus 1501A/B or Mathematics 1600A/B or Mathematics 1700A/B or Mathematics 1229A/B or Numerical and Mathematical Methods 1411A/B or Numerical and Mathematical Methods 1414A/B or the former Applied Mathematics 1411A/B or the former Applied Mathematics 1414A/B), or the former Applied Mathematics 1413.",
+        "Note: Physics 1101A/B with a minimum mark of 80% can be used in place of Physics 1201A/B.",
+        "Module",
+        "10.0 courses:",
+        "4.0 courses: Chemistry 2271A, Chemistry 2272F, Chemistry 2273A, Chemistry 2274A (or the former Chemistry 2374A), Chemistry 2281G, Chemistry 2283G, Chemistry 2284B (or the former Chemistry 2384B), Chemistry 2370A/B (or the former Chemistry 3370A/B).",
+        "1.5 courses from: Chemistry 3320A/B, Chemistry 3371F, Chemistry 3372F/G, Chemistry 3373F.",
+        "0.5 course from: Biochemistry 2280A, Chemistry 3391A/B, Chemistry 4493A/B.",
+        "2.5 courses from: Chemistry courses not already taken at the 3000 level or above (at least 1.0 of which must be at the 4000 level, or at least 0.5 course at the 4000 level if Chemistry 4493A/B is chosen from the list above), any 0.5 course at the 2000-level or above from Calculus, Applied Mathematics or Mathematics.",
+        "1.5 course: Chemistry 4491E."
+      ]
+    }
+  ],
+  "requirements": null,
+  "scraped": "2026-11-09"
+}
