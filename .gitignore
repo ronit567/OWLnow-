@@ -3,4 +3,5 @@ dist/
 apps/web/dist/
 apps/extension/dist/
 .DS_Store
+scraper/.progress/
 
