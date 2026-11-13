@@ -21,6 +21,6 @@ npm run typecheck
 
 To try the side panel in Chrome, open `chrome://extensions`, turn on Developer mode, choose **Load unpacked** and pick `apps/extension/dist/chrome`.
 
-- **Plan:** [OWLnow: plan to build and launch](https://claude.ai/artifact/6GbwZDfXao99mSi2Uoz5kr)
-- **Guide:** [OWLnow project guide](https://claude.ai/artifact/H5JCdSgoegtq7VaUrpQDmv)
+- **Roadmap:** [OWLnow roadmap](https://claude.ai/artifact/R7BNLJ8BXaJhKi4y4V2M6F)
+- **System design:** [OWLnow system design](https://claude.ai/artifact/5xy3kEk5PxbqMeFFPExxXz)
 - **Tickets:** [OWLnow tickets](https://docs.google.com/spreadsheets/d/1AQV2FfXRLQTeentn0DWQmqlKF_qXuAP1OJ8vMReEmHg/edit)
