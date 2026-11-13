@@ -19,6 +19,8 @@ npm run build        # website + extension (apps/extension/dist/chrome and dist/
 npm run typecheck
 ```
 
+Every pull request runs `npm run typecheck`, `npm test` and `npm run build` on GitHub. Run them yourself before you push to catch problems early.
+
 To try the side panel in Chrome, open `chrome://extensions`, turn on Developer mode, choose **Load unpacked** and pick `apps/extension/dist/chrome`.
 
 - **Roadmap:** [OWLnow roadmap](https://claude.ai/artifact/R7BNLJ8BXaJhKi4y4V2M6F)
