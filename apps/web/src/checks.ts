@@ -34,7 +34,7 @@ export const clash = (a: string, b: string) => Boolean(catalog.get(a)?.antireqs.
 /** What a student has: finished courses, this year's, and next year's picks. */
 export function standings(courses: StudentCourse[], picks: string[], except?: string): Map<string, Standing> {
   const have = new Map<string, Standing>();
-  for (const c of courses) if (c.key !== except) have.set(c.key, c.status === "past" ? "done" : "current");
+  for (const c of courses) if (c.key !== except && have.get(c.key) !== "done") have.set(c.key, c.status === "past" ? "done" : "current");
   for (const key of picks) if (key !== except && !have.has(key)) have.set(key, "planned");
   return have;
 }
@@ -82,40 +82,65 @@ export interface DegreeRow {
   note: string;
 }
 
-export function degreeProgress(rule: DegreeRule, have: Map<string, Standing>): DegreeRow[] {
-  // Only one course of an antirequisite pair counts.
+const firstYear = (c: Course) => levelOf(c.key) >= 1000 && levelOf(c.key) < 2000;
+const senior = (c: Course) => levelOf(c.key) >= 2000 && levelOf(c.key) <= 4999;
+
+// Calendar breadth policy, Category C subgroups. Engineering also earns C breadth.
+const scienceSubjects = new Set("ACTURSCI APPLMATH ASTRONOM BIOLOGY CALCULUS CHEM COMPSCI DATASCI EARTHSCI ENVIRSCI HISTSCI INTEGSCI MATH NMM PHYSICS SCIENCE STATS".split(" "));
+const medicalSubjects = new Set("ANATCELL BIOCHEM BIOSTATS EPID EPIDEMIO MBI MEDBIO MEDSCIEN MICROIMM NEURO ONEHEALT PATHOL PHARM PHYSIOL PHYSPHRM PUBHEALT".split(" "));
+
+function degreeCourses(have: Map<string, Standing>) {
   const counted: [Course, Standing][] = [];
-  for (const [key, s] of have) {
-    const c = catalog.get(key);
-    if (c && !counted.some(([o]) => clash(o.key, key))) counted.push([c, s]);
+  const ordered = [...have].sort(([a, sa], [b, sb]) => ORDER[sa] - ORDER[sb] || weightOf(b) - weightOf(a) || a.localeCompare(b));
+  for (const [key, standing] of ordered) {
+    const course = catalog.get(key);
+    if (course && (firstYear(course) || senior(course)) && !counted.some(([other]) => clash(other.key, key))) {
+      counted.push([course, standing]);
+    }
   }
-  const sum = (pick: (c: Course) => boolean, doneOnly = false) =>
-    counted.reduce((t, [c, s]) => (pick(c) && (!doneOnly || s === "done") ? t + c.weight : t), 0);
-  const atLeast = (label: string, need: number, pick: (c: Course) => boolean): DegreeRow => {
-    const done = sum(pick, true);
-    const total = sum(pick);
+  return counted;
+}
+
+export function degreeProgress(rule: DegreeRule, have: Map<string, Standing>, kind: "BA" | "BSc" = "BA"): DegreeRow[] {
+  const counted = degreeCourses(have);
+  const sum = (pick: (c: Course) => boolean, doneOnly = false, firstYearLimit = rule.firstYearMax) => {
+    const matches = counted.filter(([course, standing]) => pick(course) && (!doneOnly || standing === "done"));
+    const byStanding = sumStanding(matches, firstYearLimit);
+    return byStanding.done + byStanding.current + byStanding.planned;
+  };
+  const minimum = (label: string, need: number, done: number, total: number): DegreeRow => {
     const outcome = done >= need ? "done" : total >= need ? "on-track" : "missing";
     return { label, done, total, need, outcome, note: outcome === "missing" ? `${fmt(need - total)} more to plan` : "" };
   };
-  const firstYear = (c: Course) => levelOf(c.key) < 2000;
-  const firstTotal = sum(firstYear);
-  return [
-    atLeast("Total credits", rule.total, () => true),
+  const atLeast = (label: string, need: number, pick: (c: Course) => boolean) =>
+    minimum(label, need, sum(pick, true), sum(pick));
+  const standing = sumStanding(counted, rule.firstYearMax);
+  const firstTotal = sum(firstYear, false, Infinity);
+  const rows: DegreeRow[] = [
+    minimum("Total credits", rule.total, standing.done, standing.done + standing.current + standing.planned),
+    atLeast("First-year credits required", 5, firstYear),
     {
-      label: "First-year credits",
-      done: sum(firstYear, true),
+      label: "First-year credit limit",
+      done: sum(firstYear, true, Infinity),
       total: firstTotal,
       need: rule.firstYearMax,
-      outcome: firstTotal <= rule.firstYearMax ? "done" : "missing",
-      note: firstTotal <= rule.firstYearMax ? `At most ${fmt(rule.firstYearMax)}` : `${fmt(firstTotal - rule.firstYearMax)} over the limit`,
+      outcome: "done",
+      note: firstTotal <= rule.firstYearMax ? `At most ${fmt(rule.firstYearMax)}` : `${fmt(firstTotal - rule.firstYearMax)} extra credits excluded from the degree total`,
     },
-    atLeast("Senior credits (2000–4999)", rule.senior, (c) => levelOf(c.key) >= 2000 && levelOf(c.key) <= 4999),
-    atLeast("Category A: arts and humanities", rule.breadthEach, (c) => c.category === "A"),
-    atLeast("Category B: social science", rule.breadthEach, (c) => c.category === "B"),
+    atLeast("Senior credits (2000–4999)", rule.senior, senior),
+    atLeast("Category A: social science and interdisciplinary studies", rule.breadthEach, (c) => c.category === "A"),
+    atLeast("Category B: arts, humanities and languages", rule.breadthEach, (c) => c.category === "B"),
     atLeast("Category C: science", rule.breadthEach, (c) => c.category === "C"),
     atLeast("Essay credits", rule.essay, (c) => c.essay),
-    atLeast("Senior essay credits", rule.essaySenior, (c) => c.essay && levelOf(c.key) >= 2000),
+    atLeast("Senior essay credits", rule.essaySenior, (c) => c.essay && senior(c)),
   ];
+  if (kind === "BSc") {
+    rows.push(atLeast("BSc science credits", rule.bscScience, (c) => {
+      const subject = c.key.split(" ")[0];
+      return scienceSubjects.has(subject) || (rule.includesMedicalScience && c.category === "C" && medicalSubjects.has(subject));
+    }));
+  }
+  return rows;
 }
 
 export const eligible = (req: Requirement, key: string) =>
@@ -259,13 +284,17 @@ export function searchCourses(query: string, f: Filters = {}): Course[] {
 }
 
 /** Credits counted toward the degree, split by where they stand. Antirequisite pairs count once. */
-export function creditsByStanding(have: Map<string, Standing>): Record<Standing, number> {
-  const out: Record<Standing, number> = { done: 0, current: 0, planned: 0 };
-  const counted: string[] = [];
-  for (const [key, s] of have) {
-    if (counted.some((k) => clash(k, key))) continue;
-    counted.push(key);
-    out[s] += weightOf(key);
+function sumStanding(counted: [Course, Standing][], firstYearMax: number): Record<Standing, number> {
+  const out = { done: 0, current: 0, planned: 0 };
+  let remaining = firstYearMax;
+  for (const [course, standing] of counted) {
+    const credit = firstYear(course) ? Math.min(remaining, course.weight) : course.weight;
+    if (firstYear(course)) remaining -= credit;
+    out[standing] += credit;
   }
   return out;
+}
+
+export function creditsByStanding(have: Map<string, Standing>, firstYearMax = 7) {
+  return sumStanding(degreeCourses(have), firstYearMax);
 }
