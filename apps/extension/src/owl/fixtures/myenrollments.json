@@ -1,0 +1,348 @@
+{
+  "PagingInfo": {
+    "Bookmark": "221476",
+    "HasMoreItems": false
+  },
+  "Items": [
+    {
+      "OrgUnit": {
+        "Id": 118886,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "Mustangs for Consent",
+        "Code": "train_se_MustangsForConsent_2025",
+        "HomeUrl": null,
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/118886/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2025-05-01T04:00:00.000Z",
+        "EndDate": "2026-05-01T04:00:00.000Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Member",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": "2025-07-30T18:00:51.073Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 121529,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "Launch Online",
+        "Code": "train_se_LaunchOnline_2025",
+        "HomeUrl": null,
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/121529/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2025-06-05T04:00:00.000Z",
+        "EndDate": "2026-06-06T04:00:00.000Z",
+        "CanAccess": false,
+        "ClasslistRoleName": "Member",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": null
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 124464,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "Academic Integrity Module",
+        "Code": "train_ctl_AcademicIntegrityTutorial_2025",
+        "HomeUrl": "https://westernu.brightspace.com/d2l/home/124464",
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/124464/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2025-06-05T04:00:00.000Z",
+        "EndDate": "2028-06-06T04:00:00.000Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Member",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": "2026-03-09T13:28:56.070Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 128910,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "COMPSCI 1033A 200 LEC FW25: MULTIMEDIA AND COMMUNICATION I",
+        "Code": "UGRD_1259_1831",
+        "HomeUrl": "https://westernu.brightspace.com/d2l/home/128910",
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/128910/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2025-08-04T04:00:00.000Z",
+        "EndDate": "2026-12-09T05:00:00.000Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Learner",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": "2026-01-05T15:29:19.157Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 130180,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "COMPSCI 1020A 001 LEC FW25: FOUNDATIONS OF COMPUTER SCIENCE",
+        "Code": "UGRD_1259_6916",
+        "HomeUrl": "https://westernu.brightspace.com/d2l/home/130180",
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/130180/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2025-08-04T04:00:00.000Z",
+        "EndDate": "2026-12-09T05:00:00.000Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Learner",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": "2025-12-15T02:26:23.107Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 130527,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "HISTORY 1707F 001 LEC FW25: MAKING MONEY HISTORY OF BUSINESS AND CAPITALISM",
+        "Code": "UGRD_1259_9972",
+        "HomeUrl": "https://westernu.brightspace.com/d2l/home/130527",
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/130527/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2025-08-04T04:00:00.000Z",
+        "EndDate": "2026-12-09T05:00:00.000Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Learner",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": "2026-07-27T19:28:15.540Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 130795,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "COMPSCI 1026A 001 LEC FW25: COMPUTER SCIENCE FUNDAMENTALS I",
+        "Code": "UGRD_1259_10648",
+        "HomeUrl": "https://westernu.brightspace.com/d2l/home/130795",
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/130795/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2025-08-04T04:00:00.000Z",
+        "EndDate": "2026-12-09T05:00:00.000Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Learner",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": "2026-03-03T17:24:02.343Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 154554,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "MATH 1600B 001 LEC FW25: LINEAR ALGEBRA I",
+        "Code": "UGRD_1259_2391",
+        "HomeUrl": "https://westernu.brightspace.com/d2l/home/154554",
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/154554/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2025-12-05T05:00:00.000Z",
+        "EndDate": "2027-04-09T04:00:00.000Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Learner",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": "2026-04-22T18:17:51.570Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 155071,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "PHYSICS 1202B 001 LEC FW25: PHYSICS FOR THE SCIENCES II",
+        "Code": "UGRD_1259_4242",
+        "HomeUrl": "https://westernu.brightspace.com/d2l/home/155071",
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/155071/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2025-12-05T05:00:00.000Z",
+        "EndDate": "2027-04-09T04:00:00.000Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Learner",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": "2026-04-26T18:18:58.987Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 156059,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "CALCULUS 1000B 001 LEC FW25: CALCULUS I",
+        "Code": "UGRD_1259_1040",
+        "HomeUrl": "https://westernu.brightspace.com/d2l/home/156059",
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/156059/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2025-12-05T05:00:00.000Z",
+        "EndDate": "2027-04-09T04:00:00.000Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Learner",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": "2026-04-12T17:34:25.690Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 157045,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "COMPSCI 1027B 001 LEC FW25: COMPUTER SCIENCE FUNDAMENTALS II",
+        "Code": "UGRD_1259_1237",
+        "HomeUrl": "https://westernu.brightspace.com/d2l/home/157045",
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/157045/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2025-12-05T05:00:00.000Z",
+        "EndDate": "2027-04-09T04:00:00.000Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Learner",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": "2026-04-15T15:22:48.840Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 201430,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "COMPSCI 2211A 001 LEC FW26: SOFTWARE TOOLS AND SYSTEMS  PROGRAMMING",
+        "Code": "UGRD_1269_9222",
+        "HomeUrl": "https://westernu.brightspace.com/d2l/home/201430",
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/201430/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2026-08-09T04:00:00.000Z",
+        "EndDate": "2027-12-09T05:00:00.000Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Learner",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": "2026-11-19T03:55:15.457Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 201439,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "COMPSCI 2210A 001 LEC FW26: DATA STRUCTURES AND ALGORITHMS",
+        "Code": "UGRD_1269_9220",
+        "HomeUrl": "https://westernu.brightspace.com/d2l/home/201439",
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/201439/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2026-08-09T04:00:00.000Z",
+        "EndDate": "2027-12-09T05:00:00.000Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Learner",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": "2026-11-20T16:07:53.633Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 202079,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "HISTORY 2158A 001 LEC FW26: FOOD IN WORLD HISTORY",
+        "Code": "UGRD_1269_14208",
+        "HomeUrl": "https://westernu.brightspace.com/d2l/home/202079",
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/202079/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2026-08-09T04:00:00.000Z",
+        "EndDate": "2027-12-09T05:00:00.000Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Learner",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": "2026-11-11T04:55:18.363Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 202085,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "COMPSCI 2214A 001 LEC FW26: DISCRETE STRUCTURES FOR COMPUTING",
+        "Code": "UGRD_1269_11518",
+        "HomeUrl": "https://westernu.brightspace.com/d2l/home/202085",
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/202085/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2026-08-09T04:00:00.000Z",
+        "EndDate": "2027-12-09T05:00:00.000Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Learner",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": "2026-11-20T16:09:13.387Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 203814,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "COMPSCI 2208A 001 LEC FW26: INTRODUCTION TO COMPUTER ORGANIZATION AND ARCHITECTURE",
+        "Code": "UGRD_1269_11512",
+        "HomeUrl": "https://westernu.brightspace.com/d2l/home/203814",
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/203814/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2026-08-09T04:00:00.000Z",
+        "EndDate": "2027-12-09T05:00:00.000Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Learner",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": "2026-11-20T16:52:31.270Z"
+      },
+      "PinDate": null
+    },
+    {
+      "OrgUnit": {
+        "Id": 221476,
+        "Type": { "Id": 3, "Code": "Course Offering", "Name": "Course Offering" },
+        "Name": "Science 3391 FW2026 - Yr 2 Entry",
+        "Code": "sup_sci_Science3391FW2026Yr2Entry_2026",
+        "HomeUrl": "https://westernu.brightspace.com/d2l/home/221476",
+        "ImageUrl": "https://westernu.brightspace.com/d2l/api/lp/1.9/courses/221476/image"
+      },
+      "Access": {
+        "IsActive": true,
+        "StartDate": "2026-08-26T04:01:00.000Z",
+        "EndDate": "2029-08-27T03:59:59.000Z",
+        "CanAccess": true,
+        "ClasslistRoleName": "Member",
+        "LISRoles": ["urn:lti:instrole:ims/lis/Student", "urn:lti:instrole:ims/lis/Learner"],
+        "LastAccessed": "2026-11-18T15:46:27.153Z"
+      },
+      "PinDate": null
+    }
+  ]
+}

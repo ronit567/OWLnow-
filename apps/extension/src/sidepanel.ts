@@ -16,6 +16,7 @@ import {
   type PanelDeadline,
   type ReminderSettings,
 } from "@owlnow/deadlines";
+import { COURSES_KEY, READ_COURSES, byYear, loadCourses, readStatus, type SavedCourses } from "./owl/store";
 
 declare const __PLANNER_URL__: string;
 
@@ -50,7 +51,10 @@ function el<K extends keyof HTMLElementTagNameMap>(tag: K, className = "", text 
   return node;
 }
 
-const readStatus = "Not read yet";
+/** The courses the background worker last read from OWL. */
+let owl: SavedCourses | null = null;
+let reading = false;
+
 const isDone = (d: PanelDeadline) => done.has(d.id) || d.submitted === true;
 
 function item(d: PanelDeadline): HTMLLIElement {
@@ -89,8 +93,26 @@ function item(d: PanelDeadline): HTMLLIElement {
 
 const list = (target: HTMLElement, items: PanelDeadline[]) => target.replaceChildren(...items.map(item));
 
+function renderOwl() {
+  const status = readStatus(owl, new Date());
+  $("read-status").textContent = reading ? "Reading…" : status.text;
+  $("read").querySelector(".live")?.classList.toggle("on", status.live && !reading);
+  $("read").title = owl && !owl.last.ok ? owl.last.detail : "Read OWL now";
+  $("signed-out").hidden = !status.signedOut;
+
+  const courses = byYear(owl?.courses ?? []);
+  $("courses-title").textContent = `Courses from OWL (${courses.length})`;
+  $("courses").replaceChildren(
+    ...courses.map((c) => {
+      const li = el("li");
+      li.append(el("span", "code", c.code), el("span", "meta", `${c.year} · ${c.status === "past" ? "Taken" : "Taking now"}`));
+      return li;
+    }),
+  );
+}
+
 function render() {
-  $("read-status").textContent = readStatus;
+  renderOwl();
 
   const s = sections(DEADLINES, done, now);
   $("today").textContent = formatToday(now);
@@ -174,10 +196,29 @@ $("settings-button").addEventListener("click", () => {
   $("main").hidden = opening;
   $("settings-button").textContent = opening ? "Done" : "Settings";
 });
-$("read").addEventListener("click", () => {
-  // Asks the background worker to read OWL once the reader exists.
-  render();
+$("read").addEventListener("click", async () => {
+  if (reading) return;
+  reading = true;
+  renderOwl();
+  try {
+    owl = (await chrome.runtime.sendMessage({ type: READ_COURSES })) ?? owl;
+  } finally {
+    reading = false;
+    renderOwl();
+  }
 });
+// The background worker also reads on its own (at startup), so follow whatever it saves.
+chrome.storage.onChanged.addListener((changes, area) => {
+  if (area !== "local" || !changes[COURSES_KEY]) return;
+  owl = (changes[COURSES_KEY].newValue as SavedCourses | undefined) ?? null;
+  renderOwl();
+});
+loadCourses(chrome.storage.local).then((saved) => {
+  owl = saved;
+  renderOwl();
+});
+// Keeps "Read 5 min ago" current while the panel stays open.
+setInterval(renderOwl, 60_000);
 $("ics").addEventListener("click", exportIcs);
 
 render();
