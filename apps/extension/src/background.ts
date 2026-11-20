@@ -15,9 +15,27 @@ chrome.sidePanel
 /** The read in progress, so a button press during a startup read waits for it instead of reading twice. */
 let reading: Promise<SavedCourses | null> | null = null;
 
+type Trigger = "alarm" | "install" | "startup" | "panel";
+
 /** Reads OWL and saves the result. Never throws: null means the read couldn't even be saved. */
-function readOwlCourses(): Promise<SavedCourses | null> {
-  reading ??= refreshCourses(chrome.storage.local)
+function readOwlCourses(trigger: Trigger): Promise<SavedCourses | null> {
+  if (reading) {
+    console.log(
+      `OWLnow: read asked for by ${trigger}, joining the read already running`,
+    );
+    return reading;
+  }
+  console.log(`OWLnow: reading OWL (${trigger})`);
+  reading = refreshCourses(chrome.storage.local)
+    .then((saved) => {
+      if (saved.last.ok)
+        console.log(`OWLnow: read ${saved.courses.length} courses`);
+      else
+        console.log(
+          `OWLnow: read failed (${saved.last.reason}): ${saved.last.detail}`,
+        );
+      return saved;
+    })
     .catch((err: unknown) => {
       console.error("OWLnow: reading OWL failed", err);
       return null;
@@ -36,17 +54,17 @@ chrome.alarms.get(READ_ALARM).then((alarm) => {
     chrome.alarms.create(READ_ALARM, { periodInMinutes: READ_EVERY_MINUTES });
 });
 chrome.alarms.onAlarm.addListener((alarm) => {
-  if (alarm.name === READ_ALARM) void readOwlCourses();
+  if (alarm.name === READ_ALARM) void readOwlCourses("alarm");
 });
 
 // Read once when the extension is installed or updated, and each time the browser starts.
-chrome.runtime.onInstalled.addListener(() => void readOwlCourses());
-chrome.runtime.onStartup.addListener(() => void readOwlCourses());
+chrome.runtime.onInstalled.addListener(() => void readOwlCourses("install"));
+chrome.runtime.onStartup.addListener(() => void readOwlCourses("startup"));
 
 // The side panel asks for a fresh read and always gets an answer: the saved result, or null.
 chrome.runtime.onMessage.addListener((message, sender, reply) => {
   if (sender.id !== chrome.runtime.id || message?.type !== READ_COURSES)
     return false;
-  readOwlCourses().then(reply);
+  readOwlCourses("panel").then(reply);
   return true; // The reply comes later, once OWL has answered.
 });
