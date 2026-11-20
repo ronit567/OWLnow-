@@ -10,11 +10,15 @@ const base = {
   manifest_version: 3,
   name: "OWLnow",
   version: "0.1.0",
-  description: "Every OWL deadline in one side panel, plus your courses for the planner.",
-  permissions: ["storage"],
+  description:
+    "Every OWL deadline in one side panel, plus your courses for the planner.",
+  permissions: ["storage", "alarms"],
   host_permissions: ["https://westernu.brightspace.com/*"],
   icons: { 16: "icon-16.png", 48: "icon-48.png", 128: "icon-128.png" },
-  action: { default_title: "OWLnow", default_icon: { 16: "icon-16.png", 48: "icon-48.png" } },
+  action: {
+    default_title: "OWLnow",
+    default_icon: { 16: "icon-16.png", 48: "icon-48.png" },
+  },
 };
 
 const chrome = {
@@ -26,8 +30,14 @@ const chrome = {
 const firefox = {
   ...base,
   background: { scripts: ["background.js"] },
-  sidebar_action: { default_panel: "sidepanel.html", default_title: "OWLnow", default_icon: "icon-48.png" },
-  browser_specific_settings: { gecko: { id: "owlnow@example.org", strict_min_version: "121.0" } },
+  sidebar_action: {
+    default_panel: "sidepanel.html",
+    default_title: "OWLnow",
+    default_icon: "icon-48.png",
+  },
+  browser_specific_settings: {
+    gecko: { id: "owlnow@example.org", strict_min_version: "121.0" },
+  },
 };
 
 const targets = [
@@ -45,9 +55,13 @@ for (const { out, manifest } of targets) {
     outdir: out,
     logLevel: "warning",
     define: { __PLANNER_URL__: JSON.stringify(plannerUrl) },
-    entryPoints: { background: "src/background.ts", sidepanel: "src/sidepanel.ts" },
+    entryPoints: {
+      background: "src/background.ts",
+      sidepanel: "src/sidepanel.ts",
+    },
   });
-  for (const f of ["sidepanel.html", "sidepanel.css"]) cpSync(`src/${f}`, `${out}/${f}`);
+  for (const f of ["sidepanel.html", "sidepanel.css"])
+    cpSync(`src/${f}`, `${out}/${f}`);
   cpSync("static", out, { recursive: true });
   writeFileSync(`${out}/manifest.json`, JSON.stringify(manifest, null, 2));
   console.log(`built ${out}`);
