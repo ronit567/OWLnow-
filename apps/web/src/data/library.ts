@@ -74,13 +74,17 @@ export interface DegreeRule {
   breadthEach: number;
   essay: number;
   essaySenior: number;
+  bscScience: number;
+  includesMedicalScience: boolean;
 }
 
-/** To check against the calendar's degree requirements page before launch. */
+/** Standard BA/BSc credit requirements, Western graduation policy sections 1–3.
+ * https://www.uwo.ca/univsec/pdf/academic_policies/registration_progression_grad/graduation.pdf
+ */
 export const DEGREE_RULES: Record<DegreeType, DegreeRule> = {
-  Honours: { total: 20, firstYearMax: 7, senior: 13, breadthEach: 1, essay: 2, essaySenior: 1 },
-  "4-year": { total: 20, firstYearMax: 7, senior: 10, breadthEach: 1, essay: 2, essaySenior: 1 },
-  "3-year": { total: 15, firstYearMax: 7, senior: 8, breadthEach: 1, essay: 2, essaySenior: 1 },
+  Honours: { total: 20, firstYearMax: 7, senior: 13, breadthEach: 1, essay: 2, essaySenior: 1, bscScience: 10, includesMedicalScience: true },
+  "4-year": { total: 20, firstYearMax: 7, senior: 13, breadthEach: 1, essay: 2, essaySenior: 1, bscScience: 10, includesMedicalScience: true },
+  "3-year": { total: 15, firstYearMax: 7, senior: 8, breadthEach: 1, essay: 2, essaySenior: 1, bscScience: 7.5, includesMedicalScience: false },
 };
 
 export const EDITION = { year: "2026", updated: "2026-10-16" };

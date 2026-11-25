@@ -85,7 +85,7 @@ function Banner({ state, courses, notes }: { state: PlannerState; courses: Stude
     courses,
     state.picks.map((p) => p.key),
   );
-  const total = degreeProgress(DEGREE_RULES[state.degreeType], have)[0];
+  const total = degreeProgress(DEGREE_RULES[state.degreeType], have, state.degreeKind)[0];
   const blocked = notes.filter((n) => mainNote(n).tone === "error").length;
   const toCheck = notes.filter((n) => ["warn", "check"].includes(mainNote(n).tone)).length;
   return (
@@ -262,7 +262,7 @@ function Suggestions({ state, courses, add }: { state: PlannerState; courses: St
       state.picks.map((p) => p.key),
     );
     const modules = MODULES.filter((m) => state.modules.includes(m.id));
-    setSuggestions(suggestCourses(modules, degreeProgress(DEGREE_RULES[state.degreeType], have), have));
+    setSuggestions(suggestCourses(modules, degreeProgress(DEGREE_RULES[state.degreeType], have, state.degreeKind), have));
   };
   const open = suggestions?.filter((s) => !state.picks.some((p) => p.key === s.key)) ?? [];
   return (

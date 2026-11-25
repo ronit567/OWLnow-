@@ -25,7 +25,7 @@ export function Progress({ state, courses }: { state: PlannerState; courses: Stu
     state.picks.map((p) => p.key),
   );
   const rule = DEGREE_RULES[state.degreeType];
-  const rows = degreeProgress(rule, have);
+  const rows = degreeProgress(rule, have, state.degreeKind);
   const modules = MODULES.filter((m) => state.modules.includes(m.id));
   const audits = modules.map((m) => ({ module: m, results: m.requirements ? auditModule(m, have) : null }));
   const outcomes: Outcome[] = [...rows.map((r) => r.outcome), ...audits.flatMap((a) => (a.results ? a.results.map((r) => r.outcome) : ["check" as const]))];
@@ -86,7 +86,7 @@ export function Progress({ state, courses }: { state: PlannerState; courses: Stu
 }
 
 function Overview({ state, modules, have, total, need }: { state: PlannerState; modules: Module[]; have: Map<string, Standing>; total: number; need: number }) {
-  const credits = creditsByStanding(have);
+  const credits = creditsByStanding(have, DEGREE_RULES[state.degreeType].firstYearMax);
   const toPlan = Math.max(0, need - total);
   const slots = Math.round(need / 0.5);
   const kinds = [

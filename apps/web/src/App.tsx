@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import type { PanelDeadline } from "@owlnow/deadlines";
 import { EDITION, type StudentCourse } from "./data/library";
+import { DegreeCatalog } from "./data/DegreeCatalog";
 import { resetPlanner, usePlanner } from "./store";
 import { Deadlines } from "./tabs/Deadlines";
 import { MyCourses } from "./tabs/MyCourses";
@@ -60,8 +61,11 @@ export function App() {
       </header>
 
       <main className="app">
-        {tab === "progress" && <Progress state={state} courses={courses} />}
-        {tab === "plan" && <Plan state={state} setState={setState} courses={courses} />}
+        {(tab === "progress" || tab === "plan") && (
+          <DegreeCatalog keys={[...courses.map((c) => c.key), ...state.picks.map((p) => p.key)]}>
+            {tab === "progress" ? <Progress state={state} courses={courses} /> : <Plan state={state} setState={setState} courses={courses} />}
+          </DegreeCatalog>
+        )}
         {tab === "deadlines" && <Deadlines owl={owl} />}
         {tab === "my" && <MyCourses state={state} setState={setState} owl={owl} />}
 
