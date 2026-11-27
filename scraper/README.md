@@ -44,3 +44,33 @@ If a single module page can't be read, the run carries on, lists it at the end, 
 - `src/convert.ts` turns calendar courses into the website's `Course` (weight, essay, campus, antireq codes).
 - `src/courses.ts` and `src/modules.ts` are the commands.
 - `src/save.ts` says where data goes.
+## Prerequisite and antirequisite parsing
+
+`src/prereqs.ts` converts calendar prerequisite text into structured `Rule` objects and extracts antirequisite course codes.
+
+The parser supports:
+
+- AND, OR, either and one-of requirements.
+- Subject name and abbreviation normalization.
+- Course suffix removal.
+- Minimum mark requirements.
+- Nested prerequisite groups.
+- Explicit credit requirements.
+- References to former courses.
+
+Unsupported or ambiguous prerequisites return a `check` rule containing the original text rather than guessing.
+
+Conditional, campus-specific and unsupported antirequisite requirements may return an empty array. The original `antireqText` is preserved for manual review. An empty array does not necessarily mean there are no antirequisites.
+
+Minimum marks are stored in rules but must be manually verified because OWLnow does not read student grades.
+
+### Testing
+
+The parser is tested using Vitest, including 32 manually collected Western Academic Calendar prerequisite statements, antirequisite examples and regression tests.
+
+Run the following from the repository root:
+
+```bash
+npm run typecheck
+npm test
+```

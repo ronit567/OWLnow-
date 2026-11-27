@@ -1,6 +1,7 @@
 // Turns calendar courses into the website's Course shape (apps/web/src/data/library.ts).
 import type { Course } from "../../apps/web/src/data/library.ts";
 import type { CalendarCourse, Subject } from "./pages.ts";
+import { parsePrereq, parseAntireqs } from "./prereqs.ts";
 
 /** "1027A/B" → number "1027", suffix "A/B". */
 export function splitNumber(number: string): { digits: string; suffix: string } {
@@ -17,20 +18,12 @@ const weightFromSuffix = (suffix: string) => (suffix === "" || suffix === "E" ||
  * Course codes in antirequisite text: "Computer Science 1025A/B, 1026A/B" → COMPSCI 1025, COMPSCI 1026.
  * A bare number takes the last subject named before it.
  */
-export function antireqKeys(text: string, subjects: Subject[]): string[] {
-  if (!text) return [];
-  const byName = new Map(subjects.map((s) => [s.name.toLowerCase(), s.code]));
-  const names = [...byName.keys()].sort((a, b) => b.length - a.length).map((n) => n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
-  const re = new RegExp(`(?:(${names.join("|")})\\s+)?(\\d{4})`, "gi");
-  const keys: string[] = [];
-  let subject: string | null = null;
-  for (const m of text.matchAll(re)) {
-    if (m[1]) subject = byName.get(m[1].toLowerCase()) ?? null;
-    if (!subject) continue;
-    const key = `${subject} ${m[2]}`;
-    if (!keys.includes(key)) keys.push(key);
-  }
-  return keys;
+/** Extract explicitly listed antirequisite course codes. */
+export function antireqKeys(
+  text: string,
+  subjects: Subject[]
+): string[] {
+  return parseAntireqs(text, subjects);
 }
 
 export function toCourse(c: CalendarCourse, subjects: Subject[]): Course {
@@ -45,7 +38,7 @@ export function toCourse(c: CalendarCourse, subjects: Subject[]): Course {
     essay: isEssay(suffix),
     campus: c.campus,
     prereqText: c.prereqText,
-    prereq: null,
+    prereq: parsePrereq(c.prereqText, subjects),
     antireqText: c.antireqText,
     antireqs: antireqKeys(c.antireqText, subjects).filter((k) => k !== key),
     offeredNextYear: true,
