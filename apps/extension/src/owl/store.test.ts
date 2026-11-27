@@ -1,12 +1,17 @@
 import { describe, expect, it } from "vitest";
+import type { PanelDeadline } from "@owlnow/deadlines";
 import type { OwlCourse, ReadResult } from "./courses";
 import {
   COURSES_KEY,
   byYear,
   courseLabel,
+  fromStored,
   loadCourses,
+  loadDeadlines,
   readStatus,
   refreshCourses,
+  refreshOwl,
+  toStored,
   type SavedCourses,
   type Storage,
 } from "./store";
@@ -200,5 +205,103 @@ describe("courseLabel", () => {
     expect(
       courseLabel(course("2026–27", "current"), new Date(2026, 8, 1)),
     ).toBe("Taking now");
+  });
+});
+
+describe("refreshOwl", () => {
+  const json = (body: unknown, status = 200) =>
+    new Response(JSON.stringify(body), {
+      status,
+      headers: { "content-type": "application/json" },
+    });
+  const NOW = new Date("2026-11-20T12:00:00Z");
+  const enrollments = {
+    PagingInfo: { Bookmark: null, HasMoreItems: false },
+    Items: [
+      { OrgUnit: { Id: 10, Name: "MATH 1600B 001 LEC FW25: LINEAR ALGEBRA I", Code: null } },
+      { OrgUnit: { Id: 20, Name: "COMPSCI 2210A 001 LEC FW26: DATA STRUCTURES", Code: null } },
+      { OrgUnit: { Id: 30, Name: "Mustangs for Consent", Code: null } },
+    ],
+  };
+  /** OWL with one current course holding one handed-in assignment. */
+  function owl(over: Record<string, () => Response> = {}) {
+    const routes: Record<string, () => Response> = {
+      "/d2l/api/versions/": () =>
+        json([
+          { ProductCode: "lp", LatestVersion: "1.50" },
+          { ProductCode: "le", LatestVersion: "1.80" },
+        ]),
+      "/d2l/api/lp/1.50/enrollments/myenrollments/": () => json(enrollments),
+      "/d2l/api/le/1.80/20/dropbox/folders/": () =>
+        json([{ Id: 1, Name: "Lab 1", DueDate: "2026-11-27T04:59:00.000Z", Availability: null }]),
+      "/d2l/api/le/1.80/20/dropbox/folders/1/submissions/mysubmissions/": () =>
+        json([{ Submissions: [{ Id: 1 }] }]),
+      ...over,
+    };
+    const paths: string[] = [];
+    const get = (async (input: URL) => {
+      const { pathname } = new URL(input);
+      paths.push(pathname);
+      const route = routes[pathname];
+      if (!route) throw new Error(`unexpected request to ${pathname}`);
+      return route();
+    }) as typeof fetch;
+    return { get, paths };
+  }
+
+  it("reads the courses and the current courses' assignments in one pass, with the versions OWL reports", async () => {
+    const storage = memoryStorage();
+    const fake = owl();
+    const saved = await refreshOwl(storage, fake.get, NOW);
+    expect(saved.courses.courses.map((c) => c.code)).toEqual(["MATH 1600B", "COMPSCI 2210A"]);
+    expect(saved.deadlines).toEqual({
+      deadlines: [
+        {
+          id: "owl:20:assignment:1",
+          title: "Lab 1",
+          course: "COMPSCI 2210A",
+          site: "COMPSCI 2210A 001 LEC FW26: DATA STRUCTURES",
+          kind: "assignment",
+          due: "2026-11-27T04:59:00.000Z",
+          url: "https://westernu.brightspace.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=1&ou=20",
+          submitted: true,
+        },
+      ],
+      readAt: "2026-11-20T12:00:00.000Z",
+      skipped: [],
+      last: { at: "2026-11-20T12:00:00.000Z", ok: true },
+    });
+    // Enrollments are read once; past courses and other sites aren't asked for assignments.
+    expect(fake.paths.filter((p) => p.includes("myenrollments"))).toHaveLength(1);
+    expect(fake.paths.some((p) => p.includes("/10/") || p.includes("/30/"))).toBe(false);
+    expect(await loadDeadlines(storage)).toEqual(saved.deadlines);
+  });
+
+  it("keeps the last deadlines and marks both lists signed out when OWL logs the student out", async () => {
+    const storage = memoryStorage();
+    await refreshOwl(storage, owl().get, NOW);
+    const later = new Date("2026-11-21T12:00:00Z");
+    const saved = await refreshOwl(storage, owl({ "/d2l/api/versions/": () => json({}, 401) }).get, later);
+    expect(saved.deadlines.deadlines).toHaveLength(1);
+    expect(saved.deadlines.readAt).toBe("2026-11-20T12:00:00.000Z");
+    expect(saved.deadlines.last).toMatchObject({ ok: false, reason: "signed-out" });
+    expect(saved.courses.last).toMatchObject({ ok: false, reason: "signed-out" });
+  });
+});
+
+describe("toStored and fromStored", () => {
+  it("round-trip a deadline's dates through JSON", () => {
+    const d: PanelDeadline = {
+      id: "x",
+      title: "Midterm",
+      course: "MATH 1600B",
+      site: "MATH",
+      kind: "test",
+      due: new Date("2026-11-27T04:59:00.000Z"),
+      start: new Date("2026-11-27T02:59:00.000Z"),
+      url: "https://westernu.brightspace.com/",
+    };
+    const back = fromStored(JSON.parse(JSON.stringify(toStored([d]))));
+    expect(back).toEqual([d]);
   });
 });

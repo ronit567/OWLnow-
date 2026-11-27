@@ -1,0 +1,17 @@
+[
+  {
+    "Entity": { "DisplayName": "Student Name", "EntityId": 1, "EntityType": "User", "Active": true },
+    "Status": 3,
+    "Feedback": {
+      "Files": [],
+      "Links": [],
+      "Score": 0.0,
+      "Feedback": null,
+      "RubricAssessments": [],
+      "IsGraded": true,
+      "GradedSymbol": null
+    },
+    "Submissions": [],
+    "CompletionDate": null
+  }
+]
