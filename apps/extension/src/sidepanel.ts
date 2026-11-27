@@ -1,4 +1,5 @@
-// The side panel. Deadlines come from the OWL reader, which isn't built yet, so the list starts empty.
+// The side panel. Courses and deadlines come from the background worker's OWL reads, through
+// extension storage (only assignments so far).
 // Ticks and reminder settings are kept in this page's localStorage.
 import {
   DEFAULT_REMINDERS,
@@ -18,20 +19,30 @@ import {
 } from "@owlnow/deadlines";
 import {
   COURSES_KEY,
+  DEADLINES_KEY,
   READ_COURSES,
   byYear,
   courseLabel,
+  fromStored,
   loadCourses,
+  loadDeadlines,
   readStatus,
   type SavedCourses,
+  type SavedDeadlines,
+  type SavedOwl,
 } from "./owl/store";
 
 declare const __PLANNER_URL__: string;
 
 /** Updated on every render, so "due tomorrow" stays right in a panel left open overnight. */
 let now = new Date();
-/** Filled by the OWL reader. */
-const DEADLINES: PanelDeadline[] = [];
+/** The deadlines the background worker last read from OWL. */
+let deadlines: SavedDeadlines | null = null;
+let DEADLINES: PanelDeadline[] = [];
+function setDeadlines(saved: SavedDeadlines | null) {
+  deadlines = saved;
+  DEADLINES = fromStored(saved?.deadlines ?? []);
+}
 
 function read<T>(key: string, fallback: T): T {
   try {
@@ -120,7 +131,10 @@ const list = (target: HTMLElement, items: PanelDeadline[]) =>
   target.replaceChildren(...items.map(item));
 
 function renderOwl() {
-  const status = readStatus(owl, now);
+  // Both lists come from the same read. Show the assignments' failure when only they failed.
+  const latest =
+    owl?.last.ok && deadlines && !deadlines.last.ok ? deadlines : owl;
+  const status = readStatus(latest, now);
   $("read-status").textContent = reading
     ? "Reading…"
     : readError
@@ -130,7 +144,8 @@ function renderOwl() {
     .querySelector(".live")
     ?.classList.toggle("on", status.live && !reading && !readError);
   $("read").title =
-    readError ?? (owl && !owl.last.ok ? owl.last.detail : "Read OWL now");
+    readError ??
+    (latest && !latest.last.ok ? latest.last.detail : "Read OWL now");
   $("signed-out").hidden = !status.signedOut;
 
   const courses = byYear(owl?.courses ?? []);
@@ -273,28 +288,41 @@ $("read").addEventListener("click", async () => {
   readError = null;
   renderOwl();
   try {
-    const saved: SavedCourses | null = await chrome.runtime.sendMessage({
+    const saved: SavedOwl | null = await chrome.runtime.sendMessage({
       type: READ_COURSES,
     });
-    if (saved) owl = saved;
-    else readError = "The read failed before it could be saved";
+    if (saved) {
+      owl = saved.courses;
+      setDeadlines(saved.deadlines);
+    } else readError = "The read failed before it could be saved";
   } catch (err) {
     readError = `Couldn't ask the background to read: ${String(err)}`;
   } finally {
     reading = false;
-    renderOwl();
+    render();
   }
 });
-// The background worker also reads on its own (at startup), so follow whatever it saves.
+// The background worker also reads on its own (at startup and every 30 minutes), so follow
+// whatever it saves.
 chrome.storage.onChanged.addListener((changes, area) => {
-  if (area !== "local" || !changes[COURSES_KEY]) return;
-  owl = (changes[COURSES_KEY].newValue as SavedCourses | undefined) ?? null;
+  if (area !== "local") return;
+  if (changes[COURSES_KEY])
+    owl = (changes[COURSES_KEY].newValue as SavedCourses | undefined) ?? null;
+  if (changes[DEADLINES_KEY])
+    setDeadlines(
+      (changes[DEADLINES_KEY].newValue as SavedDeadlines | undefined) ?? null,
+    );
+  if (!changes[COURSES_KEY] && !changes[DEADLINES_KEY]) return;
   readError = null;
-  renderOwl();
+  render();
 });
-loadCourses(chrome.storage.local).then((saved) => {
-  owl = saved;
-  renderOwl();
+Promise.all([
+  loadCourses(chrome.storage.local),
+  loadDeadlines(chrome.storage.local),
+]).then(([courses, saved]) => {
+  owl = courses;
+  setDeadlines(saved);
+  render();
 });
 // Keeps "Read 5 min ago" and the due dates current while the panel stays open.
 setInterval(render, 60_000);
