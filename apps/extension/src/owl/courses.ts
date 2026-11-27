@@ -1,5 +1,6 @@
 // Reads the student's courses from OWL (Brightspace) using their own signed-in session.
 // GET requests only: the browser attaches the OWL login cookies, nothing is stored but the result.
+import { OWL, getJson, type Failure } from "./http";
 
 /** Same shape as StudentCourse in apps/web/src/data/library.ts, which the bridge hands over. */
 export interface OwlCourse {
@@ -24,10 +25,10 @@ export interface EnrollmentPage {
 
 export type ReadResult =
   | { ok: true; courses: OwlCourse[]; skipped: string[] }
-  | { ok: false; reason: "signed-out" | "error"; detail: string };
+  | Failure;
 
-const OWL = "https://westernu.brightspace.com";
-const ENROLLMENTS = `${OWL}/d2l/api/lp/1.47/enrollments/myenrollments/`;
+/** Used when nothing passes the version OWL reports. */
+const DEFAULT_LP = "1.47";
 /** Course offerings. OWL also files training and community sites under this type. */
 const COURSE_OFFERING = "3";
 /** A guard against a bookmark that never ends. Real accounts need one or two pages. */
@@ -72,63 +73,21 @@ export function coursesFrom(
   return { courses: [...courses.values()], skipped };
 }
 
-/** Reads every page of the student's enrollments, past and current, and returns their courses. */
-export async function readCourses(
+/** Reads every page of the student's enrollments, past and current. */
+export async function readEnrollments(
   get: typeof fetch = fetch,
-  now = new Date(),
-): Promise<ReadResult> {
+  lp = DEFAULT_LP,
+): Promise<{ ok: true; items: Enrollment[] } | Failure> {
   const items: Enrollment[] = [];
   let bookmark: string | null = null;
   for (let page = 0; page < MAX_PAGES; page++) {
-    const url = new URL(ENROLLMENTS);
+    const url = new URL(`/d2l/api/lp/${lp}/enrollments/myenrollments/`, OWL);
     url.searchParams.set("orgUnitTypeId", COURSE_OFFERING);
     if (bookmark) url.searchParams.set("bookmark", bookmark);
 
-    let res: Response;
-    try {
-      res = await get(url, {
-        method: "GET",
-        credentials: "include",
-        headers: { Accept: "application/json" },
-      });
-    } catch (err) {
-      return {
-        ok: false,
-        reason: "error",
-        detail: `Couldn't reach OWL: ${String(err)}`,
-      };
-    }
-    // Signed out, OWL answers with an error or sends us to its login page (HTML, not JSON).
-    if (res.status === 401 || res.status === 403)
-      return {
-        ok: false,
-        reason: "signed-out",
-        detail: `OWL answered ${res.status}`,
-      };
-    if (!res.ok)
-      return {
-        ok: false,
-        reason: "error",
-        detail: `OWL answered ${res.status}`,
-      };
-    if (!res.headers.get("content-type")?.includes("application/json")) {
-      return {
-        ok: false,
-        reason: "signed-out",
-        detail: "OWL sent a page instead of data",
-      };
-    }
-
-    let data: EnrollmentPage;
-    try {
-      data = (await res.json()) as EnrollmentPage;
-    } catch {
-      return {
-        ok: false,
-        reason: "error",
-        detail: "OWL sent data we couldn't read",
-      };
-    }
+    const got = await getJson<EnrollmentPage>(get, url);
+    if (!got.ok) return got;
+    const data = got.data;
     if (
       !Array.isArray(data?.Items) ||
       typeof data.PagingInfo?.HasMoreItems !== "boolean"
@@ -140,8 +99,7 @@ export async function readCourses(
       };
     }
     items.push(...data.Items);
-    if (!data.PagingInfo.HasMoreItems)
-      return { ok: true, ...coursesFrom(items, now) };
+    if (!data.PagingInfo.HasMoreItems) return { ok: true, items };
     if (!data.PagingInfo.Bookmark || data.PagingInfo.Bookmark === bookmark) {
       return {
         ok: false,
@@ -156,4 +114,14 @@ export async function readCourses(
     reason: "error",
     detail: `Stopped after ${MAX_PAGES} pages`,
   };
+}
+
+/** Reads every page of the student's enrollments, past and current, and returns their courses. */
+export async function readCourses(
+  get: typeof fetch = fetch,
+  now = new Date(),
+  lp = DEFAULT_LP,
+): Promise<ReadResult> {
+  const read = await readEnrollments(get, lp);
+  return read.ok ? { ok: true, ...coursesFrom(read.items, now) } : read;
 }
