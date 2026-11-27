@@ -53,6 +53,12 @@ describe("calendar pages", () => {
       title: "DATA STRUCTURES AND ALGORITHMS",
       weight: 0.5,
       prereqText: "Computer Science 1027A/B or 1037A/B, with at least 65%.",
+      prereq: {
+        any: [
+          { course: "COMPSCI 1027", minMark: 65 },
+          { course: "COMPSCI 1037", minMark: 65 }
+        ]
+      },
       antireqText: "Computer Science 2211A/B, 1037A/B, Mathematics 2155F/G.",
     });
     expect(courses[1].weight).toBe(0.5);
